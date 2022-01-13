@@ -6,3 +6,6 @@ print("law3Lm")
 
 
 # modfication jdida
+
+print("hello world")
+
