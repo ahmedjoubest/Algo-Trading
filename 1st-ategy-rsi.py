@@ -55,14 +55,15 @@ def getminutedata(symbol, interval, lookback):
 # plt.plot(test)
 
 # --- 4 RSI calculation function
-def RSIcalc(symbol = "BNBUSDT", interval = "1m", lookback = str(60*24 + 4*60), MA_n = 60*4):
+def RSIcalc(symbol = "BNBUSDT", interval = "1m", lookback = str(60*24 + 4*60), MA_n = 60*4,
+            n = 30):
     df = getminutedata(symbol, interval, lookback) # Get data
     df['MA_n'] = df['Close'].rolling(window=MA_n).mean() # MA column (for the 1st condition backtest)
     df['price change'] = df['Close'].pct_change()
     df['Upmove'] = df['price change'].apply(lambda x: x if x>0 else 0)
     df['Downmove'] = df['price change'].apply(lambda x: abs(x) if x<0 else 0)
-    df['avg Up'] = df['Upmove'].ewm(span=19).mean()
-    df['avg Down'] = df['Downmove'].ewm(span=19).mean()
+    df['avg Up'] = df['Upmove'].ewm(span=n).mean()
+    df['avg Down'] = df['Downmove'].ewm(span=n).mean()
     df = df.dropna()
     df['RS'] = df['avg Up'] / df['avg Down']
     df['RSI'] = df['RS'].apply(lambda x: 100-(100/(x+1)))
@@ -70,15 +71,16 @@ def RSIcalc(symbol = "BNBUSDT", interval = "1m", lookback = str(60*24 + 4*60), M
     return df[['Open','Close','MA_n','RSI']]
 
 # --- 5 Visualization of RSI/Price
-df = RSIcalc(lookback = str(60*24*1 + 4*60))
-fig, axs = plt.subplots(2)
-fig.suptitle('MA, Price and RSI')
-axs[0].plot(df['Close'])
-axs[0].plot(df['MA_n'])
-axs[1].plot(df['RSI'])
+df = RSIcalc(lookback = str(60*24*15 + 4*60))
+
+# fig, axs = plt.subplots(2)
+# fig.suptitle('MA, Price and RSI')
+# axs[0].plot(df['Close'])
+# axs[0].plot(df['MA_n'])
+# axs[1].plot(df['RSI'])
 
 # --- 6 Function to get signals
-def getSignals(df, RSI_min = 35, RSI_max = 65):
+def getSignals(df, RSI_min = 25, RSI_max = 60):
 
     # df.loc[(df['Close']>df['MA_n']) & (df['RSI']<40), 'Buy'] = 'Yes'
     # df.loc[(df['Close']<df['MA_n']) | (df['RSI']>40), 'Buy'] = 'No'
@@ -131,7 +133,6 @@ def getSignals(df, RSI_min = 35, RSI_max = 65):
 
 df= getSignals(df)
 
-
 # --- 7 PNL function
 def PNL(df,fees = 0.075/100, capital0=10000):
     Number_of_trades = sum(df['Actions_adapted'] == "Buy")
@@ -160,16 +161,28 @@ def PNL(df,fees = 0.075/100, capital0=10000):
         "Capital 0" :   [capital0] ,
         "Number of trades": [len(df_PNL)],
         "Total period (days)" : [(df.index[len(df)-1] - df.index[0]).total_seconds()/(60*60*24)],
-        "Total profit": [sum(df_PNL['Profit'])],
-        "Total percent profit": [sum(df_PNL['percent-profit formatted'])],
+        "Total profit (net)": [sum(df_PNL['Profit'])],
+        "Total percent profit (net)": [sum(df_PNL['percent-profit formatted'])],
         "Avg percent profit per trade formatted": [df_PNL['percent-profit formatted'].mean()],
-        "Avg number of trades per day": [df_PNL.groupby(pd.Grouper(key='Selling signals',freq='D'))['Trades'].count().mean()]
+        "Avg number of trades per day": [df_PNL.groupby(pd.Grouper(key='Selling signals',freq='D'))['Trades'].count().mean()],
+        "Theoretical Profit": [(df.iloc[len(df) - 1, 0] - df.iloc[0, 0]) * capital0 / df['Open'].mean()]
     }
-    df_PNL_Summary = pd.DataFrame(df_PNL_Summary, index = None)
+    df_PNL_Summary = pd.DataFrame(df_PNL_Summary)
 
     return(df_PNL,df_PNL_Summary)
 
 df_PNL_01,df_PNL_Summary_01 = PNL(df, 0.1/100)
+
+
+capital0 = 10000
+fig, axs = plt.subplots(2)
+fig.suptitle('MA, Price and RSI')
+axs[0].scatter(df_PNL_01['Buying signals'], df_PNL_01['Buying price']/(capital0/df['Open'].mean()), marker='^', c='g', linewidths= 3)
+axs[0].scatter(df_PNL_01['Selling signals'], df_PNL_01['Selling price']/(capital0/df['Open'].mean()), marker='^', c='r', linewidths= 3)
+axs[0].plot(df['Open'], alpha = 0.5)
+axs[1].plot(df['RSI'])
+
+
 
 
 
