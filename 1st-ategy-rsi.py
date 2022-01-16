@@ -20,5 +20,14 @@ client = Client(api_key,api_secret)
 # for kline in client.get_historical_klines_generator("BNBBTC", Client.KLINE_INTERVAL_1MINUTE, "24 hours ago UTC"):
 #    print(kline)
 
-# Data formatting function
+# --- 3 Data formatting function
 # https://www.youtube.com/watch?v=_IV1qfSPPwI&ab_channel=Algovibes
+# https://github.com/ahmedjoubest/Algo-Trading/blob/main/into_api_binance.ipynb
+def getminutedata(symbol, interval, lookback):
+    frame = pd.DataFrame(client.get_historical_klines(symbol, interval, lookback+" min ago UTC"))
+    frame = frame.iloc[:,:6] # on s'arrête a la colonne 6
+    frame.columns = ['Time','Open','High','Low','Close','Volume']
+    frame = frame.set_index('Time')
+    frame.index = pd.to_datetime(frame.index, unit='ms')
+    frame = frame.astype(float) # transform string to floats :
+    return frame
