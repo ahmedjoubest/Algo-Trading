@@ -48,6 +48,8 @@ def getdata(symbol, interval, lookback):
     # get only open/close prices
     frame = frame[['Open','Close']]
     return frame
+
+
 # case of use :
 # test = getdata("BNBUSDT","1m","5")
 # test = getdata("BNBUSDT","1h","120")
@@ -80,6 +82,7 @@ df = RSIcalc(lookback = str(60*24*1 + 4*60), n=15)
 # axs[1].plot(df['RSI'])
 
 # --- 6 Function to get signals
+
 def getSignals(df, RSI_min = 35, RSI_max = 65):
 
     # df.loc[(df['Close']>df['MA_n']) & (df['RSI']<40), 'Buy'] = 'Yes'
@@ -181,9 +184,6 @@ axs[0].scatter(df_PNL_01['Buying signals'], df_PNL_01['Buying price']/(capital0/
 axs[0].scatter(df_PNL_01['Selling signals'], df_PNL_01['Selling price']/(capital0/df['Open'].mean()), marker='^', c='r', linewidths= 3)
 axs[0].plot(df['Open'], alpha = 0.5)
 axs[1].plot(df['RSI'])
-
-
-
 
 
 df_PNL_075,df_PNL_Summary_075 = PNL(df, 0.075/100)
