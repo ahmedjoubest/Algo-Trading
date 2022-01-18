@@ -2,18 +2,17 @@
 # Author: Ahmed
 # 14/01/2022
 # Tuto: https://www.youtube.com/watch?v=pB8eJwg7LJU&t=1838s&ab_channel=Algovibes
-# The first goal is to apply this strategy (with small tweaks) to a Cryptocurrency with different timeframe
+# The first goal is to apply this strategy (with small tweaks) to a Cryptocurrency with different timeframes
 ### Strategy:
-# symbol = "BNBUSDT", interval = "1m", lookback = "24h", MA_n = 30, RSI_min = 35, RSI_max = 65
-# Buy Signal: RSI < RSI_min and Price > MA_n
+# Buy Signal: RSI < RSI_min
 # sell signam: RSI > RSI_max
 ### Critics/possible improvment:
 # 1- no lags. The strategy buys/sells at the same closing price of the signal.
 # Ideally, the actions should be triggered with a minimum of lag.
 # For example, Buy/Sell with the open price of t+1, as it's done in the Youtube video.
-# Edited : this problem is now corrected
-# 2- The program does not yet take the case where the last row is a Sell
-# 3- I keep using list for calculation, numpy is maybe faster! (to verify)
+    # Edited : this problem is now corrected
+# 2- The program does not yet take the case where the last row is a Sell (t+1 opening price doesn't exist)
+# 3- I keep using Python lists for calculation, numpy is maybe faster! (to verify)
 # 4- *capital0/max(Buying_price) can be improved, right now it's just an approximation
 # 5- (related to 4) Should take the profit of every day (or ideally every trade) in capital0
 
@@ -23,7 +22,7 @@ import sqlalchemy
 from binance.client import Client
 from binance import BinanceSocketManager
 import matplotlib.pyplot as plt
-
+from datetime import timedelta
 
 # --- 1 API (Confidential) (Useless if we only want to read the data, only for order automation)
 # api_key = 'YqtSwA9CkxTjBlx2f3NUnBTj7YwH8hj4OZq9USMb7YsRfH18UC3JFS39QL3JgxDy'
@@ -32,13 +31,14 @@ import matplotlib.pyplot as plt
 client = Client()
 
 # --- 2 read data
-# for kline in client.get_historical_klines_generator("BNBBTC", Client.KLINE_INTERVAL_1MINUTE, "1 hours ago UTC"):
-#   print(kline)
+for kline in client.get_historical_klines_generator("BNBBTC", Client.KLINE_INTERVAL_1MINUTE, "1 hours ago UTC"):
+    print(kline)
+
 
 # --- 3 Data formatting function
 # https://www.youtube.com/watch?v=_IV1qfSPPwI&ab_channel=Algovibes
 # https://github.com/ahmedjoubest/Algo-Trading/blob/main/into_api_binance.ipynb
-def getminutedata(symbol, interval, lookback):
+def getdata(symbol, interval, lookback):
     frame = pd.DataFrame(client.get_historical_klines(symbol, interval, lookback+" min ago UTC"))
     frame = frame.iloc[:,:6] # on s'arrête a la colonne 6
     frame.columns = ['Time','Open','High','Low','Close','Volume']
@@ -48,16 +48,16 @@ def getminutedata(symbol, interval, lookback):
     # get only open/close prices
     frame = frame[['Open','Close']]
     return frame
-# case of 23
-# use :
-# test = getminutedata("BNBUSDT","1m","5")
-# test = getminutedata("BNBUSDT","1h","120")
+# case of use :
+# test = getdata("BNBUSDT","1m","5")
+# test = getdata("BNBUSDT","1h","120")
 # plt.plot(test)
+
 
 # --- 4 RSI calculation function
 def RSIcalc(symbol = "BNBUSDT", interval = "1m", lookback = str(60*24 + 4*60), MA_n = 60*4,
-            n = 30):
-    df = getminutedata(symbol, interval, lookback) # Get data
+            n = 20):
+    df = getdata(symbol, interval, lookback) # Get data
     df['MA_n'] = df['Close'].rolling(window=MA_n).mean() # MA column (for the 1st condition backtest)
     df['price change'] = df['Close'].pct_change()
     df['Upmove'] = df['price change'].apply(lambda x: x if x>0 else 0)
@@ -71,7 +71,7 @@ def RSIcalc(symbol = "BNBUSDT", interval = "1m", lookback = str(60*24 + 4*60), M
     return df[['Open','Close','MA_n','RSI']]
 
 # --- 5 Visualization of RSI/Price
-df = RSIcalc(lookback = str(60*24*15 + 4*60))
+df = RSIcalc(lookback = str(60*24*1 + 4*60), n=15)
 
 # fig, axs = plt.subplots(2)
 # fig.suptitle('MA, Price and RSI')
@@ -80,7 +80,7 @@ df = RSIcalc(lookback = str(60*24*15 + 4*60))
 # axs[1].plot(df['RSI'])
 
 # --- 6 Function to get signals
-def getSignals(df, RSI_min = 25, RSI_max = 60):
+def getSignals(df, RSI_min = 35, RSI_max = 65):
 
     # df.loc[(df['Close']>df['MA_n']) & (df['RSI']<40), 'Buy'] = 'Yes'
     # df.loc[(df['Close']<df['MA_n']) | (df['RSI']>40), 'Buy'] = 'No'
@@ -163,7 +163,7 @@ def PNL(df,fees = 0.075/100, capital0=10000):
         "Total period (days)" : [(df.index[len(df)-1] - df.index[0]).total_seconds()/(60*60*24)],
         "Total profit (net)": [sum(df_PNL['Profit'])],
         "Total percent profit (net)": [sum(df_PNL['percent-profit formatted'])],
-        "Avg percent profit per trade formatted": [df_PNL['percent-profit formatted'].mean()],
+        "Avg percent profit per trade formatted (net)": [df_PNL['percent-profit formatted'].mean()],
         "Avg number of trades per day": [df_PNL.groupby(pd.Grouper(key='Selling signals',freq='D'))['Trades'].count().mean()],
         "Theoretical Profit": [(df.iloc[len(df) - 1, 0] - df.iloc[0, 0]) * capital0 / df['Open'].mean()]
     }
