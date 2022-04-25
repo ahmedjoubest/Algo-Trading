@@ -153,7 +153,7 @@ index_5min = [idx for idx,element in enumerate(df_1mn.index.minute) if element %
 # --- 6.b Evaluate, for each moment, the intra 5min candle evolution (i.e: at 1h25 vs at 1h29)
 index = [idx for idx,element in enumerate(df_1mn.index) if element == pd.to_datetime(['2022-04-14 20:40'])][0]
 
- # Build 5min HA candles from 1 min candles until 'index' moment
+# Build 5min HA candles from 1 min candles until 'index' moment
 df_1mn_index = df_1mn.iloc[list(range(0,index+5))] # + 1 for candles at +1mn
 df_5mn = df_1mn.iloc[[]]
 index_5min = list(range(0,index+1,5))
