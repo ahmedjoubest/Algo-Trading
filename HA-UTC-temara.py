@@ -69,7 +69,7 @@ fig2.show()
 
 # --- 6.a Let's choose N random '5min' moments from the last 24h
 N = 10
-df_1mn = getdata_date(symbol = "WAVESUSDT", interval = "1m", date1= "2 Apr, 2022", date2 = "3 Apr, 2022")
+df_1mn = getdata_date(symbol = "WAVESUSDT", interval = "1m", date1= "17 Apr, 2022", date2 = "18 Apr, 2022")
 index_5min = [idx for idx,element in enumerate(df_1mn.index.minute) if element % 5 == 0]
 random_index_5min = random.choices(index_5min,k=N)
 
@@ -147,11 +147,11 @@ for i in range(len(random_index_5min)):
 # --- 6.c Evaluate for a specific case (example 2 in: https://docs.google.com/document/d/135fNsknp0_VtwincMFlFIOuWrIKdN_cd9LXADyY0UQs/edit)
 # 2 Apr 2022 at 1:25 UTC+4 = 21h25 UTC 1 apr
 
-df_1mn = getdata_date(symbol = "WAVESUSDT", interval = "1m", date1= "31 Mar, 2022", date2 = "1 Apr, 2022")
+df_1mn = getdata_date(symbol = "WAVESUSDT", interval = "1m", date1= "14 Apr, 2022", date2 = "15 Apr, 2022")
 index_5min = [idx for idx,element in enumerate(df_1mn.index.minute) if element % 5 == 0]
 
 # --- 6.b Evaluate, for each moment, the intra 5min candle evolution (i.e: at 1h25 vs at 1h29)
-index = [idx for idx,element in enumerate(df_1mn.index) if element == pd.to_datetime(['2022-03-31 23:45'])][0]
+index = [idx for idx,element in enumerate(df_1mn.index) if element == pd.to_datetime(['2022-04-14 20:40'])][0]
 
  # Build 5min HA candles from 1 min candles until 'index' moment
 df_1mn_index = df_1mn.iloc[list(range(0,index+5))] # + 1 for candles at +1mn
