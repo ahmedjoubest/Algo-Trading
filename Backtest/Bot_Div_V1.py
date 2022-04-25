@@ -29,13 +29,13 @@ execfile("functions/HA_calculation.py")
 # execfile("functions/RSI_calculation.py") # We are using RSI
 
 # 2 --- Get data and transform it to HA
-df_5mn = getdata_date(symbol = "WAVESUSDT", interval = "5m", date1= "25 Apr", date2 = "26 Apr")
+df_5mn = getdata_date(symbol = "WAVESUSDT", interval = "5m", date1= "24 Apr", date2 = "26 Apr")
 HAdf_5mn = HA_transformation(df_5mn)
 RSI_stoch_k = round(pta.stochrsi(HAdf_5mn['Close']).STOCHRSIk_14_14_3_3,2) # k = blue # ignore warning
 RSI_stoch_d = round(pta.stochrsi(HAdf_5mn['Close']).STOCHRSId_14_14_3_3,2)
 
 # 3 --- indexing our test time frame (this part will be deleted)
-index = [idx for idx,element in enumerate(HAdf_5mn.index) if (element >= pd.to_datetime(['2022-04-25 2:50'])) & (element <= pd.to_datetime(['2022-04-25 8:45']))]
+index = [idx for idx,element in enumerate(HAdf_5mn.index) if (element >= pd.to_datetime(['2022-04-24 17:30'])) & (element <= pd.to_datetime(['2022-04-25 8:45']))]
 HAdf_5mn = HAdf_5mn.iloc[index]
 RSI_stoch_k = RSI_stoch_k.iloc[index]
 RSI_stoch_d = RSI_stoch_d.iloc[index]
@@ -63,14 +63,14 @@ if(OB_or_OS == 2):
     # {High(t) - Low(t)} should be lower than {High(t-1) - Low(t-1)}
     if((HAdf_5mn.tail(2).High - HAdf_5mn.tail(2).Low)[1] <= (HAdf_5mn.tail(2).High - HAdf_5mn.tail(2).Low)[0]):
         print("next steps (Short): Verify div")
-    elif:
+    else:
         print("Continue")
 # 5 - b - position Long
 if(OB_or_OS == 0):
     # {High(t) - Low(t)} should be lower than {High(t-1) - Low(t-1)}
     if((HAdf_5mn.tail(2).High - HAdf_5mn.tail(2).Low)[1] <= (HAdf_5mn.tail(2).High - HAdf_5mn.tail(2).Low)[0]):
         print("next steps (Long): Verify div")
-    elif:
+    else:
         print("Continue")
 
 # 6 --- Find divergence
@@ -78,25 +78,61 @@ if(OB_or_OS == 0):
 # 6 - a - Find local minima / maxima
 # short (maxima)
 if(OB_or_OS == 2):
-    peaks, _ = find_peaks(HAdf_5mn.Close, distance=3) # distance = minimum distance between two peaks
+    peaks, _ = find_peaks(HAdf_5mn.Close, distance=2) # distance = minimum distance between two peaks
     # peaks = HAdf_5mn.iloc[peaks.tolist()].index
 # long (minima)
-elif(OB_or_OS == 0):
-    peaks, _ = find_peaks(-HAdf_5mn.Close, distance=3)
+else:
+    peaks, _ = find_peaks(-HAdf_5mn.Close, distance=2)
 
 # 6 - b - Eliminate invalid last peaks
-# short
-for idx in peaks:
-    # Stochastic must be verified
-    if(((RSI_stoch_d.iloc[[idx]] >= 65))[0]):
-        if()
-    elif:
-        continue
+if(OB_or_OS == 2):
+    # short
+    potential_pics = []
+    for idx in peaks:
+        # Stochastic must be verified
+        if (((RSI_stoch_k.iloc[[idx]] >= 65))[0]):
+            # At least 3 candles
+            if (
+                    sum(HAdf_5mn.iloc[[idx - 1, idx, idx + 1]].Close > HAdf_5mn.iloc[
+                        [idx - 1, idx, idx + 1]].Open) == 3 or \
+                    sum(HAdf_5mn.iloc[[idx - 2, idx - 1, idx]].Close > HAdf_5mn.iloc[
+                        [idx - 2, idx - 1, idx]].Open) == 3 or \
+                    sum(HAdf_5mn.iloc[[idx, idx + 1, idx + 2]].Close > HAdf_5mn.iloc[[idx, idx + 1, idx + 2]].Open) == 3
+            ):
+                potential_pics.append(idx)
+            else:
+                continue
+        else:
+            continue
+else:
+    # long
+    potential_pics = []
+    for idx in peaks:
+        # Stochastic must be verified
+        if (((RSI_stoch_k.iloc[[idx]] <= 35))[0]):
+            # At least 3 candles
+            if (
+                    sum(HAdf_5mn.iloc[[idx - 1, idx, idx + 1]].Close < HAdf_5mn.iloc[
+                        [idx - 1, idx, idx + 1]].Open) == 3 or \
+                    sum(HAdf_5mn.iloc[[idx - 2, idx - 1, idx]].Close < HAdf_5mn.iloc[
+                        [idx - 2, idx - 1, idx]].Open) == 3 or \
+                    sum(HAdf_5mn.iloc[[idx, idx + 1, idx + 2]].Close < HAdf_5mn.iloc[[idx, idx + 1, idx + 2]].Open) == 3
+            ):
+                potential_pics.append(idx)
+            else:
+                continue
+        else:
+            continue
 
 
-peaks = HAdf_5mn.iloc[peaks.tolist()].index
+
+
+
+
+x = HAdf_5mn.Close
+peaks_plot = HAdf_5mn.iloc[potential_pics].index
 plt.plot(x)
-plt.plot(peaks, x[peaks], "x")
+plt.plot(peaks_plot, x[peaks_plot], "x")
 plt.show()
 
 
