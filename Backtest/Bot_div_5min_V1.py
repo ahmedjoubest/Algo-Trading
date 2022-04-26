@@ -27,8 +27,8 @@ execfile("functions/HA_calculation.py")
 execfile("functions/math_tools.py")
 
 # --- API
-api_key = 'YqtSwA9CkxTjBlx2f3NUnBTj7YwH8hj4OZq9USMb7YsRfH18UC3JFS39QL3JgxDy'
-api_secret = 'Ru1Drz8zalkBeTRShKKk8YEGsaeRh6YZ0lukwBZpGxClWiIfGBjB5MLoKd4zlgqw'
+api_key = 'vCvbNDYnP04sL3ZMGdGxY4QuEPEdotvw9JqBoM7cL9sSUol5m86EZwhy3JOI0kon'
+api_secret = '9GZ3AlmbVHg0NawM1MYVIzNSjw7eh53f60TtETu7M5jcce1fRtnKzhVlMJbfT14y'
 client = Client(api_key,api_secret)
 
 def div_5min(symbol = "WAVESUSDT", qty = "0.8", window_div= 7, tolerance = 0.25, interval = "5min"):
@@ -197,3 +197,21 @@ def div_5min(symbol = "WAVESUSDT", qty = "0.8", window_div= 7, tolerance = 0.25,
 
 
 div_5min(symbol= "APEUSDT")
+
+
+
+
+# Get usdt futurse balance
+balance = pd.DataFrame(client.futures_account_balance())
+balance_usdt = round(float(balance.loc[balance['asset']=='USDT','balance'].iloc[0]),4)
+# orders
+levier = 0.9
+# qty: includes leverage!
+precision = 1
+qty = str(round(levier * balance_usdt / getdata_min_ago("WAVESUSDT", '1m', "1").Close[0],precision))
+# update leverage
+client.futures_change_leverage(symbol="WAVESUSDT", leverage= round(levier))
+# position long
+order = client.futures_create_order(symbol="WAVESUSDT", side='BUY', type='MARKET', quantity=qty)
+# position short
+order = client.futures_create_order(symbol="WAVESUSDT", side='SELL', type='MARKET', quantity=qty)
