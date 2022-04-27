@@ -19,6 +19,12 @@ import matplotlib.pyplot as plt
 from scipy.misc import electrocardiogram
 from scipy.signal import find_peaks
 from binance.enums import HistoricalKlinesType
+import time
+from datetime import datetime
+from datetime import timedelta
+
+
+
 
 # --- Sourcing functions
 execfile("functions/get_data.py")
@@ -31,11 +37,15 @@ api_key = 'vCvbNDYnP04sL3ZMGdGxY4QuEPEdotvw9JqBoM7cL9sSUol5m86EZwhy3JOI0kon'
 api_secret = '9GZ3AlmbVHg0NawM1MYVIzNSjw7eh53f60TtETu7M5jcce1fRtnKzhVlMJbfT14y'
 client = Client(api_key,api_secret)
 
-def div_5min(symbol = "WAVESUSDT", qty = "0.8", window_div= 7, tolerance = 0.25, interval = "5min"):
+
+# The argument "Window" is not being of use yet !
+
+
+def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
     while(True):
 
         # 1 --- Get data and transform it to HA
-        df_5mn = getdata_min_ago(symbol, interval = "5m", lookback= str(10*60))
+        df_5mn = getdata_min_ago(symbol, interval = "5m", lookback= str(13*60))
         HAdf_5mn = HA_transformation(df_5mn)
         RSI_stoch_k = round(pta.stochrsi(HAdf_5mn['Close']).STOCHRSIk_14_14_3_3, 2)  # k = blue # ignore warning
         RSI_stoch_d = round(pta.stochrsi(HAdf_5mn['Close']).STOCHRSId_14_14_3_3, 2)
@@ -142,6 +152,10 @@ def div_5min(symbol = "WAVESUSDT", qty = "0.8", window_div= 7, tolerance = 0.25,
         currect_pic = uncrossed_peaks_RSI[-1]
         uncrossed_peaks_RSI.remove(uncrossed_peaks_RSI[-1])
 
+        # Keep only peaks in the window
+        uncrossed_peaks_RSI = [x for x in uncrossed_peaks_RSI if
+                               HAdf_5mn.iloc[[x]].index > (datetime.now() - timedelta(hours=window_div))]
+
         # 4 - e - Eliminate peaks without divergence (must be reviewed)
         Div = False
         for peak in uncrossed_peaks_RSI:
@@ -185,10 +199,40 @@ def div_5min(symbol = "WAVESUSDT", qty = "0.8", window_div= 7, tolerance = 0.25,
                         break
                     else:
                         continue
+
+        # 5 --- buy or sell
         if(Div):
             print("Must buy or sell")
-            # order
-            # print(order)  # to have infos sur l'order : buying price, time etc...
+            # Get usdt futurse balance
+            balance = pd.DataFrame(client.futures_account_balance())
+            balance_usdt = round(0.9 * float(balance.loc[balance['asset'] == 'USDT', 'balance'].iloc[0]), 4)
+            precision = 1 # WAVES
+            qty = round(levier * balance_usdt / HAdf_5mn.iloc[[-1]].Close[0], precision)
+            # update leverage
+            client.futures_change_leverage(symbol= symbol, leverage=round(levier))
+            # position long
+            order = client.futures_create_order(symbol=symbol, side= 'BUY' if (OB_or_OS==0) else "SELL", type='MARKET', quantity=qty)
+            if(OB_or_OS==0):
+                TP = HAdf_5mn.iloc[[-1]].Close[0] + 0.66/100*HAdf_5mn.iloc[[-1]].Close[0]
+                SL = HAdf_5mn.iloc[[-1]].Close[0] - 0.59/100*HAdf_5mn.iloc[[-1]].Close[0]
+            else:
+                TP = HAdf_5mn.iloc[[-1]].Close[0] - 0.66 / 100 * HAdf_5mn.iloc[[-1]].Close[0]
+                SL = HAdf_5mn.iloc[[-1]].Close[0] + 0.59 / 100 * HAdf_5mn.iloc[[-1]].Close[0]
+            order_tp = client.futures_create_order(symbol= symbol, side = 'BUY' if (OB_or_OS==2) else "SELL",
+                                                   type='LIMIT', quantity=qty, price=round(TP,3), timeInForce='GTC')
+            order_sl = client.futures_create_order(symbol= symbol, side='BUY' if (OB_or_OS==2) else "SELL",
+                                                   type='STOP_MARKET', quantity= qty, stopPrice = round(SL,3))
+            a = pd.DataFrame(client.futures_position_information())
+            a = a.loc[pd.to_numeric(a.entryPrice) > 0,]
+            while(len(a.index)>0):
+                print("Still in position")
+                time.sleep(15)
+                print("time = " + str(datetime.now()))
+                a = pd.DataFrame(client.futures_position_information())
+                a = a.loc[pd.to_numeric(a.entryPrice) > 0,]
+            print("order completed")
+            # Cancel all open orders
+            client.futures_cancel_all_open_orders(symbol= symbol)
         else:
             print("skip (no divergence detected)")
             continue
@@ -196,22 +240,23 @@ def div_5min(symbol = "WAVESUSDT", qty = "0.8", window_div= 7, tolerance = 0.25,
 
 
 
-div_5min(symbol= "APEUSDT")
+div_5min(symbol= "WAVESUSDT")
 
 
-
+# cancel order
+# client.futures_cancel_all_open_orders(symbol = 'WAVESUSDT')
 
 # Get usdt futurse balance
-balance = pd.DataFrame(client.futures_account_balance())
-balance_usdt = round(float(balance.loc[balance['asset']=='USDT','balance'].iloc[0]),4)
+# balance = pd.DataFrame(client.futures_account_balance())
+# balance_usdt = round(0.9*float(balance.loc[balance['asset']=='USDT','balance'].iloc[0]),4)
 # orders
-levier = 0.9
+# levier = 2
 # qty: includes leverage!
-precision = 1
-qty = str(round(levier * balance_usdt / getdata_min_ago("WAVESUSDT", '1m', "1").Close[0],precision))
+# precision = 1
+# qty = round(levier * balance_usdt / getdata_min_ago("WAVESUSDT", '1m', "1").Close[0],precision)
 # update leverage
-client.futures_change_leverage(symbol="WAVESUSDT", leverage= round(levier))
+#client.futures_change_leverage(symbol="WAVESUSDT", leverage= round(levier))
 # position long
-order = client.futures_create_order(symbol="WAVESUSDT", side='BUY', type='MARKET', quantity=qty)
-# position short
-order = client.futures_create_order(symbol="WAVESUSDT", side='SELL', type='MARKET', quantity=qty)
+# order = client.futures_create_order(symbol="WAVESUSDT", side='BUY', type='MARKET', quantity=qty)
+# position end long
+# order = client.futures_create_order(symbol="WAVESUSDT", side='SELL', type='MARKET', quantity= qty)
