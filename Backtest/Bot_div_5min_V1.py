@@ -56,19 +56,19 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
         if (OB_or_OS == 2):
             # last two candles are green
             if (((RSI_stoch_d.iloc[[-1]] >= 80) & (RSI_stoch_k.iloc[[-1]] >= 80))[0]):
-                print("next steps: short")
+                print("next steps: short (stochastic is verified)")
             else:
                 print("skip: step 2 (stochastic not verified)")
                 continue
         elif (OB_or_OS == 0):
             # last two candles are red
             if (((RSI_stoch_d.iloc[[-1]] <= 20) & (RSI_stoch_k.iloc[[-1]] <= 20))[0]):
-                print("next steps: long")
+                print("next steps: long (stochastic is verified)")
             else:
                 print("skip: step 2 (stochastic not verified)")
                 continue
         else:
-            print("Continue")
+            print("skip: last two candles are not in the same color!")
             continue
 
         # 3 --- Verify condition 5 min
@@ -95,7 +95,6 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
         # short (maxima)
         if (OB_or_OS == 2):
             peaks, _ = find_peaks(HAdf_5mn.Close, distance=2)  # distance = minimum distance between two peaks
-            # peaks = HAdf_5mn.iloc[peaks.tolist()].index
         # long (minima)
         else:
             peaks, _ = find_peaks(-HAdf_5mn.Close, distance=2)
@@ -107,7 +106,7 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
             for idx in peaks:
                 # Stochastic must be verified
                 if (((RSI_stoch_k.iloc[[idx]] >= 65))[0]):
-                    # At least 3 candles
+                    # At least 3 candles same color
                     if (
                             sum(HAdf_5mn.iloc[[idx - 1, idx, idx + 1]].Close > HAdf_5mn.iloc[
                                 [idx - 1, idx, idx + 1]].Open) == 3 or \
@@ -141,6 +140,20 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
                         continue
                 else:
                     continue
+
+        # ISSUE with find peaks
+        if (OB_or_OS == 2):
+            # Issue: if last pic is the highest, this stupid function won't take it, we should add it!
+            max_last_pic = np.where(HAdf_5mn.Close == max(HAdf_5mn.iloc[[-3, -2, -1]].Close))[0][0]
+            if(max_last_pic not in peaks):
+                potential_pics = np.append(peaks,max_last_pic)
+        # long (minima)
+        else:
+            # Issue: if last pic is the lowest, this stupid function won't take it, we should add it!
+            min_last_pic = np.where(HAdf_5mn.Close == min(HAdf_5mn.iloc[[-3, -2, -1]].Close))[0][0]
+            if (min_last_pic not in peaks):
+                potential_pics = np.append(peaks, min_last_pic)
+
 
         # 4 - c - Eliminate invalid last peaks (Uncross price verification)
         uncrossed_peaks_price = keep_uncrossed_peaks(close=HAdf_5mn.Close, open=HAdf_5mn.Open, peaks=potential_pics,

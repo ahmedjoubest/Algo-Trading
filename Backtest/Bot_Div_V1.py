@@ -38,14 +38,14 @@ execfile("functions/HA_calculation.py")
 execfile("functions/math_tools.py")
 
 # 2 --- Get data and transform it to HA
-df_5mn = getdata_date(symbol = "WAVESUSDT", interval = "5m", date1= "25 Apr", date2 = "26 Apr")
+df_5mn = getdata_date(symbol = "LUNAUSDT", interval = "5m", date1= "27 Apr", date2 = "28 Apr")
 HAdf_5mn = HA_transformation(df_5mn)
 RSI_stoch_k = round(pta.stochrsi(HAdf_5mn['Close']).STOCHRSIk_14_14_3_3,2) # k = blue # ignore warning
 RSI_stoch_d = round(pta.stochrsi(HAdf_5mn['Close']).STOCHRSId_14_14_3_3,2)
 RSI = round(pta.rsi(HAdf_5mn.Close,14),2)
 
 # 3 --- indexing our test time frame (this part will be deleted)
-index = [idx for idx,element in enumerate(HAdf_5mn.index) if (element >= pd.to_datetime(['2022-04-25 14:30'])) & (element <= pd.to_datetime(['2022-04-25 18:10']))]
+index = [idx for idx,element in enumerate(HAdf_5mn.index) if (element >= pd.to_datetime(['2022-04-27 0:30'])) & (element <= pd.to_datetime(['2022-04-27 13:25']))]
 HAdf_5mn = HAdf_5mn.iloc[index]
 RSI_stoch_k = RSI_stoch_k.iloc[index]
 RSI_stoch_d = RSI_stoch_d.iloc[index]
@@ -90,7 +90,6 @@ if(OB_or_OS == 0):
 # short (maxima)
 if(OB_or_OS == 2):
     peaks, _ = find_peaks(HAdf_5mn.Close, distance=2) # distance = minimum distance between two peaks
-    # peaks = HAdf_5mn.iloc[peaks.tolist()].index
 # long (minima)
 else:
     peaks, _ = find_peaks(-HAdf_5mn.Close, distance=2)
@@ -202,13 +201,12 @@ print(df_5mn.Close[-1])
 
 
 
-
+peaks, _ = find_peaks(HAdf_5mn.Close)
 
 x = HAdf_5mn.Close
-peaks_plot = HAdf_5mn.iloc[uncrossed_peaks_RSI].index
+peaks_plot = HAdf_5mn.iloc[peaks].index
 plt.plot(x)
 plt.plot(peaks_plot, x[peaks_plot], "x")
-plt.show()
 
 
 
