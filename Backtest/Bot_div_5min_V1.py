@@ -141,18 +141,18 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
                 else:
                     continue
 
-        # ISSUE with find peaks
+        # ISSUE with find_peaks
         if (OB_or_OS == 2):
             # Issue: if last pic is the highest, this stupid function won't take it, we should add it!
             max_last_pic = np.where(HAdf_5mn.Close == max(HAdf_5mn.iloc[[-3, -2, -1]].Close))[0][0]
             if(max_last_pic not in peaks):
-                potential_pics = np.append(peaks,max_last_pic)
+                potential_pics = np.append(potential_pics,max_last_pic)
         # long (minima)
         else:
             # Issue: if last pic is the lowest, this stupid function won't take it, we should add it!
             min_last_pic = np.where(HAdf_5mn.Close == min(HAdf_5mn.iloc[[-3, -2, -1]].Close))[0][0]
             if (min_last_pic not in peaks):
-                potential_pics = np.append(peaks, min_last_pic)
+                potential_pics = np.append(potential_pics, min_last_pic)
 
 
         # 4 - c - Eliminate invalid last peaks (Uncross price verification)
