@@ -45,7 +45,11 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
     while(True):
 
         # 1 --- Get data and transform it to HA
-        df_5mn = getdata_min_ago(symbol, interval = "5m", lookback= str(13*60))
+        try:
+            df_5mn = getdata_min_ago(symbol, interval = "5m", lookback= str(13*60))
+        except Exception as e:
+            print(f'Problem in reading data, exception hya : {e}')
+
         HAdf_5mn = HA_transformation(df_5mn)
         RSI_stoch_k = round(pta.stochrsi(HAdf_5mn['Close']).STOCHRSIk_14_14_3_3, 2)  # k = blue # ignore warning
         RSI_stoch_d = round(pta.stochrsi(HAdf_5mn['Close']).STOCHRSId_14_14_3_3, 2)
@@ -217,35 +221,50 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
         if(Div):
             print("Must buy or sell")
             # Get usdt futurse balance
-            balance = pd.DataFrame(client.futures_account_balance())
-            balance_usdt = round(0.9 * float(balance.loc[balance['asset'] == 'USDT', 'balance'].iloc[0]), 4)
-            precision = 1 # WAVES
-            qty = round(levier * balance_usdt / HAdf_5mn.iloc[[-1]].Close[0], precision)
-            # update leverage
-            client.futures_change_leverage(symbol= symbol, leverage=round(levier))
-            # position long
-            order = client.futures_create_order(symbol=symbol, side= 'BUY' if (OB_or_OS==0) else "SELL", type='MARKET', quantity=qty)
-            if(OB_or_OS==0):
-                TP = HAdf_5mn.iloc[[-1]].Close[0] + 0.66/100*HAdf_5mn.iloc[[-1]].Close[0]
-                SL = HAdf_5mn.iloc[[-1]].Close[0] - 0.59/100*HAdf_5mn.iloc[[-1]].Close[0]
-            else:
-                TP = HAdf_5mn.iloc[[-1]].Close[0] - 0.66 / 100 * HAdf_5mn.iloc[[-1]].Close[0]
-                SL = HAdf_5mn.iloc[[-1]].Close[0] + 0.59 / 100 * HAdf_5mn.iloc[[-1]].Close[0]
-            order_tp = client.futures_create_order(symbol= symbol, side = 'BUY' if (OB_or_OS==2) else "SELL",
-                                                   type='LIMIT', quantity=qty, price=round(TP,3), timeInForce='GTC')
-            order_sl = client.futures_create_order(symbol= symbol, side='BUY' if (OB_or_OS==2) else "SELL",
-                                                   type='STOP_MARKET', quantity= qty, stopPrice = round(SL,3))
-            a = pd.DataFrame(client.futures_position_information())
-            a = a.loc[pd.to_numeric(a.entryPrice) > 0,]
-            while(len(a.index)>0):
-                print("Still in position")
-                time.sleep(15)
-                print("time = " + str(datetime.now()))
+            try:
+                balance = pd.DataFrame(client.futures_account_balance())
+                balance_usdt = round(0.9 * float(balance.loc[balance['asset'] == 'USDT', 'balance'].iloc[0]), 4)
+                precision = 1  # WAVES
+                qty = round(levier * balance_usdt / HAdf_5mn.iloc[[-1]].Close[0], precision)
+                # update leverage
+                client.futures_change_leverage(symbol=symbol, leverage=round(levier))
+                # position long
+                order = client.futures_create_order(symbol=symbol, side='BUY' if (OB_or_OS == 0) else "SELL",
+                                                    type='MARKET', quantity=qty)
+                if (OB_or_OS == 0):
+                    TP = HAdf_5mn.iloc[[-1]].Close[0] + 0.66 / 100 * HAdf_5mn.iloc[[-1]].Close[0]
+                    SL = HAdf_5mn.iloc[[-1]].Close[0] - 0.59 / 100 * HAdf_5mn.iloc[[-1]].Close[0]
+                else:
+                    TP = HAdf_5mn.iloc[[-1]].Close[0] - 0.66 / 100 * HAdf_5mn.iloc[[-1]].Close[0]
+                    SL = HAdf_5mn.iloc[[-1]].Close[0] + 0.59 / 100 * HAdf_5mn.iloc[[-1]].Close[0]
+                order_tp = client.futures_create_order(symbol=symbol, side='BUY' if (OB_or_OS == 2) else "SELL",
+                                                       type='LIMIT', quantity=qty, price=round(TP, 3),
+                                                       timeInForce='GTC')
+                order_sl = client.futures_create_order(symbol=symbol, side='BUY' if (OB_or_OS == 2) else "SELL",
+                                                       type='STOP_MARKET', quantity=qty, stopPrice=round(SL, 3))
+            except Exception as e:
+                print(f'Problem in firing the order, exception hya : {e}')
+
+            try:
                 a = pd.DataFrame(client.futures_position_information())
                 a = a.loc[pd.to_numeric(a.entryPrice) > 0,]
-            print("order completed")
+            except Exception as e:
+                print(f'Problem in futures_position_information, exception hya : {e}')
+            while(len(a.index)>0):
+                try:
+                    print("Still in position")
+                    time.sleep(15)
+                    print("time = " + str(datetime.now()))
+                    a = pd.DataFrame(client.futures_position_information())
+                    a = a.loc[pd.to_numeric(a.entryPrice) > 0,]
+                except Exception as e:
+                    print(f'Problem in futures_position_information (inside the loop), exception hya : {e}')
+            print("order (maybe) completed")
             # Cancel all open orders
-            client.futures_cancel_all_open_orders(symbol= symbol)
+            try:
+                client.futures_cancel_all_open_orders(symbol= symbol)
+            except Exception as e:
+                print(f'Problem in futures_cancel_all_open_orders, exception hya : {e}')
         else:
             print("skip (no divergence detected)")
             continue
@@ -273,3 +292,16 @@ div_5min(symbol= "WAVESUSDT")
 # order = client.futures_create_order(symbol="WAVESUSDT", side='BUY', type='MARKET', quantity=qty)
 # position end long
 # order = client.futures_create_order(symbol="WAVESUSDT", side='SELL', type='MARKET', quantity= qty)
+
+
+
+
+# https://docs.python.org/fr/3.5/tutorial/errors.html
+# try:
+#    print(df)
+# except ValueError as v:
+#     print(f'ValueError hya: : {v}')
+# except NameError as n:
+#     print(f'NameError hya: {n}')
+# except Exception as e:
+#        print(f'Exception hya: {e}')
