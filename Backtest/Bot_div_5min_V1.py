@@ -23,8 +23,8 @@ import logging
 
 
 # --- Sourcing functions
-exec(open("functions/get_data.py").read())
-exec(open("functions/math_tools.py").read())
+# exec(open("functions/get_data.py").read())
+# exec(open("functions/math_tools.py").read())
 # in the server:
 exec(open("/home/ec2-user/Algo-Trading/functions/get_data.py").read())
 exec(open("/home/ec2-user/Algo-Trading/functions/math_tools.py").read())
