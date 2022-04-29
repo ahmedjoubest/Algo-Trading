@@ -55,11 +55,23 @@ tolerance = 0.25
 levier = 1
 def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
 
+    print("\n\n\n\n\n\n\n")
+    logging.info("\n\n\n\n\n\n\n")
+    print("##################################################################")
+    print("##################################################################")
+    print("##################################################################")
+    print("##################################################################")
+    logging.info("##################################################################")
+    logging.info("##################################################################")
+    logging.info("##################################################################")
+    logging.info("##################################################################")
+    print("\n\n\n\n\n\n\n")
+    logging.info("\n\n\n\n\n\n\n")
     while(True):
 
         # 0 --- traceback
-        print("###### Iteration at: "+str(datetime.now())+" ######")
-        logging.info("###### Iteration at: "+str(datetime.now())+" ######")
+        print("\n\n"+"###### Iteration at: "+str(datetime.now())+" ######")
+        logging.info("\n\n"+"###### Iteration at: "+str(datetime.now())+" ######")
 
         # 1 --- Get data and transform it to HA
         try:
