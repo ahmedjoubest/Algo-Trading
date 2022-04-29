@@ -7,16 +7,12 @@
 import pandas as pd
 import numpy as np
 from binance.client import Client
-import sqlalchemy
-from binance import BinanceSocketManager
 import pandas_ta as pta
 from numpy.core.fromnumeric import size
-from sspipe import p, px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
-import matplotlib.pyplot as plt
-import matplotlib.pyplot as plt
-from scipy.misc import electrocardiogram
+# import plotly.graph_objects as go
+# from plotly.subplots import make_subplots
+# import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from scipy.signal import find_peaks
 from binance.enums import HistoricalKlinesType
 import time
@@ -27,10 +23,11 @@ import logging
 
 
 # --- Sourcing functions
-# execfile("functions/get_data.py")
-# execfile("functions/math_tools.py")
 exec(open("functions/get_data.py").read())
 exec(open("functions/math_tools.py").read())
+# in the server:
+exec(open("/home/ec2-user/Algo-Trading/functions/get_data.py").read())
+exec(open("/home/ec2-user/Algo-Trading/functions/math_tools.py").read())
 
 
 # --- API
