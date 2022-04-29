@@ -26,8 +26,8 @@ import logging
 exec(open("functions/get_data.py").read())
 exec(open("functions/math_tools.py").read())
 # in the server:
-exec(open("/home/ec2-user/Algo-Trading/functions/get_data.py").read())
-exec(open("/home/ec2-user/Algo-Trading/functions/math_tools.py").read())
+# exec(open("/home/ec2-user/Algo-Trading/functions/get_data.py").read())
+# exec(open("/home/ec2-user/Algo-Trading/functions/math_tools.py").read())
 
 
 # --- API
@@ -67,6 +67,10 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
         RSI_stoch_k = round(pta.stochrsi(HAdf_5mn['Close']).STOCHRSIk_14_14_3_3, 2)  # k = blue # ignore warning
         RSI_stoch_d = round(pta.stochrsi(HAdf_5mn['Close']).STOCHRSId_14_14_3_3, 2)
         RSI = round(pta.rsi(HAdf_5mn.Close, 14), 2)
+        # Save HA df: Needed for any debug
+        name_csv = str(datetime.now()) + ' Last_HA.csv'
+        HAdf_5mn.to_csv((str(datetime.now()) + ' Last_HA.csv').replace(":",";"))
+
 
 
         # 2 --- Verify if the stochastic is verified
