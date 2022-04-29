@@ -26,11 +26,13 @@ import logging
 try:
     exec(open("functions/get_data.py").read())
     exec(open("functions/math_tools.py").read())
+    exec(open("functions/tracking.py").read())
 except Exception as e: print("I'm on the server man")
 # in the server:
 try:
     exec(open("/home/ec2-user/Algo-Trading/functions/get_data.py").read())
     exec(open("/home/ec2-user/Algo-Trading/functions/math_tools.py").read())
+    exec(open("/home/ec2-user/Algo-Trading/functions/tracking.py").read())
 except Exception as e: print("I'm NOT on the server man")
 
 
