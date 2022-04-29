@@ -185,3 +185,171 @@
 2022-04-29 07:12:29,428: INFO: 
 
 ###### Iteration at: 2022-04-29 07:12:29.428150 ######
+2022-04-29 11:23:36,903: INFO: 
+
+
+
+
+
+
+
+2022-04-29 11:23:36,904: INFO: ##################################################################
+2022-04-29 11:23:36,904: INFO: ##################################################################
+2022-04-29 11:23:36,905: INFO: ##################################################################
+2022-04-29 11:23:36,905: INFO: ##################################################################
+2022-04-29 11:23:36,905: INFO: 
+
+
+
+
+
+
+
+2022-04-29 11:23:36,905: INFO: 
+
+###### Iteration at: 2022-04-29 11:23:36.905624 ######
+2022-04-29 11:23:38,512: INFO: next steps: short (stochastic is verified)
+2022-04-29 11:23:38,515: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 11:23:38,980: INFO: Hidden Div detected for 'Short' in: DatetimeIndex(['2022-04-29 08:54:00'], dtype='datetime64[ns]', name='Time', freq=None)
+2022-04-29 11:23:38,981: INFO: Div = True
+2022-04-29 11:23:41,461: INFO: Still in position, time = 2022-04-29 11:23:41.461579
+2022-04-29 11:23:56,780: INFO: Still in position, time = 2022-04-29 11:23:56.780741
+2022-04-29 11:24:12,107: INFO: Still in position, time = 2022-04-29 11:24:12.107754
+2022-04-29 11:24:27,407: INFO: Still in position, time = 2022-04-29 11:24:27.407799
+2022-04-29 11:24:42,757: INFO: Still in position, time = 2022-04-29 11:24:42.757332
+2022-04-29 11:24:58,109: INFO: Still in position, time = 2022-04-29 11:24:58.109211
+2022-04-29 11:25:13,447: INFO: Still in position, time = 2022-04-29 11:25:13.447867
+2022-04-29 11:25:28,766: INFO: Still in position, time = 2022-04-29 11:25:28.766642
+2022-04-29 11:25:44,074: INFO: Still in position, time = 2022-04-29 11:25:44.074143
+2022-04-29 11:25:59,377: INFO: Still in position, time = 2022-04-29 11:25:59.377839
+2022-04-29 11:26:14,712: INFO: Still in position, time = 2022-04-29 11:26:14.712028
+2022-04-29 11:26:30,073: INFO: Still in position, time = 2022-04-29 11:26:30.073980
+2022-04-29 11:26:45,398: INFO: Still in position, time = 2022-04-29 11:26:45.398263
+2022-04-29 11:27:00,734: INFO: Still in position, time = 2022-04-29 11:27:00.734186
+2022-04-29 11:27:16,070: INFO: Still in position, time = 2022-04-29 11:27:16.070061
+2022-04-29 11:27:31,373: INFO: Still in position, time = 2022-04-29 11:27:31.373678
+2022-04-29 11:27:46,710: INFO: Still in position, time = 2022-04-29 11:27:46.710910
+2022-04-29 11:28:02,032: INFO: Still in position, time = 2022-04-29 11:28:02.032992
+2022-04-29 11:28:17,350: INFO: Still in position, time = 2022-04-29 11:28:17.350007
+2022-04-29 11:28:32,664: INFO: Still in position, time = 2022-04-29 11:28:32.664644
+2022-04-29 11:28:48,156: INFO: Still in position, time = 2022-04-29 11:28:48.156979
+2022-04-29 11:29:03,568: INFO: Still in position, time = 2022-04-29 11:29:03.568648
+2022-04-29 11:29:18,892: INFO: Still in position, time = 2022-04-29 11:29:18.892656
+2022-04-29 11:29:34,204: INFO: Still in position, time = 2022-04-29 11:29:34.204109
+2022-04-29 11:29:49,557: INFO: Still in position, time = 2022-04-29 11:29:49.557341
+2022-04-29 11:30:04,894: INFO: Still in position, time = 2022-04-29 11:30:04.894551
+2022-04-29 11:30:20,244: INFO: Still in position, time = 2022-04-29 11:30:20.244361
+2022-04-29 11:30:35,591: INFO: Still in position, time = 2022-04-29 11:30:35.591542
+2022-04-29 11:30:50,905: INFO: Still in position, time = 2022-04-29 11:30:50.905871
+2022-04-29 11:31:06,240: INFO: Still in position, time = 2022-04-29 11:31:06.239647
+2022-04-29 11:31:21,562: INFO: Still in position, time = 2022-04-29 11:31:21.562092
+2022-04-29 11:31:36,940: INFO: Still in position, time = 2022-04-29 11:31:36.940701
+2022-04-29 11:31:52,389: INFO: Still in position, time = 2022-04-29 11:31:52.389844
+2022-04-29 11:32:07,705: INFO: Still in position, time = 2022-04-29 11:32:07.704304
+2022-04-29 11:32:23,032: INFO: Still in position, time = 2022-04-29 11:32:23.032265
+2022-04-29 11:32:38,350: INFO: Still in position, time = 2022-04-29 11:32:38.350313
+2022-04-29 11:32:53,665: INFO: Still in position, time = 2022-04-29 11:32:53.665741
+2022-04-29 11:33:08,981: INFO: Still in position, time = 2022-04-29 11:33:08.981238
+2022-04-29 11:33:24,303: INFO: Still in position, time = 2022-04-29 11:33:24.303271
+2022-04-29 11:33:39,613: INFO: Still in position, time = 2022-04-29 11:33:39.613292
+2022-04-29 11:33:54,958: INFO: Still in position, time = 2022-04-29 11:33:54.958998
+2022-04-29 11:34:10,277: INFO: Still in position, time = 2022-04-29 11:34:10.276110
+2022-04-29 11:34:25,576: INFO: Still in position, time = 2022-04-29 11:34:25.576574
+2022-04-29 11:34:40,915: INFO: Still in position, time = 2022-04-29 11:34:40.915321
+2022-04-29 11:34:56,262: INFO: Still in position, time = 2022-04-29 11:34:56.262225
+2022-04-29 11:35:12,041: INFO: Still in position, time = 2022-04-29 11:35:12.041560
+2022-04-29 11:35:27,362: INFO: Still in position, time = 2022-04-29 11:35:27.362646
+2022-04-29 11:35:42,670: INFO: order (maybe) completed
+2022-04-29 11:35:42,978: INFO: 
+
+###### Iteration at: 2022-04-29 11:35:42.978275 ######
+2022-04-29 11:35:44,253: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:35:44,254: INFO: 
+
+###### Iteration at: 2022-04-29 11:35:44.254679 ######
+2022-04-29 11:35:46,306: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:35:46,307: INFO: 
+
+###### Iteration at: 2022-04-29 11:35:46.307636 ######
+2022-04-29 11:35:48,726: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:35:48,727: INFO: 
+
+###### Iteration at: 2022-04-29 11:35:48.727123 ######
+2022-04-29 11:35:53,219: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:35:53,219: INFO: 
+
+###### Iteration at: 2022-04-29 11:35:53.219636 ######
+2022-04-29 11:35:54,522: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:35:54,523: INFO: 
+
+###### Iteration at: 2022-04-29 11:35:54.523950 ######
+2022-04-29 11:35:56,400: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:35:56,400: INFO: 
+
+###### Iteration at: 2022-04-29 11:35:56.400185 ######
+2022-04-29 11:35:58,530: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:35:58,530: INFO: 
+
+###### Iteration at: 2022-04-29 11:35:58.530822 ######
+2022-04-29 11:36:00,061: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:36:00,062: INFO: 
+
+###### Iteration at: 2022-04-29 11:36:00.062762 ######
+2022-04-29 11:36:01,356: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:36:01,356: INFO: 
+
+###### Iteration at: 2022-04-29 11:36:01.356072 ######
+2022-04-29 11:36:03,461: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:36:03,461: INFO: 
+
+###### Iteration at: 2022-04-29 11:36:03.461839 ######
+2022-04-29 11:36:04,714: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:36:04,714: INFO: 
+
+###### Iteration at: 2022-04-29 11:36:04.714839 ######
+2022-04-29 11:36:06,989: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:36:06,990: INFO: 
+
+###### Iteration at: 2022-04-29 11:36:06.990625 ######
+2022-04-29 11:36:09,168: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:36:09,168: INFO: 
+
+###### Iteration at: 2022-04-29 11:36:09.168626 ######
+2022-04-29 11:36:10,625: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:36:10,626: INFO: 
+
+###### Iteration at: 2022-04-29 11:36:10.626311 ######
+2022-04-29 11:36:11,965: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:36:11,965: INFO: 
+
+###### Iteration at: 2022-04-29 11:36:11.965308 ######
+2022-04-29 11:36:13,326: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:36:13,326: INFO: 
+
+###### Iteration at: 2022-04-29 11:36:13.326345 ######
+2022-04-29 11:36:14,909: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:36:14,909: INFO: 
+
+###### Iteration at: 2022-04-29 11:36:14.909187 ######
+2022-04-29 11:36:16,430: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:36:16,430: INFO: 
+
+###### Iteration at: 2022-04-29 11:36:16.430825 ######
+2022-04-29 11:36:17,774: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 11:36:17,774: INFO: 
+
+###### Iteration at: 2022-04-29 11:36:17.774400 ######
+2022-04-29 11:53:21,399: INFO: 
+
+###### Iteration at: 2022-04-29 11:53:21.399597 ######
+2022-04-29 12:18:45,300: INFO: Waiting to fill the order, time = 2022-04-29 12:18:45.300007
+2022-04-29 12:19:04,926: INFO: Waiting to fill the order, time = 2022-04-29 12:19:04.926493
+2022-04-29 12:19:15,230: INFO: Waiting to fill the order, time = 2022-04-29 12:19:15.230760
+2022-04-29 12:19:25,532: INFO: Waiting to fill the order, time = 2022-04-29 12:19:25.532884
+2022-04-29 12:19:35,856: INFO: Waiting to fill the order, time = 2022-04-29 12:19:35.856437
+2022-04-29 12:19:46,166: INFO: Waiting to fill the order, time = 2022-04-29 12:19:46.166457
+2022-04-29 12:19:56,459: INFO: Waiting to fill the order, time = 2022-04-29 12:19:56.459605
+2022-04-29 12:20:06,779: INFO: Waiting to fill the order, time = 2022-04-29 12:20:06.779449
+2022-04-29 12:20:17,097: INFO: Waiting to fill the order, time = 2022-04-29 12:20:17.097610
+2022-04-29 12:20:27,451: INFO: Waiting to fill the order, time = 2022-04-29 12:20:27.451083
+2022-04-29 12:20:37,783: INFO: Waiting to fill the order, time = 2022-04-29 12:20:37.783662

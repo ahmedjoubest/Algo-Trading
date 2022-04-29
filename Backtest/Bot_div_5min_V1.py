@@ -55,7 +55,7 @@ symbol = "WAVESUSDT"
 window_div= 7
 tolerance = 0.25
 levier = 1
-def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
+def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1, tp=0.66, sl=0.59, interval = "5m", timeout_entry_seconds = 130):
 
     print("\n\n\n\n\n\n\n")
     logging.info("\n\n\n\n\n\n\n")
@@ -77,7 +77,7 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
 
         # 1 --- Get data and transform it to HA
         try:
-            df_5mn = getdata_min_ago(symbol, interval = "5m", lookback= str(13*60))
+            df_5mn = getdata_min_ago(symbol, interval = "1m", lookback= str(13*60))
         except Exception as e:
             print(f'Problem in reading data, exception hya : {e}')
             logging.info(f'Problem in reading data, exception hya : {e}')
@@ -162,18 +162,43 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
                 client.futures_change_leverage(symbol=symbol, leverage=round(levier))
                 # position long
                 order = client.futures_create_order(symbol=symbol, side='BUY' if (OB_or_OS == 0) else "SELL",
-                                                    type='MARKET', quantity=qty)
-                if (OB_or_OS == 0):
-                    TP = HAdf_5mn.iloc[[-1]].Close[0] + 0.66 / 100 * HAdf_5mn.iloc[[-1]].Close[0]
-                    SL = HAdf_5mn.iloc[[-1]].Close[0] - 0.59 / 100 * HAdf_5mn.iloc[[-1]].Close[0]
-                else:
-                    TP = HAdf_5mn.iloc[[-1]].Close[0] - 0.66 / 100 * HAdf_5mn.iloc[[-1]].Close[0]
-                    SL = HAdf_5mn.iloc[[-1]].Close[0] + 0.59 / 100 * HAdf_5mn.iloc[[-1]].Close[0]
-                order_tp = client.futures_create_order(symbol=symbol, side='BUY' if (OB_or_OS == 2) else "SELL",
-                                                       type='LIMIT', quantity=qty, price=round(TP, 3),
-                                                       timeInForce='GTC')
-                order_sl = client.futures_create_order(symbol=symbol, side='BUY' if (OB_or_OS == 2) else "SELL",
-                                                       type='STOP_MARKET', quantity=qty, stopPrice=round(SL, 3))
+                                                    type='LIMIT', quantity=qty,
+                                                    price = round(HAdf_5mn.iloc[-1].Low,3) if (OB_or_OS == 0) else round(HAdf_5mn.iloc[-1].High,3))
+
+                # Verify if the entry order limit is filled
+                a = pd.DataFrame(client.futures_position_information())
+                a = a.loc[pd.to_numeric(a.entryPrice) > 0,]
+                t = datetime.now()
+                while (len(a.index) == 0):
+                    print("Waiting to fill the order, time = " + str(datetime.now()))
+                    logging.info("Waiting to fill the order, time = " + str(datetime.now()))
+                    time.sleep(10)
+                    dif = (datetime.now() - t).seconds
+                    try:
+                        a = pd.DataFrame(client.futures_position_information())
+                        a = a.loc[pd.to_numeric(a.entryPrice) > 0,]
+                    except Exception as e:
+                        print(f'Problem in futures_position_information (inside the first while loop), exception hya : {e}')
+                        logging.info(f'Problem in futures_position_information (inside the first while loop), exception hya : {e}')
+                    if(dif >=timeout_entry_seconds):
+                        print("Entry position : Time out! time = " + str(datetime.now()))
+                        logging.info("Entry position : Time out! time = " + str(datetime.now()))
+                        break
+
+                if(len(a.index) > 0):
+                    print("Order filled! Time = " + str(datetime.now()))
+                    logging.info("Order filled! Time = " + str(datetime.now()))
+                    if (OB_or_OS == 0):
+                        TP = HAdf_5mn.iloc[[-1]].Close[0] + tp / 100 * HAdf_5mn.iloc[[-1]].Close[0]
+                        SL = HAdf_5mn.iloc[[-1]].Close[0] - sl / 100 * HAdf_5mn.iloc[[-1]].Close[0]
+                    else:
+                        TP = HAdf_5mn.iloc[[-1]].Close[0] - tp / 100 * HAdf_5mn.iloc[[-1]].Close[0]
+                        SL = HAdf_5mn.iloc[[-1]].Close[0] + sl / 100 * HAdf_5mn.iloc[[-1]].Close[0]
+                    order_tp = client.futures_create_order(symbol=symbol, side='BUY' if (OB_or_OS == 2) else "SELL",
+                                                           type='LIMIT', quantity=qty, price=round(TP, 3),
+                                                           timeInForce='GTC')
+                    order_sl = client.futures_create_order(symbol=symbol, side='BUY' if (OB_or_OS == 2) else "SELL",
+                                                           type='STOP_MARKET', quantity=qty, stopPrice=round(SL, 3))
             except Exception as e:
                 print(f'Problem in firing the order, exception hya : {e}')
                 logging.info(f'Problem in firing the order, exception hya : {e}')
@@ -184,7 +209,6 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
             except Exception as e:
                 print(f'Problem in futures_position_information, exception hya : {e}')
                 logging.info((f'Problem in futures_position_information, exception hya : {e}'))
-
             while(len(a.index)>0):
                 try:
                     print("Still in position, time = " + str(datetime.now()))
@@ -193,8 +217,8 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
                     a = pd.DataFrame(client.futures_position_information())
                     a = a.loc[pd.to_numeric(a.entryPrice) > 0,]
                 except Exception as e:
-                    print(f'Problem in futures_position_information (inside the loop), exception hya : {e}')
-                    logging.info(f'Problem in futures_position_information (inside the loop), exception hya : {e}')
+                    print(f'Problem in futures_position_information (inside the second while loop), exception hya : {e}')
+                    logging.info(f'Problem in futures_position_information (inside the second while loop), exception hya : {e}')
 
             print("order (maybe) completed")
             logging.info("order (maybe) completed")
@@ -212,7 +236,7 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
 
 
 
-div_5min(symbol= "WAVESUSDT")
+div_5min(symbol= "WAVESUSDT", tp = 0.22, sl = 0.2, interval= "1m")
 
 
 # cancel order
@@ -245,8 +269,3 @@ div_5min(symbol= "WAVESUSDT")
 #     print(f'NameError hya: {n}')
 # except Exception as e:
 #        print(f'Exception hya: {e}')
-
-
-
-
-import logging
