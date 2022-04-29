@@ -19,6 +19,8 @@ import time
 from datetime import datetime
 from datetime import timedelta
 import logging
+from oauth2client.service_account import ServiceAccountCredentials
+import gspread
 
 
 
@@ -55,6 +57,8 @@ symbol = "WAVESUSDT"
 window_div= 7
 tolerance = 0.25
 levier = 1
+
+
 def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1, tp=0.66, sl=0.59, interval = "5m", timeout_entry_seconds = 130):
 
     print("\n\n\n\n\n\n\n")
@@ -77,7 +81,7 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1, 
 
         # 1 --- Get data and transform it to HA
         try:
-            df_5mn = getdata_min_ago(symbol, interval = "1m", lookback= str(13*60))
+            df_5mn = getdata_min_ago(symbol, interval = interval, lookback= str(13*60))
         except Exception as e:
             print(f'Problem in reading data, exception hya : {e}')
             logging.info(f'Problem in reading data, exception hya : {e}')
@@ -159,10 +163,10 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1, 
                 precision = 1  # WAVES
                 qty = round(levier * balance_usdt / HAdf_5mn.iloc[[-1]].Close[0], precision)
                 # update leverage
-                client.futures_change_leverage(symbol=symbol, leverage=round(levier))
+                client.futures_change_leverage(symbol=symbol, leverage=levier)
                 # position long
                 order = client.futures_create_order(symbol=symbol, side='BUY' if (OB_or_OS == 0) else "SELL",
-                                                    type='LIMIT', quantity=qty,
+                                                    type='LIMIT', quantity=qty, timeInForce='GTC',
                                                     price = round(HAdf_5mn.iloc[-1].Low,3) if (OB_or_OS == 0) else round(HAdf_5mn.iloc[-1].High,3))
 
                 # Verify if the entry order limit is filled:
