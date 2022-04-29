@@ -13451,3 +13451,1653 @@
 2022-04-29 13:31:43,649: INFO: 
 
 ###### Iteration at: 2022-04-29 13:31:43.649280 ######
+2022-04-29 13:31:45,242: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:45,243: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:45,243: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:45.243973 ######
+2022-04-29 13:31:46,862: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:46,863: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:46,863: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:46.863814 ######
+2022-04-29 13:31:47,576: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:47,577: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:47,577: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:47.577500 ######
+2022-04-29 13:31:49,193: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:49,194: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:49,194: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:49.194708 ######
+2022-04-29 13:31:49,914: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:49,916: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:49,916: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:49.916276 ######
+2022-04-29 13:31:50,632: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:50,633: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:50,633: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:50.633794 ######
+2022-04-29 13:31:51,347: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:51,348: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:51,348: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:51.348744 ######
+2022-04-29 13:31:52,060: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:52,062: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:52,062: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:52.062221 ######
+2022-04-29 13:31:53,649: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:53,650: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:53,650: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:53.650948 ######
+2022-04-29 13:31:54,361: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:54,362: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:54,362: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:54.362662 ######
+2022-04-29 13:31:55,081: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:55,082: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:55,082: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:55.082695 ######
+2022-04-29 13:31:55,790: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:55,792: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:55,792: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:55.792379 ######
+2022-04-29 13:31:56,513: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:56,515: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:56,515: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:56.515392 ######
+2022-04-29 13:31:57,452: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:57,453: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:57,453: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:57.453930 ######
+2022-04-29 13:31:58,171: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:58,172: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:58,172: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:58.172711 ######
+2022-04-29 13:31:58,891: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:58,892: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:58,892: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:58.892794 ######
+2022-04-29 13:31:59,607: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:31:59,609: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:31:59,609: INFO: 
+
+###### Iteration at: 2022-04-29 13:31:59.609200 ######
+2022-04-29 13:32:00,315: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:00,316: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:32:00,316: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:00.316714 ######
+2022-04-29 13:32:01,024: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:01,025: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:32:01,026: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:01.026079 ######
+2022-04-29 13:32:01,951: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:01,953: INFO: skip (condition 5 min NOT verified)
+2022-04-29 13:32:01,953: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:01.953260 ######
+2022-04-29 13:32:02,661: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 13:32:02,662: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:02.662068 ######
+2022-04-29 13:32:03,367: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 13:32:03,367: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:03.367178 ######
+2022-04-29 13:32:04,084: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 13:32:04,084: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:04.084876 ######
+2022-04-29 13:32:04,803: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 13:32:04,803: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:04.803880 ######
+2022-04-29 13:32:05,521: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 13:32:05,521: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:05.521612 ######
+2022-04-29 13:32:06,241: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 13:32:06,241: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:06.241415 ######
+2022-04-29 13:32:06,959: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 13:32:06,959: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:06.959179 ######
+2022-04-29 13:32:07,671: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 13:32:07,671: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:07.671873 ######
+2022-04-29 13:32:08,627: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 13:32:08,627: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:08.627196 ######
+2022-04-29 13:32:09,340: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 13:32:09,340: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:09.340824 ######
+2022-04-29 13:32:10,054: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 13:32:10,054: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:10.054324 ######
+2022-04-29 13:32:10,774: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 13:32:10,774: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:10.774202 ######
+2022-04-29 13:32:11,482: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 13:32:11,482: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:11.482907 ######
+2022-04-29 13:32:12,194: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 13:32:12,194: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:12.194914 ######
+2022-04-29 13:32:12,903: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 13:32:12,903: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:12.903821 ######
+2022-04-29 13:32:13,615: INFO: skip: step 2 (stochastic not verified)
+2022-04-29 13:32:13,616: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:13.616141 ######
+2022-04-29 13:32:14,328: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:14,329: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:14,649: INFO: skip (no divergence detected)
+2022-04-29 13:32:14,649: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:14.649527 ######
+2022-04-29 13:32:15,362: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:15,364: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:15,686: INFO: skip (no divergence detected)
+2022-04-29 13:32:15,686: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:15.686960 ######
+2022-04-29 13:32:16,399: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:16,401: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:16,723: INFO: skip (no divergence detected)
+2022-04-29 13:32:16,724: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:16.724010 ######
+2022-04-29 13:32:17,655: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:17,656: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:17,978: INFO: skip (no divergence detected)
+2022-04-29 13:32:17,978: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:17.978531 ######
+2022-04-29 13:32:18,695: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:18,696: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:19,017: INFO: skip (no divergence detected)
+2022-04-29 13:32:19,017: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:19.017922 ######
+2022-04-29 13:32:19,728: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:19,730: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:20,050: INFO: skip (no divergence detected)
+2022-04-29 13:32:20,050: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:20.050970 ######
+2022-04-29 13:32:20,765: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:20,766: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:21,088: INFO: skip (no divergence detected)
+2022-04-29 13:32:21,088: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:21.088764 ######
+2022-04-29 13:32:21,802: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:21,803: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:22,125: INFO: skip (no divergence detected)
+2022-04-29 13:32:22,125: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:22.125634 ######
+2022-04-29 13:32:22,834: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:22,835: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:23,157: INFO: skip (no divergence detected)
+2022-04-29 13:32:23,157: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:23.157192 ######
+2022-04-29 13:32:23,866: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:23,868: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:24,186: INFO: skip (no divergence detected)
+2022-04-29 13:32:24,187: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:24.186979 ######
+2022-04-29 13:32:25,110: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:25,112: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:25,433: INFO: skip (no divergence detected)
+2022-04-29 13:32:25,433: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:25.433721 ######
+2022-04-29 13:32:26,363: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:26,364: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:26,686: INFO: skip (no divergence detected)
+2022-04-29 13:32:26,686: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:26.686539 ######
+2022-04-29 13:32:27,396: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:27,398: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:27,719: INFO: skip (no divergence detected)
+2022-04-29 13:32:27,719: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:27.719762 ######
+2022-04-29 13:32:28,428: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:28,429: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:28,750: INFO: skip (no divergence detected)
+2022-04-29 13:32:28,750: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:28.750501 ######
+2022-04-29 13:32:29,458: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:29,459: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:29,780: INFO: skip (no divergence detected)
+2022-04-29 13:32:29,781: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:29.780990 ######
+2022-04-29 13:32:30,495: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:30,496: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:30,819: INFO: skip (no divergence detected)
+2022-04-29 13:32:30,819: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:30.819816 ######
+2022-04-29 13:32:31,534: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:31,535: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:31,866: INFO: skip (no divergence detected)
+2022-04-29 13:32:31,867: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:31.867078 ######
+2022-04-29 13:32:32,587: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:32,588: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:32,917: INFO: skip (no divergence detected)
+2022-04-29 13:32:32,917: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:32.917339 ######
+2022-04-29 13:32:33,855: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:33,856: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:34,185: INFO: skip (no divergence detected)
+2022-04-29 13:32:34,185: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:34.185190 ######
+2022-04-29 13:32:34,899: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:34,900: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:35,227: INFO: skip (no divergence detected)
+2022-04-29 13:32:35,227: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:35.227518 ######
+2022-04-29 13:32:35,950: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:35,951: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:36,280: INFO: skip (no divergence detected)
+2022-04-29 13:32:36,280: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:36.280228 ######
+2022-04-29 13:32:36,991: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:36,992: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:37,319: INFO: skip (no divergence detected)
+2022-04-29 13:32:37,319: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:37.319538 ######
+2022-04-29 13:32:38,918: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:38,920: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:39,250: INFO: skip (no divergence detected)
+2022-04-29 13:32:39,251: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:39.251104 ######
+2022-04-29 13:32:40,635: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:40,637: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:40,968: INFO: skip (no divergence detected)
+2022-04-29 13:32:40,968: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:40.968658 ######
+2022-04-29 13:32:42,560: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:42,562: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:42,894: INFO: skip (no divergence detected)
+2022-04-29 13:32:42,894: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:42.894810 ######
+2022-04-29 13:32:43,611: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:43,612: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:43,941: INFO: skip (no divergence detected)
+2022-04-29 13:32:43,942: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:43.942057 ######
+2022-04-29 13:32:45,552: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:45,553: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:45,882: INFO: skip (no divergence detected)
+2022-04-29 13:32:45,882: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:45.882312 ######
+2022-04-29 13:32:47,271: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:47,273: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:47,603: INFO: skip (no divergence detected)
+2022-04-29 13:32:47,603: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:47.603382 ######
+2022-04-29 13:32:48,318: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:48,319: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:48,648: INFO: skip (no divergence detected)
+2022-04-29 13:32:48,648: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:48.648293 ######
+2022-04-29 13:32:50,253: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:50,255: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:50,595: INFO: skip (no divergence detected)
+2022-04-29 13:32:50,595: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:50.595486 ######
+2022-04-29 13:32:51,312: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:51,314: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:51,645: INFO: skip (no divergence detected)
+2022-04-29 13:32:51,645: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:51.645336 ######
+2022-04-29 13:32:52,356: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:52,357: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:52,686: INFO: skip (no divergence detected)
+2022-04-29 13:32:52,687: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:52.686998 ######
+2022-04-29 13:32:53,405: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:53,406: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:53,738: INFO: skip (no divergence detected)
+2022-04-29 13:32:53,739: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:53.739010 ######
+2022-04-29 13:32:54,455: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:54,456: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:54,785: INFO: skip (no divergence detected)
+2022-04-29 13:32:54,786: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:54.786124 ######
+2022-04-29 13:32:55,505: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:55,506: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:55,836: INFO: skip (no divergence detected)
+2022-04-29 13:32:55,837: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:55.837126 ######
+2022-04-29 13:32:56,553: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:56,554: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:56,884: INFO: skip (no divergence detected)
+2022-04-29 13:32:56,884: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:56.884451 ######
+2022-04-29 13:32:57,600: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:57,601: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:57,927: INFO: skip (no divergence detected)
+2022-04-29 13:32:57,928: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:57.928100 ######
+2022-04-29 13:32:58,647: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:58,648: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:32:58,977: INFO: skip (no divergence detected)
+2022-04-29 13:32:58,977: INFO: 
+
+###### Iteration at: 2022-04-29 13:32:58.977329 ######
+2022-04-29 13:32:59,695: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:32:59,697: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:00,027: INFO: skip (no divergence detected)
+2022-04-29 13:33:00,027: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:00.027725 ######
+2022-04-29 13:33:00,749: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:00,750: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:01,079: INFO: skip (no divergence detected)
+2022-04-29 13:33:01,079: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:01.079383 ######
+2022-04-29 13:33:01,791: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:01,792: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:02,120: INFO: skip (no divergence detected)
+2022-04-29 13:33:02,120: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:02.120169 ######
+2022-04-29 13:33:03,495: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:03,497: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:03,822: INFO: skip (no divergence detected)
+2022-04-29 13:33:03,822: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:03.822752 ######
+2022-04-29 13:33:04,755: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:04,756: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:05,087: INFO: skip (no divergence detected)
+2022-04-29 13:33:05,088: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:05.088084 ######
+2022-04-29 13:33:05,808: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:05,810: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:06,142: INFO: skip (no divergence detected)
+2022-04-29 13:33:06,142: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:06.142806 ######
+2022-04-29 13:33:06,861: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:06,862: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:07,193: INFO: skip (no divergence detected)
+2022-04-29 13:33:07,193: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:07.193294 ######
+2022-04-29 13:33:08,139: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:08,141: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:08,473: INFO: skip (no divergence detected)
+2022-04-29 13:33:08,473: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:08.473883 ######
+2022-04-29 13:33:09,190: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:09,191: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:09,525: INFO: skip (no divergence detected)
+2022-04-29 13:33:09,525: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:09.525823 ######
+2022-04-29 13:33:10,242: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:10,243: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:10,577: INFO: skip (no divergence detected)
+2022-04-29 13:33:10,577: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:10.577185 ######
+2022-04-29 13:33:11,287: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:11,289: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:11,630: INFO: skip (no divergence detected)
+2022-04-29 13:33:11,630: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:11.630443 ######
+2022-04-29 13:33:12,340: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:12,341: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:12,665: INFO: skip (no divergence detected)
+2022-04-29 13:33:12,665: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:12.665737 ######
+2022-04-29 13:33:14,267: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:14,268: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:14,596: INFO: skip (no divergence detected)
+2022-04-29 13:33:14,597: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:14.597104 ######
+2022-04-29 13:33:15,311: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:15,312: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:15,646: INFO: skip (no divergence detected)
+2022-04-29 13:33:15,646: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:15.646691 ######
+2022-04-29 13:33:16,361: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:16,362: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:16,697: INFO: skip (no divergence detected)
+2022-04-29 13:33:16,698: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:16.697990 ######
+2022-04-29 13:33:17,417: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:17,419: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:17,751: INFO: skip (no divergence detected)
+2022-04-29 13:33:17,751: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:17.751600 ######
+2022-04-29 13:33:18,472: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:18,474: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:18,849: INFO: skip (no divergence detected)
+2022-04-29 13:33:18,849: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:18.849763 ######
+2022-04-29 13:33:19,564: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:19,565: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:19,895: INFO: skip (no divergence detected)
+2022-04-29 13:33:19,896: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:19.896153 ######
+2022-04-29 13:33:20,610: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:20,612: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:20,946: INFO: skip (no divergence detected)
+2022-04-29 13:33:20,947: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:20.947128 ######
+2022-04-29 13:33:21,669: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:21,670: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:22,003: INFO: skip (no divergence detected)
+2022-04-29 13:33:22,003: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:22.003335 ######
+2022-04-29 13:33:22,722: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:22,723: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:23,056: INFO: skip (no divergence detected)
+2022-04-29 13:33:23,057: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:23.057054 ######
+2022-04-29 13:33:23,775: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:23,776: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:24,108: INFO: skip (no divergence detected)
+2022-04-29 13:33:24,108: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:24.108901 ######
+2022-04-29 13:33:25,711: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:25,712: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:26,048: INFO: skip (no divergence detected)
+2022-04-29 13:33:26,048: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:26.048576 ######
+2022-04-29 13:33:26,769: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:26,770: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:27,104: INFO: skip (no divergence detected)
+2022-04-29 13:33:27,105: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:27.105152 ######
+2022-04-29 13:33:27,822: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:27,824: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:28,160: INFO: skip (no divergence detected)
+2022-04-29 13:33:28,160: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:28.160799 ######
+2022-04-29 13:33:28,864: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:28,865: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:29,188: INFO: skip (no divergence detected)
+2022-04-29 13:33:29,188: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:29.188792 ######
+2022-04-29 13:33:30,120: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:30,121: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:30,446: INFO: skip (no divergence detected)
+2022-04-29 13:33:30,446: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:30.446561 ######
+2022-04-29 13:33:31,152: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:31,153: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:31,477: INFO: skip (no divergence detected)
+2022-04-29 13:33:31,477: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:31.477486 ######
+2022-04-29 13:33:33,076: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:33,078: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:33,400: INFO: skip (no divergence detected)
+2022-04-29 13:33:33,400: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:33.400923 ######
+2022-04-29 13:33:35,665: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:35,666: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:35,994: INFO: skip (no divergence detected)
+2022-04-29 13:33:35,994: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:35.994543 ######
+2022-04-29 13:33:37,598: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:37,599: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:37,929: INFO: skip (no divergence detected)
+2022-04-29 13:33:37,929: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:37.929534 ######
+2022-04-29 13:33:38,644: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:38,645: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:38,977: INFO: skip (no divergence detected)
+2022-04-29 13:33:38,977: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:38.977486 ######
+2022-04-29 13:33:39,692: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:39,694: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:40,025: INFO: skip (no divergence detected)
+2022-04-29 13:33:40,026: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:40.025993 ######
+2022-04-29 13:33:40,746: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:40,748: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:41,079: INFO: skip (no divergence detected)
+2022-04-29 13:33:41,079: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:41.079668 ######
+2022-04-29 13:33:42,024: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:42,025: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:42,354: INFO: skip (no divergence detected)
+2022-04-29 13:33:42,354: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:42.354311 ######
+2022-04-29 13:33:43,074: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:43,076: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:43,406: INFO: skip (no divergence detected)
+2022-04-29 13:33:43,406: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:43.406950 ######
+2022-04-29 13:33:44,345: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:44,346: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:44,678: INFO: skip (no divergence detected)
+2022-04-29 13:33:44,678: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:44.678560 ######
+2022-04-29 13:33:45,398: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:45,399: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:45,731: INFO: skip (no divergence detected)
+2022-04-29 13:33:45,731: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:45.731916 ######
+2022-04-29 13:33:46,666: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:46,667: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:46,998: INFO: skip (no divergence detected)
+2022-04-29 13:33:46,998: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:46.998492 ######
+2022-04-29 13:33:47,718: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:47,719: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:48,042: INFO: skip (no divergence detected)
+2022-04-29 13:33:48,043: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:48.042999 ######
+2022-04-29 13:33:48,753: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:48,754: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:49,077: INFO: skip (no divergence detected)
+2022-04-29 13:33:49,078: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:49.078113 ######
+2022-04-29 13:33:49,786: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:49,788: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:50,113: INFO: skip (no divergence detected)
+2022-04-29 13:33:50,113: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:50.113422 ######
+2022-04-29 13:33:50,823: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:50,825: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:51,145: INFO: skip (no divergence detected)
+2022-04-29 13:33:51,146: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:51.146109 ######
+2022-04-29 13:33:51,860: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:51,861: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:52,191: INFO: skip (no divergence detected)
+2022-04-29 13:33:52,192: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:52.191997 ######
+2022-04-29 13:33:52,910: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:52,912: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:53,241: INFO: skip (no divergence detected)
+2022-04-29 13:33:53,241: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:53.241656 ######
+2022-04-29 13:33:53,954: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:53,955: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:54,279: INFO: skip (no divergence detected)
+2022-04-29 13:33:54,280: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:54.280054 ######
+2022-04-29 13:33:54,991: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:54,992: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:55,317: INFO: skip (no divergence detected)
+2022-04-29 13:33:55,317: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:55.317918 ######
+2022-04-29 13:33:56,027: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:56,029: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:56,354: INFO: skip (no divergence detected)
+2022-04-29 13:33:56,354: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:56.354771 ######
+2022-04-29 13:33:57,067: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:57,068: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:57,391: INFO: skip (no divergence detected)
+2022-04-29 13:33:57,391: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:57.391253 ######
+2022-04-29 13:33:58,102: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:58,103: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:58,428: INFO: skip (no divergence detected)
+2022-04-29 13:33:58,428: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:58.428236 ######
+2022-04-29 13:33:59,140: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:33:59,142: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:33:59,463: INFO: skip (no divergence detected)
+2022-04-29 13:33:59,463: INFO: 
+
+###### Iteration at: 2022-04-29 13:33:59.463800 ######
+2022-04-29 13:34:00,395: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:00,396: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:00,720: INFO: skip (no divergence detected)
+2022-04-29 13:34:00,720: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:00.720963 ######
+2022-04-29 13:34:01,425: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:01,426: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:01,744: INFO: skip (no divergence detected)
+2022-04-29 13:34:01,744: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:01.744741 ######
+2022-04-29 13:34:02,676: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:02,677: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:02,994: INFO: skip (no divergence detected)
+2022-04-29 13:34:02,994: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:02.994926 ######
+2022-04-29 13:34:04,379: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:04,380: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:04,709: INFO: skip (no divergence detected)
+2022-04-29 13:34:04,709: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:04.709724 ######
+2022-04-29 13:34:05,428: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:05,430: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:05,758: INFO: skip (no divergence detected)
+2022-04-29 13:34:05,758: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:05.758230 ######
+2022-04-29 13:34:06,486: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:06,488: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:06,813: INFO: skip (no divergence detected)
+2022-04-29 13:34:06,814: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:06.814091 ######
+2022-04-29 13:34:07,532: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:07,533: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:07,861: INFO: skip (no divergence detected)
+2022-04-29 13:34:07,861: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:07.861287 ######
+2022-04-29 13:34:08,572: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:08,573: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:08,899: INFO: skip (no divergence detected)
+2022-04-29 13:34:08,899: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:08.899841 ######
+2022-04-29 13:34:09,615: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:09,616: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:09,947: INFO: skip (no divergence detected)
+2022-04-29 13:34:09,947: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:09.947777 ######
+2022-04-29 13:34:10,887: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:10,889: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:11,220: INFO: skip (no divergence detected)
+2022-04-29 13:34:11,220: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:11.220173 ######
+2022-04-29 13:34:11,944: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:11,945: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:12,275: INFO: skip (no divergence detected)
+2022-04-29 13:34:12,275: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:12.275246 ######
+2022-04-29 13:34:12,996: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:12,997: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:13,328: INFO: skip (no divergence detected)
+2022-04-29 13:34:13,328: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:13.328714 ######
+2022-04-29 13:34:14,045: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:14,046: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:14,374: INFO: skip (no divergence detected)
+2022-04-29 13:34:14,374: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:14.374299 ######
+2022-04-29 13:34:15,095: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:15,096: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:15,424: INFO: skip (no divergence detected)
+2022-04-29 13:34:15,424: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:15.424576 ######
+2022-04-29 13:34:16,142: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:16,143: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:16,472: INFO: skip (no divergence detected)
+2022-04-29 13:34:16,472: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:16.472544 ######
+2022-04-29 13:34:17,416: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:17,417: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:17,744: INFO: skip (no divergence detected)
+2022-04-29 13:34:17,745: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:17.745165 ######
+2022-04-29 13:34:18,458: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:18,459: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:18,786: INFO: skip (no divergence detected)
+2022-04-29 13:34:18,786: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:18.786417 ######
+2022-04-29 13:34:19,511: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:19,512: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:19,841: INFO: skip (no divergence detected)
+2022-04-29 13:34:19,841: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:19.841419 ######
+2022-04-29 13:34:20,782: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:20,784: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:21,110: INFO: skip (no divergence detected)
+2022-04-29 13:34:21,111: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:21.111157 ######
+2022-04-29 13:34:21,829: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:21,830: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:22,155: INFO: skip (no divergence detected)
+2022-04-29 13:34:22,155: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:22.155235 ######
+2022-04-29 13:34:22,866: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:22,868: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:23,189: INFO: skip (no divergence detected)
+2022-04-29 13:34:23,190: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:23.190060 ######
+2022-04-29 13:34:23,907: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:23,908: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:24,229: INFO: skip (no divergence detected)
+2022-04-29 13:34:24,229: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:24.229581 ######
+2022-04-29 13:34:25,160: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:25,161: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:25,481: INFO: skip (no divergence detected)
+2022-04-29 13:34:25,481: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:25.481598 ######
+2022-04-29 13:34:26,194: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:26,195: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:26,517: INFO: skip (no divergence detected)
+2022-04-29 13:34:26,517: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:26.517328 ######
+2022-04-29 13:34:27,451: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:27,453: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:27,775: INFO: skip (no divergence detected)
+2022-04-29 13:34:27,775: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:27.775867 ######
+2022-04-29 13:34:28,484: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:28,485: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:28,848: INFO: skip (no divergence detected)
+2022-04-29 13:34:28,848: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:28.848289 ######
+2022-04-29 13:34:29,556: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:29,557: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:29,879: INFO: skip (no divergence detected)
+2022-04-29 13:34:29,880: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:29.879987 ######
+2022-04-29 13:34:30,594: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:30,595: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:30,919: INFO: skip (no divergence detected)
+2022-04-29 13:34:30,919: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:30.919674 ######
+2022-04-29 13:34:31,633: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:31,634: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:31,959: INFO: skip (no divergence detected)
+2022-04-29 13:34:31,959: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:31.959804 ######
+2022-04-29 13:34:33,554: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:33,555: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:33,875: INFO: skip (no divergence detected)
+2022-04-29 13:34:33,875: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:33.875921 ######
+2022-04-29 13:34:35,250: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:35,252: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:35,573: INFO: skip (no divergence detected)
+2022-04-29 13:34:35,573: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:35.573705 ######
+2022-04-29 13:34:36,954: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:36,956: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:37,275: INFO: skip (no divergence detected)
+2022-04-29 13:34:37,276: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:37.276150 ######
+2022-04-29 13:34:38,207: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:38,208: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:38,527: INFO: skip (no divergence detected)
+2022-04-29 13:34:38,527: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:38.527460 ######
+2022-04-29 13:34:39,240: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:39,241: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:39,564: INFO: skip (no divergence detected)
+2022-04-29 13:34:39,564: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:39.564939 ######
+2022-04-29 13:34:40,277: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:40,278: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:40,599: INFO: skip (no divergence detected)
+2022-04-29 13:34:40,600: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:40.600154 ######
+2022-04-29 13:34:41,307: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:41,309: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:41,630: INFO: skip (no divergence detected)
+2022-04-29 13:34:41,630: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:41.630394 ######
+2022-04-29 13:34:42,348: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:42,349: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:42,671: INFO: skip (no divergence detected)
+2022-04-29 13:34:42,671: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:42.671713 ######
+2022-04-29 13:34:43,378: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:43,379: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:43,703: INFO: skip (no divergence detected)
+2022-04-29 13:34:43,703: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:43.703377 ######
+2022-04-29 13:34:44,409: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:44,411: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:44,732: INFO: skip (no divergence detected)
+2022-04-29 13:34:44,733: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:44.732982 ######
+2022-04-29 13:34:45,451: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:45,453: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:45,784: INFO: skip (no divergence detected)
+2022-04-29 13:34:45,784: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:45.784746 ######
+2022-04-29 13:34:46,497: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:46,499: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:46,829: INFO: skip (no divergence detected)
+2022-04-29 13:34:46,829: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:46.829867 ######
+2022-04-29 13:34:47,536: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:47,537: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:47,855: INFO: skip (no divergence detected)
+2022-04-29 13:34:47,856: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:47.856022 ######
+2022-04-29 13:34:48,562: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:48,563: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:48,883: INFO: skip (no divergence detected)
+2022-04-29 13:34:48,883: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:48.883974 ######
+2022-04-29 13:34:49,808: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:49,810: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:50,131: INFO: skip (no divergence detected)
+2022-04-29 13:34:50,131: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:50.131677 ######
+2022-04-29 13:34:51,056: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:51,057: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:51,387: INFO: skip (no divergence detected)
+2022-04-29 13:34:51,387: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:51.387272 ######
+2022-04-29 13:34:52,101: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:52,103: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:52,432: INFO: skip (no divergence detected)
+2022-04-29 13:34:52,432: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:52.432254 ######
+2022-04-29 13:34:53,156: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:53,158: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:53,488: INFO: skip (no divergence detected)
+2022-04-29 13:34:53,488: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:53.488334 ######
+2022-04-29 13:34:54,204: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:54,205: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:54,533: INFO: skip (no divergence detected)
+2022-04-29 13:34:54,533: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:54.533536 ######
+2022-04-29 13:34:55,460: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:55,461: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:55,783: INFO: skip (no divergence detected)
+2022-04-29 13:34:55,783: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:55.783536 ######
+2022-04-29 13:34:56,498: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:56,500: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:56,822: INFO: skip (no divergence detected)
+2022-04-29 13:34:56,822: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:56.822296 ######
+2022-04-29 13:34:57,527: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:57,528: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:57,849: INFO: skip (no divergence detected)
+2022-04-29 13:34:57,849: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:57.849215 ######
+2022-04-29 13:34:58,556: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:58,557: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:58,878: INFO: skip (no divergence detected)
+2022-04-29 13:34:58,878: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:58.878439 ######
+2022-04-29 13:34:59,587: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:34:59,588: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:34:59,910: INFO: skip (no divergence detected)
+2022-04-29 13:34:59,911: INFO: 
+
+###### Iteration at: 2022-04-29 13:34:59.911090 ######
+2022-04-29 13:35:00,619: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:35:00,621: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:35:00,939: INFO: skip (no divergence detected)
+2022-04-29 13:35:00,940: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:00.940045 ######
+2022-04-29 13:35:01,879: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:01,879: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:01.879878 ######
+2022-04-29 13:35:02,596: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:02,597: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:02.596981 ######
+2022-04-29 13:35:04,207: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:04,207: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:04.207636 ######
+2022-04-29 13:35:05,796: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:05,797: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:05.797049 ######
+2022-04-29 13:35:06,506: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:06,506: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:06.506838 ######
+2022-04-29 13:35:07,219: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:07,219: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:07.219490 ######
+2022-04-29 13:35:07,936: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:07,936: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:07.936914 ######
+2022-04-29 13:35:08,640: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:08,641: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:08.641039 ######
+2022-04-29 13:35:09,347: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:09,347: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:09.347489 ######
+2022-04-29 13:35:10,057: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:10,057: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:10.057858 ######
+2022-04-29 13:35:10,773: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:10,773: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:10.773789 ######
+2022-04-29 13:35:11,492: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:11,492: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:11.492472 ######
+2022-04-29 13:35:12,199: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:12,199: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:12.199541 ######
+2022-04-29 13:35:12,919: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:12,919: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:12.919587 ######
+2022-04-29 13:35:13,641: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:13,641: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:13.641408 ######
+2022-04-29 13:35:14,356: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:14,356: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:14.356921 ######
+2022-04-29 13:35:15,068: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:15,068: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:15.068245 ######
+2022-04-29 13:35:15,784: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:15,784: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:15.784349 ######
+2022-04-29 13:35:16,532: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:16,533: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:16.532986 ######
+2022-04-29 13:35:17,240: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:17,241: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:17.241142 ######
+2022-04-29 13:35:17,956: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:17,957: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:17.957085 ######
+2022-04-29 13:35:18,680: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:18,680: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:18.680283 ######
+2022-04-29 13:35:19,388: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:19,389: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:19.389115 ######
+2022-04-29 13:35:20,102: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:20,103: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:20.103018 ######
+2022-04-29 13:35:20,823: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:20,823: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:20.823938 ######
+2022-04-29 13:35:21,543: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:21,543: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:21.543346 ######
+2022-04-29 13:35:22,251: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:22,251: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:22.251400 ######
+2022-04-29 13:35:22,960: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:22,961: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:22.961048 ######
+2022-04-29 13:35:23,669: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:23,669: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:23.669167 ######
+2022-04-29 13:35:24,382: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:24,383: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:24.383160 ######
+2022-04-29 13:35:25,090: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:25,090: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:25.090361 ######
+2022-04-29 13:35:25,795: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:25,795: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:25.795971 ######
+2022-04-29 13:35:26,505: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:26,505: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:26.505525 ######
+2022-04-29 13:35:27,214: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:27,215: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:27.215160 ######
+2022-04-29 13:35:27,930: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:27,930: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:27.930494 ######
+2022-04-29 13:35:28,633: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:28,633: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:28.633542 ######
+2022-04-29 13:35:29,405: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:29,405: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:29.405643 ######
+2022-04-29 13:35:30,203: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:30,203: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:30.203222 ######
+2022-04-29 13:35:30,909: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:30,909: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:30.909644 ######
+2022-04-29 13:35:31,614: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:31,615: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:31.614988 ######
+2022-04-29 13:35:32,326: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:32,326: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:32.326598 ######
+2022-04-29 13:35:34,806: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:34,806: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:34.806177 ######
+2022-04-29 13:35:35,510: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:35,510: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:35.510425 ######
+2022-04-29 13:35:36,657: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:36,657: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:36.657613 ######
+2022-04-29 13:35:37,367: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:37,367: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:37.367892 ######
+2022-04-29 13:35:38,076: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:38,077: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:38.076997 ######
+2022-04-29 13:35:39,675: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:39,675: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:39.675455 ######
+2022-04-29 13:35:40,388: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:40,388: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:40.388218 ######
+2022-04-29 13:35:41,318: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:41,318: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:41.318873 ######
+2022-04-29 13:35:42,033: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:42,033: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:42.033278 ######
+2022-04-29 13:35:42,755: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:42,755: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:42.755614 ######
+2022-04-29 13:35:43,473: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:43,473: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:43.473675 ######
+2022-04-29 13:35:44,184: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:44,185: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:44.185003 ######
+2022-04-29 13:35:44,893: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:44,893: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:44.893233 ######
+2022-04-29 13:35:45,826: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:45,826: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:45.826584 ######
+2022-04-29 13:35:46,538: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:46,538: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:46.538787 ######
+2022-04-29 13:35:47,250: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:47,250: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:47.250909 ######
+2022-04-29 13:35:47,962: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:47,963: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:47.963120 ######
+2022-04-29 13:35:48,669: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:48,669: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:48.669224 ######
+2022-04-29 13:35:49,380: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:49,380: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:49.380959 ######
+2022-04-29 13:35:50,097: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:50,098: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:50.097976 ######
+2022-04-29 13:35:50,810: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:50,810: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:50.810859 ######
+2022-04-29 13:35:51,526: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:51,526: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:51.526357 ######
+2022-04-29 13:35:52,240: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:52,240: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:52.240670 ######
+2022-04-29 13:35:53,166: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:53,166: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:53.166469 ######
+2022-04-29 13:35:53,875: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:53,875: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:53.875468 ######
+2022-04-29 13:35:54,585: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:54,585: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:54.585975 ######
+2022-04-29 13:35:55,294: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:55,295: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:55.295084 ######
+2022-04-29 13:35:56,007: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:56,008: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:56.008097 ######
+2022-04-29 13:35:56,722: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:56,722: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:56.722823 ######
+2022-04-29 13:35:57,430: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:57,430: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:57.430946 ######
+2022-04-29 13:35:58,140: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:58,140: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:58.140423 ######
+2022-04-29 13:35:58,846: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:58,847: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:58.847153 ######
+2022-04-29 13:35:59,553: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:35:59,553: INFO: 
+
+###### Iteration at: 2022-04-29 13:35:59.553370 ######
+2022-04-29 13:36:00,488: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:00,488: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:00.488756 ######
+2022-04-29 13:36:01,197: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:01,198: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:01.197994 ######
+2022-04-29 13:36:01,909: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:01,909: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:01.909604 ######
+2022-04-29 13:36:02,619: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:02,619: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:02.619579 ######
+2022-04-29 13:36:03,777: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:03,777: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:03.777818 ######
+2022-04-29 13:36:04,490: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:04,490: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:04.490297 ######
+2022-04-29 13:36:05,205: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:05,205: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:05.205457 ######
+2022-04-29 13:36:05,914: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:05,915: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:05.915190 ######
+2022-04-29 13:36:06,846: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:06,847: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:06.847004 ######
+2022-04-29 13:36:07,552: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:07,553: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:07.553136 ######
+2022-04-29 13:36:08,262: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:08,262: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:08.262489 ######
+2022-04-29 13:36:08,969: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:08,970: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:08.970173 ######
+2022-04-29 13:36:09,704: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:09,704: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:09.704565 ######
+2022-04-29 13:36:10,417: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:10,417: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:10.417802 ######
+2022-04-29 13:36:11,133: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:11,133: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:11.133490 ######
+2022-04-29 13:36:11,842: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:11,842: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:11.842430 ######
+2022-04-29 13:36:12,774: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:12,774: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:12.774935 ######
+2022-04-29 13:36:13,485: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:13,485: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:13.485786 ######
+2022-04-29 13:36:14,197: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:14,197: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:14.197179 ######
+2022-04-29 13:36:14,902: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:14,902: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:14.902824 ######
+2022-04-29 13:36:15,611: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:15,612: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:15.612091 ######
+2022-04-29 13:36:16,326: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:16,326: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:16.326758 ######
+2022-04-29 13:36:17,040: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:17,040: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:17.040831 ######
+2022-04-29 13:36:17,751: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:17,751: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:17.751723 ######
+2022-04-29 13:36:18,462: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:18,462: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:18.462479 ######
+2022-04-29 13:36:19,170: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:19,170: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:19.170385 ######
+2022-04-29 13:36:19,878: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:19,878: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:19.878362 ######
+2022-04-29 13:36:20,587: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:20,587: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:20.587905 ######
+2022-04-29 13:36:21,294: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:21,295: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:21.295000 ######
+2022-04-29 13:36:22,002: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:22,002: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:22.002540 ######
+2022-04-29 13:36:22,709: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:22,710: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:22.709994 ######
+2022-04-29 13:36:23,420: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:23,420: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:23.420246 ######
+2022-04-29 13:36:24,121: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:24,122: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:24.122097 ######
+2022-04-29 13:36:24,830: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:24,831: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:24.831049 ######
+2022-04-29 13:36:25,543: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:25,543: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:25.543180 ######
+2022-04-29 13:36:26,477: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:26,477: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:26.477907 ######
+2022-04-29 13:36:27,182: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:27,183: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:27.183127 ######
+2022-04-29 13:36:27,892: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:27,893: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:27.893081 ######
+2022-04-29 13:36:28,823: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:28,824: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:28.824020 ######
+2022-04-29 13:36:29,533: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:29,533: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:29.533882 ######
+2022-04-29 13:36:30,461: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:30,462: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:30.462021 ######
+2022-04-29 13:36:31,171: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:31,171: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:31.171639 ######
+2022-04-29 13:36:32,987: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:32,987: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:32.987412 ######
+2022-04-29 13:36:34,582: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:34,582: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:34.582466 ######
+2022-04-29 13:36:35,959: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:35,960: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:35.960081 ######
+2022-04-29 13:36:36,897: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:36,897: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:36.897715 ######
+2022-04-29 13:36:38,504: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:38,504: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:38.504389 ######
+2022-04-29 13:36:39,217: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:39,217: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:39.217800 ######
+2022-04-29 13:36:40,156: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:40,156: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:40.156636 ######
+2022-04-29 13:36:40,869: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:40,869: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:40.869173 ######
+2022-04-29 13:36:41,804: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:41,804: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:41.804914 ######
+2022-04-29 13:36:42,521: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:42,521: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:42.521606 ######
+2022-04-29 13:36:43,241: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:43,241: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:43.241890 ######
+2022-04-29 13:36:44,177: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:44,177: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:44.177529 ######
+2022-04-29 13:36:44,892: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:44,892: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:44.892629 ######
+2022-04-29 13:36:45,830: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:45,830: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:45.830801 ######
+2022-04-29 13:36:46,546: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:46,547: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:46.547054 ######
+2022-04-29 13:36:47,264: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:47,264: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:47.264587 ######
+2022-04-29 13:36:48,194: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:48,195: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:48.195004 ######
+2022-04-29 13:36:48,911: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:48,911: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:48.911861 ######
+2022-04-29 13:36:49,622: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:49,623: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:49.622987 ######
+2022-04-29 13:36:50,334: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:50,334: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:50.334532 ######
+2022-04-29 13:36:51,047: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:51,047: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:51.047723 ######
+2022-04-29 13:36:51,755: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:51,755: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:51.755387 ######
+2022-04-29 13:36:52,694: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:52,694: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:52.694746 ######
+2022-04-29 13:36:53,407: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:53,407: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:53.407577 ######
+2022-04-29 13:36:54,121: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:54,121: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:54.121720 ######
+2022-04-29 13:36:54,832: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:54,832: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:54.832727 ######
+2022-04-29 13:36:55,545: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:55,545: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:55.545837 ######
+2022-04-29 13:36:56,256: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:56,257: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:56.257055 ######
+2022-04-29 13:36:56,967: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:56,967: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:56.967711 ######
+2022-04-29 13:36:57,901: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:57,901: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:57.901433 ######
+2022-04-29 13:36:58,615: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:58,615: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:58.615375 ######
+2022-04-29 13:36:59,329: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:36:59,329: INFO: 
+
+###### Iteration at: 2022-04-29 13:36:59.329678 ######
+2022-04-29 13:37:00,045: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:37:00,045: INFO: 
+
+###### Iteration at: 2022-04-29 13:37:00.045430 ######
+2022-04-29 13:37:00,757: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:37:00,757: INFO: 
+
+###### Iteration at: 2022-04-29 13:37:00.757221 ######
+2022-04-29 13:37:01,470: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:37:01,470: INFO: 
+
+###### Iteration at: 2022-04-29 13:37:01.470256 ######
+2022-04-29 13:37:02,176: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:37:02,176: INFO: 
+
+###### Iteration at: 2022-04-29 13:37:02.176877 ######
+2022-04-29 13:37:02,886: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:37:02,887: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-29 13:37:03,204: INFO: skip (no divergence detected)
+2022-04-29 13:37:03,204: INFO: 
+
+###### Iteration at: 2022-04-29 13:37:03.204932 ######
+2022-04-29 13:37:03,910: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:37:03,911: INFO: 
+
+###### Iteration at: 2022-04-29 13:37:03.911018 ######
+2022-04-29 13:37:04,840: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:37:04,841: INFO: 
+
+###### Iteration at: 2022-04-29 13:37:04.841097 ######
+2022-04-29 13:37:05,547: INFO: skip: last two candles are not in the same color!
+2022-04-29 13:37:05,547: INFO: 
+
+###### Iteration at: 2022-04-29 13:37:05.547553 ######
+2022-04-29 13:37:06,264: INFO: next steps: short (stochastic is verified)
+2022-04-29 13:37:06,265: INFO: next steps (Short): Verify div (condition 5 min verified)
