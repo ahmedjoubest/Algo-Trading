@@ -70,7 +70,7 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
         RSI_stoch_d = round(pta.stochrsi(HAdf_5mn['Close']).STOCHRSId_14_14_3_3, 2)
         RSI = round(pta.rsi(HAdf_5mn.Close, 14), 2)
 
-        # Save HA data: Needed for any debug
+        # Save last HA data: Needed for any debug
         try: HAdf_5mn.to_csv((str(datetime.now()) + ' Last_HA.csv').replace(":",";"))
         except Exception as e: print("I'm on the server man")
         # in the server:
