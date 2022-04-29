@@ -148,7 +148,7 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1, 
         Div = divergence_verificaiton(uncrossed_peaks_RSI,OB_or_OS,RSI,HAdf_5mn,currect_pic)
 
 
-        # 5 --- buy or sell
+        # 5 --- buy or selll
         if(Div):
             print("Div = True")
             logging.info("Div = True")
