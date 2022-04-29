@@ -74,9 +74,9 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1):
         RSI = round(pta.rsi(HAdf_5mn.Close, 14), 2)
 
         # Save HA data: Needed for any debug
-        try: HAdf_5mn.to_csv((str(datetime.now()) + ' Last_HA.csv').replace(":", ";"))
+        try: HAdf_5mn.to_csv('Last_HA.csv')
         except Exception as e: print("I'm on the server man")
-        try: HAdf_5mn.to_csv("/home/ec2-user/Algo-Trading/Backtest"+(str(datetime.now()) + ' Last_HA.csv').replace(":", ";"))
+        try: HAdf_5mn.to_csv('Last_HA.csv')
         except Exception as e: print("I'm Not on the server man")
 
         # 2 --- Verify if the stochastic is verified
