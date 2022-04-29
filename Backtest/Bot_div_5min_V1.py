@@ -165,7 +165,7 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1, 
                                                     type='LIMIT', quantity=qty,
                                                     price = round(HAdf_5mn.iloc[-1].Low,3) if (OB_or_OS == 0) else round(HAdf_5mn.iloc[-1].High,3))
 
-                # Verify if the entry order limit is filled
+                # Verify if the entry order limit is filled:
                 a = pd.DataFrame(client.futures_position_information())
                 a = a.loc[pd.to_numeric(a.entryPrice) > 0,]
                 t = datetime.now()
