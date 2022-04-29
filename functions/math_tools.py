@@ -73,9 +73,9 @@ def HA_transformation(DF):
     HAdf['Close'] = (DF['Open'] + DF['Close'] + DF['Low'] + DF['High']) / 4 # ignore error, just warning
     for i in range(len(DF)):
         if i == 0:
-            HAdf.iat[0, 0] = round(((DF['Open'].iloc[0] + DF['Close'].iloc[0]) / 2), 2)
+            HAdf.iat[0, 0] = round(((DF['Open'].iloc[0] + DF['Close'].iloc[0]) / 2), 4)
         else:
-            HAdf.iat[i, 0] = round(((HAdf.iat[i - 1, 0] + HAdf.iat[i - 1, 3]) / 2), 2)
+            HAdf.iat[i, 0] = round(((HAdf.iat[i - 1, 0] + HAdf.iat[i - 1, 3]) / 2), 4)
     HAdf['High'] = HAdf.loc[:, ['Open', 'Close']].join(DF['High']).max(axis=1)
     HAdf['Low'] = HAdf.loc[:, ['Open', 'Close']].join(DF['Low']).min(axis=1)
     return(HAdf)
@@ -138,6 +138,9 @@ def eliminate_last_pics_stocha_candles(OB_or_OS,peaks,HAdf_5mn,RSI_stoch_k):
         # short
         potential_pics = []
         for idx in peaks:
+            if idx == peaks[-1]:
+                potential_pics.append(idx)
+                break
             # Stochastic must be verified
             if (((RSI_stoch_k.iloc[[idx]] >= 65))[0]):
                 # At least 3 candles same color
@@ -159,6 +162,9 @@ def eliminate_last_pics_stocha_candles(OB_or_OS,peaks,HAdf_5mn,RSI_stoch_k):
         # long
         potential_pics = []
         for idx in peaks:
+            if idx == peaks[-1]:
+                potential_pics.append(idx)
+                break
             # Stochastic must be verified
             if (((RSI_stoch_k.iloc[[idx]] <= 35))[0]):
                 # At least 3 candles
@@ -179,6 +185,7 @@ def eliminate_last_pics_stocha_candles(OB_or_OS,peaks,HAdf_5mn,RSI_stoch_k):
 
 # --- 7 Function to eliminate peaks without divergence (must be reviewed)
 def divergence_verificaiton(uncrossed_peaks_RSI,OB_or_OS,RSI,HAdf_5mn,currect_pic):
+    global H_R, distance_2peaks
     Div = False
     for peak in uncrossed_peaks_RSI:
         if (OB_or_OS == 2):
@@ -190,6 +197,8 @@ def divergence_verificaiton(uncrossed_peaks_RSI,OB_or_OS,RSI,HAdf_5mn,currect_pi
                     Div = True
                     print("Hidden Div detected for 'Short' in: " + str(HAdf_5mn.iloc[[peak]].index))
                     logging.info("Hidden Div detected for 'Short' in: " + str(HAdf_5mn.iloc[[peak]].index))
+                    H_R = "H"
+                    distance_2peaks = (RSI.iloc[[currect_pic]].index - RSI.iloc[[peak]].index).seconds[0]/(60*60)
                     break
                 else:
                     continue
@@ -200,6 +209,8 @@ def divergence_verificaiton(uncrossed_peaks_RSI,OB_or_OS,RSI,HAdf_5mn,currect_pi
                     Div = True
                     print("Regular Div detected for 'Short' in: " + str(HAdf_5mn.iloc[[peak]].index))
                     logging.info("Regular Div detected for 'Short' in: " + str(HAdf_5mn.iloc[[peak]].index))
+                    H_R = "R"
+                    distance_2peaks = (RSI.iloc[[currect_pic]].index - RSI.iloc[[peak]].index).seconds[0]/(60*60)
                     break
                 else:
                     continue
@@ -212,6 +223,8 @@ def divergence_verificaiton(uncrossed_peaks_RSI,OB_or_OS,RSI,HAdf_5mn,currect_pi
                     Div = True
                     print("Hidden Div detected for 'Long' in: " + str(HAdf_5mn.iloc[[peak]].index))
                     logging.info("Hidden Div detected for 'Long' in: " + str(HAdf_5mn.iloc[[peak]].index))
+                    H_R = "H"
+                    distance_2peaks = (RSI.iloc[[currect_pic]].index - RSI.iloc[[peak]].index).seconds[0]/(60*60)
                     break
                 else:
                     continue
@@ -222,6 +235,8 @@ def divergence_verificaiton(uncrossed_peaks_RSI,OB_or_OS,RSI,HAdf_5mn,currect_pi
                     Div = True
                     print("Regular Div detected for 'Long' in: " + str(HAdf_5mn.iloc[[peak]].index))
                     logging.info("Regular Div detected for 'Long' in: " + str(HAdf_5mn.iloc[[peak]].index))
+                    H_R = "R"
+                    distance_2peaks = (RSI.iloc[[currect_pic]].index - RSI.iloc[[peak]].index).seconds[0]/(60*60)
                     break
                 else:
                     continue

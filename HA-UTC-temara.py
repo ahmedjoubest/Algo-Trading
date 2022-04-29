@@ -54,12 +54,12 @@ def HA_transformation(DF):
 HAdf = HA_transformation(df_1mn)
 
 # --- 5 plot
-fig2 = go.Figure(data=[go.Candlestick(x=HAdf.index,
-                open=HAdf.Open,
-                high=HAdf.High,
-                low=HAdf.Low,
-                close=HAdf.Close)])
-fig2.update_layout(yaxis_range = [14,16],
+fig2 = go.Figure(data=[go.Candlestick(x=HAdf_5mn.index,
+                open=HAdf_5mn.Open,
+                high=HAdf_5mn.High,
+                low=HAdf_5mn.Low,
+                close=HAdf_5mn.Close)])
+fig2.update_layout(yaxis_range = [14.6,14.9],
           title = 'Heikin Ashi Chart: Waves',
           xaxis_title = 'Date',
           yaxis_title = 'Price')
