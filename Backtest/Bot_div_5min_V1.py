@@ -78,6 +78,13 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1, 
     logging.info("\n\n\n\n\n\n\n")
     while(True):
 
+        # Cancel all open orders (this line is not mandatory but just in case!)
+        try:
+            client.futures_cancel_all_open_orders(symbol=symbol)
+        except Exception as e:
+            print(f'Problem in futures_cancel_all_open_orders, exception hya : {e}')
+            logging.info(f'Problem in futures_cancel_all_open_orders, exception hya : {e}')
+
         # 0 --- traceback
         print("\n\n"+"###### Iteration at: "+str(datetime.now())+" ######")
         logging.info("\n\n"+"###### Iteration at: "+str(datetime.now())+" ######")
@@ -228,13 +235,19 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1, 
                 try:
                     print("Still in position, time = " + str(datetime.now()))
                     logging.info("Still in position, time = " + str(datetime.now()))
-                    time.sleep(5)
+                    time.sleep(3)
                     a = pd.DataFrame(client.futures_position_information())
                     a = a.loc[pd.to_numeric(a.entryPrice) > 0,]
                 except Exception as e:
                     print(f'Problem in futures_position_information (inside the second while loop), exception hya : {e}')
                     logging.info(f'Problem in futures_position_information (inside the second while loop), exception hya : {e}')
 
+            # Cancel all open orders
+            try:
+                client.futures_cancel_all_open_orders(symbol=symbol)
+            except Exception as e:
+                print(f'Problem in futures_cancel_all_open_orders, exception hya : {e}')
+                logging.info(f'Problem in futures_cancel_all_open_orders, exception hya : {e}')
 
             #####################
             #### Write into another script!
@@ -296,12 +309,6 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1, 
                 print('(its a timeout case )')
                 logging.info('(its a timeout case)')
 
-            # Cancel all open orders
-            try:
-                client.futures_cancel_all_open_orders(symbol= symbol)
-            except Exception as e:
-                print(f'Problem in futures_cancel_all_open_orders, exception hya : {e}')
-                logging.info(f'Problem in futures_cancel_all_open_orders, exception hya : {e}')
         else:
             print("skip (no divergence detected)")
             logging.info("skip (no divergence detected)")
