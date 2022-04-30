@@ -62,7 +62,7 @@ levier = 1
 interval = "1m"
 
 
-def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1, tp=0.66, sl=0.59, interval = "5m", timeout_entry_seconds = 130):
+def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1, tp=0.66, sl=0.59, interval = "5m", timeout_entry_seconds = 155):
 
     print("\n\n\n\n\n\n\n")
     logging.info("\n\n\n\n\n\n\n")
@@ -91,7 +91,7 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1, 
 
         # 1 --- Get data and transform it to HA
         try:
-            df_5mn = getdata_min_ago(symbol, interval = interval, lookback= str(13*60))
+            df_5mn = getdata_min_ago(symbol, interval = interval, lookback= str(17*60))
         except Exception as e:
             print(f'Problem in reading data, exception hya : {e}')
             logging.info(f'Problem in reading data, exception hya : {e}')
@@ -317,7 +317,7 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1, 
 
 
 
-div_5min(symbol= "WAVESUSDT", tp = 0.22, sl = 0.2, interval= "1m")
+div_5min(levier = 3)
 
 
 # cancel order

@@ -8635,3 +8635,1082 @@
 2022-04-30 11:04:37,319: INFO: next steps: long (stochastic is verified)
 2022-04-30 11:04:43,749: INFO: next steps (Long): Verify div (condition 5 min verified)
 2022-04-30 11:18:46,934: INFO: Regular Div detected for 'Long' in: DatetimeIndex(['2022-04-30 08:29:00'], dtype='datetime64[ns]', name='Time', freq=None)
+2022-04-30 16:59:01,933: INFO: 
+
+
+
+
+
+
+
+2022-04-30 16:59:01,933: INFO: ##################################################################
+2022-04-30 16:59:01,933: INFO: ##################################################################
+2022-04-30 16:59:01,933: INFO: ##################################################################
+2022-04-30 16:59:01,933: INFO: ##################################################################
+2022-04-30 16:59:01,933: INFO: 
+
+
+
+
+
+
+
+2022-04-30 16:59:02,496: INFO: 
+
+###### Iteration at: 2022-04-30 16:59:02.496255 ######
+2022-04-30 16:59:04,406: INFO: next steps: long (stochastic is verified)
+2022-04-30 16:59:04,406: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 16:59:04,859: INFO: Regular Div detected for 'Long' in: DatetimeIndex(['2022-04-30 13:43:00'], dtype='datetime64[ns]', name='Time', freq=None)
+2022-04-30 16:59:04,875: INFO: Div = True
+2022-04-30 16:59:06,103: INFO: Waiting to fill the order, time = 2022-04-30 16:59:06.103181
+2022-04-30 16:59:09,411: INFO: Order filled! Time = 2022-04-30 16:59:09.411076
+2022-04-30 16:59:11,185: INFO: Still in position, time = 2022-04-30 16:59:11.185814
+2022-04-30 16:59:15,367: INFO: Still in position, time = 2022-04-30 16:59:15.367495
+2022-04-30 16:59:18,721: INFO: Still in position, time = 2022-04-30 16:59:18.721390
+2022-04-30 16:59:22,243: INFO: Still in position, time = 2022-04-30 16:59:22.243206
+2022-04-30 16:59:25,743: INFO: Still in position, time = 2022-04-30 16:59:25.743147
+2022-04-30 16:59:29,103: INFO: Still in position, time = 2022-04-30 16:59:29.103777
+2022-04-30 16:59:32,586: INFO: Still in position, time = 2022-04-30 16:59:32.586881
+2022-04-30 16:59:35,996: INFO: Still in position, time = 2022-04-30 16:59:35.996059
+2022-04-30 16:59:39,441: INFO: Still in position, time = 2022-04-30 16:59:39.441418
+2022-04-30 16:59:43,480: INFO: Still in position, time = 2022-04-30 16:59:43.480306
+2022-04-30 16:59:46,886: INFO: Still in position, time = 2022-04-30 16:59:46.886983
+2022-04-30 16:59:50,189: INFO: Still in position, time = 2022-04-30 16:59:50.189460
+2022-04-30 16:59:53,495: INFO: Still in position, time = 2022-04-30 16:59:53.495673
+2022-04-30 16:59:58,510: INFO: Still in position, time = 2022-04-30 16:59:58.510963
+2022-04-30 17:00:02,527: INFO: Still in position, time = 2022-04-30 17:00:02.527315
+2022-04-30 17:00:06,559: INFO: Still in position, time = 2022-04-30 17:00:06.559036
+2022-04-30 17:00:09,890: INFO: Still in position, time = 2022-04-30 17:00:09.890999
+2022-04-30 17:00:13,227: INFO: Still in position, time = 2022-04-30 17:00:13.227374
+2022-04-30 17:00:16,543: INFO: Still in position, time = 2022-04-30 17:00:16.543933
+2022-04-30 17:00:21,301: INFO: SL reached
+2022-04-30 17:02:08,854: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:08.854953 ######
+2022-04-30 17:02:10,311: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:10,616: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:10.616537 ######
+2022-04-30 17:02:11,951: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:12,244: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:12.244514 ######
+2022-04-30 17:02:15,733: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:16,814: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:16.814448 ######
+2022-04-30 17:02:18,760: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:19,737: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:19.737055 ######
+2022-04-30 17:02:22,734: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:23,206: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:23.206960 ######
+2022-04-30 17:02:24,907: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:25,216: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:25.216707 ######
+2022-04-30 17:02:26,849: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:27,137: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:27.137160 ######
+2022-04-30 17:02:30,228: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:30,577: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:30.577972 ######
+2022-04-30 17:02:31,768: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:32,145: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:32.145301 ######
+2022-04-30 17:02:33,844: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:34,143: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:34.143717 ######
+2022-04-30 17:02:36,429: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:36,734: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:36.734167 ######
+2022-04-30 17:02:38,653: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:38,936: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:38.936288 ######
+2022-04-30 17:02:40,401: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:40,702: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:40.702260 ######
+2022-04-30 17:02:42,072: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:42,422: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:42.422426 ######
+2022-04-30 17:02:43,814: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:44,097: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:44.097857 ######
+2022-04-30 17:02:46,030: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:46,330: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:46.330650 ######
+2022-04-30 17:02:47,582: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:47,894: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:47.894227 ######
+2022-04-30 17:02:49,227: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:49,538: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:49.538150 ######
+2022-04-30 17:02:50,918: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:51,217: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:51.217869 ######
+2022-04-30 17:02:52,376: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:52,666: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:52.650554 ######
+2022-04-30 17:02:54,150: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:54,443: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:54.443536 ######
+2022-04-30 17:02:56,618: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:56,930: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:56.930666 ######
+2022-04-30 17:02:58,470: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:02:58,832: INFO: 
+
+###### Iteration at: 2022-04-30 17:02:58.832626 ######
+2022-04-30 17:03:00,310: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:00,653: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:00.653698 ######
+2022-04-30 17:03:01,957: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:02,437: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:02.437926 ######
+2022-04-30 17:03:03,621: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:04,050: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:04.050972 ######
+2022-04-30 17:03:05,932: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:06,220: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:06.220663 ######
+2022-04-30 17:03:07,479: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:07,829: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:07.829730 ######
+2022-04-30 17:03:09,035: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:09,508: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:09.508309 ######
+2022-04-30 17:03:10,892: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:11,174: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:11.174145 ######
+2022-04-30 17:03:12,541: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:12,855: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:12.855404 ######
+2022-04-30 17:03:14,429: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:14,729: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:14.729393 ######
+2022-04-30 17:03:16,289: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:16,651: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:16.651583 ######
+2022-04-30 17:03:18,181: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:18,449: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:18.449824 ######
+2022-04-30 17:03:19,735: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:20,256: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:20.256270 ######
+2022-04-30 17:03:21,830: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:22,899: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:22.899357 ######
+2022-04-30 17:03:26,099: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:27,167: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:27.167292 ######
+2022-04-30 17:03:29,135: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:30,131: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:30.131865 ######
+2022-04-30 17:03:31,775: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:32,221: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:32.221761 ######
+2022-04-30 17:03:34,208: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:34,615: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:34.615356 ######
+2022-04-30 17:03:36,588: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:36,950: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:36.950667 ######
+2022-04-30 17:03:38,513: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:38,815: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:38.815809 ######
+2022-04-30 17:03:40,395: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:40,721: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:40.721734 ######
+2022-04-30 17:03:42,065: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:42,608: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:42.608582 ######
+2022-04-30 17:03:43,958: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:44,298: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:44.298725 ######
+2022-04-30 17:03:45,733: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:46,228: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:46.228190 ######
+2022-04-30 17:03:48,801: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:49,141: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:49.141335 ######
+2022-04-30 17:03:50,872: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:51,683: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:51.683376 ######
+2022-04-30 17:03:53,012: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:53,319: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:53.319042 ######
+2022-04-30 17:03:54,643: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:54,985: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:54.985091 ######
+2022-04-30 17:03:57,025: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:57,440: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:57.440666 ######
+2022-04-30 17:03:58,808: INFO: skip: last two candles are not in the same color!
+2022-04-30 17:03:59,340: INFO: 
+
+###### Iteration at: 2022-04-30 17:03:59.340128 ######
+2022-04-30 17:04:00,929: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:01,257: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:01.257707 ######
+2022-04-30 17:04:02,818: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:03,161: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:03.161142 ######
+2022-04-30 17:04:04,747: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:05,057: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:05.057807 ######
+2022-04-30 17:04:06,705: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:07,128: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:07.128015 ######
+2022-04-30 17:04:09,321: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:09,807: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:09.807626 ######
+2022-04-30 17:04:11,508: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:12,016: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:12.016567 ######
+2022-04-30 17:04:13,682: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:14,425: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:14.425115 ######
+2022-04-30 17:04:15,922: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:16,352: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:16.352206 ######
+2022-04-30 17:04:19,231: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:19,731: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:19.731708 ######
+2022-04-30 17:04:21,976: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:22,585: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:22.585724 ######
+2022-04-30 17:04:25,025: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:25,320: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:25.320607 ######
+2022-04-30 17:04:27,669: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:29,241: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:29.241121 ######
+2022-04-30 17:04:30,709: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:31,016: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:31.016636 ######
+2022-04-30 17:04:32,238: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:33,031: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:33.031124 ######
+2022-04-30 17:04:34,570: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:35,059: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:35.059735 ######
+2022-04-30 17:04:36,923: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:37,333: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:37.333966 ######
+2022-04-30 17:04:38,911: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:39,500: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:39.500429 ######
+2022-04-30 17:04:42,191: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:42,500: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:42.500159 ######
+2022-04-30 17:04:43,818: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:44,098: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:44.098388 ######
+2022-04-30 17:04:46,346: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:46,911: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:46.911608 ######
+2022-04-30 17:04:48,724: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:49,824: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:49.824275 ######
+2022-04-30 17:04:51,082: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:51,357: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:51.357085 ######
+2022-04-30 17:04:52,730: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:53,023: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:53.023589 ######
+2022-04-30 17:04:54,491: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:55,054: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:55.054278 ######
+2022-04-30 17:04:57,192: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:57,601: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:57.601849 ######
+2022-04-30 17:04:59,424: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:04:59,955: INFO: 
+
+###### Iteration at: 2022-04-30 17:04:59.955555 ######
+2022-04-30 17:05:01,502: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:05:01,827: INFO: 
+
+###### Iteration at: 2022-04-30 17:05:01.827452 ######
+2022-04-30 17:05:03,571: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:05:04,106: INFO: 
+
+###### Iteration at: 2022-04-30 17:05:04.106437 ######
+2022-04-30 17:05:05,664: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:05:05,942: INFO: 
+
+###### Iteration at: 2022-04-30 17:05:05.942247 ######
+2022-04-30 17:05:07,560: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:05:08,123: INFO: 
+
+###### Iteration at: 2022-04-30 17:05:08.123651 ######
+2022-04-30 17:05:09,906: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:05:10,176: INFO: 
+
+###### Iteration at: 2022-04-30 17:05:10.176969 ######
+2022-04-30 17:05:11,903: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:05:12,200: INFO: 
+
+###### Iteration at: 2022-04-30 17:05:12.200248 ######
+2022-04-30 17:05:14,185: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 17:05:14,560: INFO: 
+
+###### Iteration at: 2022-04-30 17:05:14.560037 ######
+2022-04-30 17:05:16,195: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:39:56,721: INFO: 
+
+
+
+
+
+
+
+2022-04-30 22:39:56,721: INFO: ##################################################################
+2022-04-30 22:39:56,721: INFO: ##################################################################
+2022-04-30 22:39:56,721: INFO: ##################################################################
+2022-04-30 22:39:56,721: INFO: ##################################################################
+2022-04-30 22:39:56,721: INFO: 
+
+
+
+
+
+
+
+2022-04-30 22:39:57,610: INFO: 
+
+###### Iteration at: 2022-04-30 22:39:57.610913 ######
+2022-04-30 22:40:09,708: INFO: 
+
+
+
+
+
+
+
+2022-04-30 22:40:09,708: INFO: ##################################################################
+2022-04-30 22:40:09,708: INFO: ##################################################################
+2022-04-30 22:40:09,708: INFO: ##################################################################
+2022-04-30 22:40:09,708: INFO: ##################################################################
+2022-04-30 22:40:09,708: INFO: 
+
+
+
+
+
+
+
+2022-04-30 22:40:12,239: INFO: 
+
+###### Iteration at: 2022-04-30 22:40:12.239342 ######
+2022-04-30 22:42:47,940: INFO: 
+
+
+
+
+
+
+
+2022-04-30 22:42:47,940: INFO: ##################################################################
+2022-04-30 22:42:47,940: INFO: ##################################################################
+2022-04-30 22:42:47,940: INFO: ##################################################################
+2022-04-30 22:42:47,940: INFO: ##################################################################
+2022-04-30 22:42:47,940: INFO: 
+
+
+
+
+
+
+
+2022-04-30 22:42:50,019: INFO: 
+
+###### Iteration at: 2022-04-30 22:42:50.019296 ######
+2022-04-30 22:42:51,831: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:42:52,956: INFO: 
+
+###### Iteration at: 2022-04-30 22:42:52.956784 ######
+2022-04-30 22:42:54,862: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:42:55,659: INFO: 
+
+###### Iteration at: 2022-04-30 22:42:55.659239 ######
+2022-04-30 22:42:57,862: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:42:58,737: INFO: 
+
+###### Iteration at: 2022-04-30 22:42:58.737345 ######
+2022-04-30 22:43:00,582: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:01,254: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:01.254483 ######
+2022-04-30 22:43:03,810: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:04,273: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:04.273841 ######
+2022-04-30 22:43:07,152: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:07,522: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:07.522586 ######
+2022-04-30 22:43:08,778: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:09,840: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:09.840691 ######
+2022-04-30 22:43:10,927: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:12,047: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:12.047887 ######
+2022-04-30 22:43:14,059: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:14,371: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:14.371280 ######
+2022-04-30 22:43:15,899: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:16,443: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:16.443282 ######
+2022-04-30 22:43:17,317: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:17,760: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:17.760873 ######
+2022-04-30 22:43:18,719: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:19,970: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:19.970148 ######
+2022-04-30 22:43:21,068: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:21,370: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:21.370393 ######
+2022-04-30 22:43:22,293: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:22,661: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:22.661759 ######
+2022-04-30 22:43:23,602: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:23,927: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:23.927375 ######
+2022-04-30 22:43:24,674: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:25,006: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:25.006525 ######
+2022-04-30 22:43:25,923: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:26,211: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:26.211358 ######
+2022-04-30 22:43:27,238: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:27,562: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:27.562158 ######
+2022-04-30 22:43:28,592: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:28,936: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:28.936929 ######
+2022-04-30 22:43:29,791: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:30,217: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:30.217098 ######
+2022-04-30 22:43:31,129: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:31,567: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:31.567724 ######
+2022-04-30 22:43:32,473: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:32,768: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:32.768453 ######
+2022-04-30 22:43:33,856: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:34,404: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:34.404014 ######
+2022-04-30 22:43:35,657: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:36,079: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:36.079778 ######
+2022-04-30 22:43:36,922: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:37,251: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:37.251679 ######
+2022-04-30 22:43:38,415: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:38,994: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:38.994049 ######
+2022-04-30 22:43:40,024: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:40,681: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:40.681574 ######
+2022-04-30 22:43:41,712: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:42,286: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:42.286988 ######
+2022-04-30 22:43:43,977: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:44,321: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:44.321603 ######
+2022-04-30 22:43:45,368: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:46,057: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:46.057843 ######
+2022-04-30 22:43:47,099: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:47,685: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:47.685596 ######
+2022-04-30 22:43:49,173: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:50,122: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:50.122605 ######
+2022-04-30 22:43:51,553: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:52,490: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:52.490368 ######
+2022-04-30 22:43:53,611: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:53,968: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:53.968794 ######
+2022-04-30 22:43:54,708: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:55,020: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:55.020937 ######
+2022-04-30 22:43:56,208: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:56,702: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:56.702183 ######
+2022-04-30 22:43:57,542: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:43:59,059: INFO: 
+
+###### Iteration at: 2022-04-30 22:43:59.059528 ######
+2022-04-30 22:44:00,919: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:01,415: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:01.415957 ######
+2022-04-30 22:44:03,520: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:04,795: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:04.795412 ######
+2022-04-30 22:44:06,382: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:07,233: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:07.233421 ######
+2022-04-30 22:44:08,324: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:08,824: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:08.824650 ######
+2022-04-30 22:44:09,881: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:10,366: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:10.366815 ######
+2022-04-30 22:44:11,696: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:12,552: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:12.552925 ######
+2022-04-30 22:44:13,457: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:13,769: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:13.769402 ######
+2022-04-30 22:44:14,689: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:15,042: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:15.042197 ######
+2022-04-30 22:44:16,112: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:16,415: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:16.415518 ######
+2022-04-30 22:44:17,155: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:17,704: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:17.704707 ######
+2022-04-30 22:44:18,734: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:19,377: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:19.377159 ######
+2022-04-30 22:44:20,175: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:20,551: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:20.551562 ######
+2022-04-30 22:44:21,443: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:22,060: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:22.060760 ######
+2022-04-30 22:44:23,084: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:23,482: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:23.482665 ######
+2022-04-30 22:44:24,360: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:24,691: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:24.691183 ######
+2022-04-30 22:44:25,696: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:25,990: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:25.990851 ######
+2022-04-30 22:44:27,020: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:27,331: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:27.331209 ######
+2022-04-30 22:44:28,746: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:29,329: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:29.329838 ######
+2022-04-30 22:44:30,491: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:30,833: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:30.833567 ######
+2022-04-30 22:44:31,885: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:32,336: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:32.336106 ######
+2022-04-30 22:44:33,999: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:34,595: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:34.595634 ######
+2022-04-30 22:44:35,535: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:35,947: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:35.947246 ######
+2022-04-30 22:44:36,738: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:37,050: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:37.050494 ######
+2022-04-30 22:44:37,827: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:38,314: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:38.314164 ######
+2022-04-30 22:44:39,527: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:40,069: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:40.069366 ######
+2022-04-30 22:44:40,885: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:41,455: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:41.455147 ######
+2022-04-30 22:44:42,402: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:42,727: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:42.727747 ######
+2022-04-30 22:44:43,907: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:44,325: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:44.325196 ######
+2022-04-30 22:44:45,493: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:45,824: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:45.824144 ######
+2022-04-30 22:44:47,719: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:48,024: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:48.024577 ######
+2022-04-30 22:44:48,896: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:49,310: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:49.310398 ######
+2022-04-30 22:44:50,298: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:50,602: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:50.602248 ######
+2022-04-30 22:44:51,588: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:51,923: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:51.923302 ######
+2022-04-30 22:44:53,382: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:53,723: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:53.723206 ######
+2022-04-30 22:44:54,972: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:56,354: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:56.354900 ######
+2022-04-30 22:44:58,662: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:44:59,079: INFO: 
+
+###### Iteration at: 2022-04-30 22:44:59.079368 ######
+2022-04-30 22:45:01,045: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:01,472: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:01.472019 ######
+2022-04-30 22:45:02,800: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:03,435: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:03.435476 ######
+2022-04-30 22:45:04,555: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:05,155: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:05.155905 ######
+2022-04-30 22:45:06,318: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:06,654: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:06.654366 ######
+2022-04-30 22:45:07,581: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:08,279: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:08.279146 ######
+2022-04-30 22:45:09,287: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:09,642: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:09.642242 ######
+2022-04-30 22:45:10,947: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:11,420: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:11.420921 ######
+2022-04-30 22:45:12,543: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:13,118: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:13.118826 ######
+2022-04-30 22:45:14,160: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:14,446: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:14.446915 ######
+2022-04-30 22:45:15,391: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:15,696: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:15.696480 ######
+2022-04-30 22:45:16,777: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:17,093: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:17.093421 ######
+2022-04-30 22:45:17,902: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:18,418: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:18.418952 ######
+2022-04-30 22:45:19,423: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:19,775: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:19.775501 ######
+2022-04-30 22:45:20,959: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:21,599: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:21.599502 ######
+2022-04-30 22:45:22,463: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:22,927: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:22.927499 ######
+2022-04-30 22:45:24,431: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:24,943: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:24.943719 ######
+2022-04-30 22:45:26,004: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:26,286: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:26.286147 ######
+2022-04-30 22:45:27,351: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:27,693: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:27.693398 ######
+2022-04-30 22:45:28,582: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:28,905: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:28.905977 ######
+2022-04-30 22:45:29,901: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:30,487: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:30.487014 ######
+2022-04-30 22:45:31,480: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:32,006: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:32.006106 ######
+2022-04-30 22:45:32,837: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:33,321: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:33.321054 ######
+2022-04-30 22:45:34,495: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:35,940: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:35.940575 ######
+2022-04-30 22:45:36,791: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:37,237: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:37.237136 ######
+2022-04-30 22:45:38,457: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:39,029: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:39.029926 ######
+2022-04-30 22:45:40,114: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:40,755: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:40.755502 ######
+2022-04-30 22:45:41,822: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:42,268: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:42.268548 ######
+2022-04-30 22:45:43,200: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:43,931: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:43.931269 ######
+2022-04-30 22:45:45,501: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:45,978: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:45.978760 ######
+2022-04-30 22:45:47,074: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:48,106: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:48.106074 ######
+2022-04-30 22:45:49,933: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:50,341: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:50.341838 ######
+2022-04-30 22:45:52,558: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:53,087: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:53.087721 ######
+2022-04-30 22:45:54,514: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:55,150: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:55.150098 ######
+2022-04-30 22:45:56,545: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:57,254: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:57.254488 ######
+2022-04-30 22:45:59,071: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:45:59,559: INFO: 
+
+###### Iteration at: 2022-04-30 22:45:59.559450 ######
+2022-04-30 22:46:00,417: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:00,709: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:00.709022 ######
+2022-04-30 22:46:01,705: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:02,048: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:02.048983 ######
+2022-04-30 22:46:02,949: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:03,261: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:03.261524 ######
+2022-04-30 22:46:04,230: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:04,574: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:04.574035 ######
+2022-04-30 22:46:05,574: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:06,120: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:06.120899 ######
+2022-04-30 22:46:07,421: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:07,781: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:07.781888 ######
+2022-04-30 22:46:09,108: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:09,624: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:09.624376 ######
+2022-04-30 22:46:11,301: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:11,721: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:11.721156 ######
+2022-04-30 22:46:12,687: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:13,170: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:13.170396 ######
+2022-04-30 22:46:14,487: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:14,949: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:14.949313 ######
+2022-04-30 22:46:15,937: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:16,449: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:16.449308 ######
+2022-04-30 22:46:17,409: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:17,873: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:17.873294 ######
+2022-04-30 22:46:18,865: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:19,225: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:19.225305 ######
+2022-04-30 22:46:20,169: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:20,449: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:20.449293 ######
+2022-04-30 22:46:21,409: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:21,697: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:21.697299 ######
+2022-04-30 22:46:22,433: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:22,737: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:22.737297 ######
+2022-04-30 22:46:23,601: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:23,945: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:23.945297 ######
+2022-04-30 22:46:24,977: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:25,329: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:25.329296 ######
+2022-04-30 22:46:26,326: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:26,591: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:26.591949 ######
+2022-04-30 22:46:27,779: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:28,387: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:28.387220 ######
+2022-04-30 22:46:29,323: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:29,622: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:29.622618 ######
+2022-04-30 22:46:30,501: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:30,968: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:30.968549 ######
+2022-04-30 22:46:31,914: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:32,248: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:32.248304 ######
+2022-04-30 22:46:33,107: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:33,412: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:33.412177 ######
+2022-04-30 22:46:34,322: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:34,993: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:34.993554 ######
+2022-04-30 22:46:35,912: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:36,812: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:36.812415 ######
+2022-04-30 22:46:37,785: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:38,103: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:38.103862 ######
+2022-04-30 22:46:39,168: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:39,785: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:39.785013 ######
+2022-04-30 22:46:40,617: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:41,100: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:41.100257 ######
+2022-04-30 22:46:41,891: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:42,416: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:42.416101 ######
+2022-04-30 22:46:44,549: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:45,083: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:45.083946 ######
+2022-04-30 22:46:46,059: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:46,353: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:46.353189 ######
+2022-04-30 22:46:47,344: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:47,653: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:47.653590 ######
+2022-04-30 22:46:50,011: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:50,317: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:50.317999 ######
+2022-04-30 22:46:52,331: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:53,013: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:53.013420 ######
+2022-04-30 22:46:54,082: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:54,686: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:54.686870 ######
+2022-04-30 22:46:55,908: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:56,319: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:56.319357 ######
+2022-04-30 22:46:57,859: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:46:58,280: INFO: 
+
+###### Iteration at: 2022-04-30 22:46:58.280571 ######
+2022-04-30 22:46:59,793: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:47:00,119: INFO: 
+
+###### Iteration at: 2022-04-30 22:47:00.119313 ######
+2022-04-30 22:47:00,993: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:47:01,385: INFO: 
+
+###### Iteration at: 2022-04-30 22:47:01.385107 ######
+2022-04-30 22:47:02,259: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:47:02,731: INFO: 
+
+###### Iteration at: 2022-04-30 22:47:02.731168 ######
+2022-04-30 22:47:03,683: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:47:03,979: INFO: 
+
+###### Iteration at: 2022-04-30 22:47:03.979165 ######
+2022-04-30 22:47:04,904: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:47:05,295: INFO: 
+
+###### Iteration at: 2022-04-30 22:47:05.295343 ######
+2022-04-30 22:47:06,080: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:47:06,377: INFO: 
+
+###### Iteration at: 2022-04-30 22:47:06.377420 ######
+2022-04-30 22:47:07,256: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:47:07,585: INFO: 
+
+###### Iteration at: 2022-04-30 22:47:07.585062 ######
+2022-04-30 22:47:08,516: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 22:47:09,016: INFO: 
+
+###### Iteration at: 2022-04-30 22:47:09.016076 ######
+2022-04-30 22:47:09,788: INFO: skip: step 2 (stochastic not verified)
