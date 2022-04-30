@@ -22,8 +22,10 @@ def add_1rowDF_to_GS(df,sheet_name="tracking"):
     i = 1 # redha kber men 1 wla lqa chi tariqa hsn mn hadi a sat 
     while my_gs.cell(i,1).value is not None:
         i=i+1
+        time.sleep(1)
         # it will need sys.sleep with big amount of rows! (1 second dayr f lvidéo)
     for j in range(1, 1 + len(df.count())):
+        time.sleep(1)
         my_gs.update_cell(i,j,df.iloc[0,j-1])
         # it will need sys.sleep with big amount of rows & columns!
 
