@@ -73166,3 +73166,1478 @@
 ###### Iteration at: 2022-04-30 08:08:00.037241 ######
 2022-04-30 08:08:06,013: INFO: next steps: short (stochastic is verified)
 2022-04-30 08:08:06,091: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:08:14,523: INFO: skip (no divergence detected)
+2022-04-30 08:08:14,523: INFO: 
+
+###### Iteration at: 2022-04-30 08:08:14.523836 ######
+2022-04-30 08:08:22,587: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:08:22,589: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:08:31,265: INFO: skip (no divergence detected)
+2022-04-30 08:08:31,265: INFO: 
+
+###### Iteration at: 2022-04-30 08:08:31.265569 ######
+2022-04-30 08:08:37,195: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:08:37,273: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:08:44,259: INFO: skip (no divergence detected)
+2022-04-30 08:08:44,260: INFO: 
+
+###### Iteration at: 2022-04-30 08:08:44.260097 ######
+2022-04-30 08:08:50,119: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:08:50,201: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:08:57,021: INFO: skip (no divergence detected)
+2022-04-30 08:08:57,021: INFO: 
+
+###### Iteration at: 2022-04-30 08:08:57.021788 ######
+2022-04-30 08:09:03,295: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:09:03,373: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:09:10,766: INFO: skip (no divergence detected)
+2022-04-30 08:09:10,766: INFO: 
+
+###### Iteration at: 2022-04-30 08:09:10.766522 ######
+2022-04-30 08:09:16,503: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:09:16,580: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:09:23,494: INFO: skip (no divergence detected)
+2022-04-30 08:09:23,494: INFO: 
+
+###### Iteration at: 2022-04-30 08:09:23.494378 ######
+2022-04-30 08:09:29,374: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:09:29,537: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:09:37,085: INFO: skip (no divergence detected)
+2022-04-30 08:09:37,085: INFO: 
+
+###### Iteration at: 2022-04-30 08:09:37.085767 ######
+2022-04-30 08:09:42,975: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:09:43,052: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:09:50,197: INFO: skip (no divergence detected)
+2022-04-30 08:09:50,197: INFO: 
+
+###### Iteration at: 2022-04-30 08:09:50.197894 ######
+2022-04-30 08:09:56,125: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:09:56,127: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:09:56,127: INFO: 
+
+###### Iteration at: 2022-04-30 08:09:56.127142 ######
+2022-04-30 08:10:02,535: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:10:02,537: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:10:02,537: INFO: 
+
+###### Iteration at: 2022-04-30 08:10:02.537433 ######
+2022-04-30 08:10:07,029: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:10:07,030: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:10:07,355: INFO: skip (no divergence detected)
+2022-04-30 08:10:07,356: INFO: 
+
+###### Iteration at: 2022-04-30 08:10:07.356064 ######
+2022-04-30 08:10:08,953: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:10:08,954: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:10:09,279: INFO: skip (no divergence detected)
+2022-04-30 08:10:09,279: INFO: 
+
+###### Iteration at: 2022-04-30 08:10:09.279884 ######
+2022-04-30 08:10:10,887: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:10:10,888: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:10:11,213: INFO: skip (no divergence detected)
+2022-04-30 08:10:11,213: INFO: 
+
+###### Iteration at: 2022-04-30 08:10:11.213637 ######
+2022-04-30 08:10:11,930: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:10:11,931: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:10:12,386: INFO: skip (no divergence detected)
+2022-04-30 08:10:12,387: INFO: 
+
+###### Iteration at: 2022-04-30 08:10:12.387030 ######
+2022-04-30 08:10:13,433: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:10:13,434: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:10:13,898: INFO: skip (no divergence detected)
+2022-04-30 08:10:13,898: INFO: 
+
+###### Iteration at: 2022-04-30 08:10:13.898703 ######
+2022-04-30 08:10:14,731: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:10:14,732: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:10:15,204: INFO: skip (no divergence detected)
+2022-04-30 08:10:15,204: INFO: 
+
+###### Iteration at: 2022-04-30 08:10:15.204680 ######
+2022-04-30 08:10:16,911: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:10:16,912: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:10:17,757: INFO: skip (no divergence detected)
+2022-04-30 08:10:17,757: INFO: 
+
+###### Iteration at: 2022-04-30 08:10:17.757226 ######
+2022-04-30 08:10:18,893: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:10:18,894: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:10:19,786: INFO: skip (no divergence detected)
+2022-04-30 08:10:19,786: INFO: 
+
+###### Iteration at: 2022-04-30 08:10:19.786387 ######
+2022-04-30 08:10:20,924: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:10:20,925: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:10:21,796: INFO: skip (no divergence detected)
+2022-04-30 08:10:21,796: INFO: 
+
+###### Iteration at: 2022-04-30 08:10:21.796700 ######
+2022-04-30 08:10:27,420: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:10:27,498: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:10:34,404: INFO: skip (no divergence detected)
+2022-04-30 08:10:34,404: INFO: 
+
+###### Iteration at: 2022-04-30 08:10:34.404427 ######
+2022-04-30 08:10:41,208: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:10:41,210: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:10:48,193: INFO: skip (no divergence detected)
+2022-04-30 08:10:48,193: INFO: 
+
+###### Iteration at: 2022-04-30 08:10:48.193464 ######
+2022-04-30 08:10:54,261: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:10:54,262: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:11:01,257: INFO: skip (no divergence detected)
+2022-04-30 08:11:01,258: INFO: 
+
+###### Iteration at: 2022-04-30 08:11:01.258022 ######
+2022-04-30 08:11:07,457: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:11:07,458: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:11:14,442: INFO: skip (no divergence detected)
+2022-04-30 08:11:14,442: INFO: 
+
+###### Iteration at: 2022-04-30 08:11:14.442626 ######
+2022-04-30 08:11:20,335: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:11:20,336: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:11:20,337: INFO: 
+
+###### Iteration at: 2022-04-30 08:11:20.337053 ######
+2022-04-30 08:11:26,061: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:11:26,139: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:11:26,139: INFO: 
+
+###### Iteration at: 2022-04-30 08:11:26.139200 ######
+2022-04-30 08:11:31,976: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:11:32,058: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:11:32,058: INFO: 
+
+###### Iteration at: 2022-04-30 08:11:32.058259 ######
+2022-04-30 08:11:38,004: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:11:38,005: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:11:38,005: INFO: 
+
+###### Iteration at: 2022-04-30 08:11:38.005696 ######
+2022-04-30 08:11:44,114: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:11:44,116: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:11:44,196: INFO: 
+
+###### Iteration at: 2022-04-30 08:11:44.196490 ######
+2022-04-30 08:11:51,737: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:11:51,815: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:11:51,815: INFO: 
+
+###### Iteration at: 2022-04-30 08:11:51.815678 ######
+2022-04-30 08:11:57,720: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:11:57,721: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:11:57,721: INFO: 
+
+###### Iteration at: 2022-04-30 08:11:57.721707 ######
+2022-04-30 08:12:03,870: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:12:03,871: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:12:03,871: INFO: 
+
+###### Iteration at: 2022-04-30 08:12:03.871910 ######
+2022-04-30 08:12:09,848: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:12:09,850: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:12:17,080: INFO: skip (no divergence detected)
+2022-04-30 08:12:17,080: INFO: 
+
+###### Iteration at: 2022-04-30 08:12:17.080831 ######
+2022-04-30 08:12:23,037: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:12:23,038: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:12:30,825: INFO: skip (no divergence detected)
+2022-04-30 08:12:30,825: INFO: 
+
+###### Iteration at: 2022-04-30 08:12:30.825730 ######
+2022-04-30 08:12:37,006: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:12:37,008: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:12:44,474: INFO: skip (no divergence detected)
+2022-04-30 08:12:44,474: INFO: 
+
+###### Iteration at: 2022-04-30 08:12:44.474964 ######
+2022-04-30 08:12:52,246: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:12:52,324: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:13:00,288: INFO: skip (no divergence detected)
+2022-04-30 08:13:00,288: INFO: 
+
+###### Iteration at: 2022-04-30 08:13:00.288848 ######
+2022-04-30 08:13:06,455: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:13:06,533: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:13:13,600: INFO: skip (no divergence detected)
+2022-04-30 08:13:13,600: INFO: 
+
+###### Iteration at: 2022-04-30 08:13:13.600536 ######
+2022-04-30 08:13:19,551: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:13:19,552: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:13:27,181: INFO: skip (no divergence detected)
+2022-04-30 08:13:27,182: INFO: 
+
+###### Iteration at: 2022-04-30 08:13:27.182118 ######
+2022-04-30 08:13:33,529: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:13:33,530: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:13:41,410: INFO: skip (no divergence detected)
+2022-04-30 08:13:41,410: INFO: 
+
+###### Iteration at: 2022-04-30 08:13:41.410845 ######
+2022-04-30 08:13:47,615: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:13:47,693: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:13:55,160: INFO: skip (no divergence detected)
+2022-04-30 08:13:55,160: INFO: 
+
+###### Iteration at: 2022-04-30 08:13:55.160894 ######
+2022-04-30 08:14:01,092: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:14:01,093: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:14:08,805: INFO: skip (no divergence detected)
+2022-04-30 08:14:08,805: INFO: 
+
+###### Iteration at: 2022-04-30 08:14:08.805687 ######
+2022-04-30 08:14:15,905: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:14:15,905: INFO: 
+
+###### Iteration at: 2022-04-30 08:14:15.905869 ######
+2022-04-30 08:14:22,747: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:14:22,747: INFO: 
+
+###### Iteration at: 2022-04-30 08:14:22.747299 ######
+2022-04-30 08:14:28,597: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:14:28,597: INFO: 
+
+###### Iteration at: 2022-04-30 08:14:28.597441 ######
+2022-04-30 08:14:34,424: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:14:34,424: INFO: 
+
+###### Iteration at: 2022-04-30 08:14:34.424274 ######
+2022-04-30 08:14:40,165: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:14:40,165: INFO: 
+
+###### Iteration at: 2022-04-30 08:14:40.165492 ######
+2022-04-30 08:14:47,119: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:14:47,119: INFO: 
+
+###### Iteration at: 2022-04-30 08:14:47.119814 ######
+2022-04-30 08:14:53,126: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:14:53,126: INFO: 
+
+###### Iteration at: 2022-04-30 08:14:53.126598 ######
+2022-04-30 08:14:58,816: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:14:58,816: INFO: 
+
+###### Iteration at: 2022-04-30 08:14:58.816869 ######
+2022-04-30 08:15:05,044: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:15:05,044: INFO: 
+
+###### Iteration at: 2022-04-30 08:15:05.044721 ######
+2022-04-30 08:15:10,990: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:15:10,990: INFO: 
+
+###### Iteration at: 2022-04-30 08:15:10.990745 ######
+2022-04-30 08:15:16,822: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:15:16,822: INFO: 
+
+###### Iteration at: 2022-04-30 08:15:16.822367 ######
+2022-04-30 08:15:23,548: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:15:23,549: INFO: 
+
+###### Iteration at: 2022-04-30 08:15:23.549012 ######
+2022-04-30 08:15:29,585: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:15:29,585: INFO: 
+
+###### Iteration at: 2022-04-30 08:15:29.585572 ######
+2022-04-30 08:15:36,214: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:15:36,214: INFO: 
+
+###### Iteration at: 2022-04-30 08:15:36.214601 ######
+2022-04-30 08:15:43,861: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:15:43,861: INFO: 
+
+###### Iteration at: 2022-04-30 08:15:43.861713 ######
+2022-04-30 08:15:50,232: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:15:50,232: INFO: 
+
+###### Iteration at: 2022-04-30 08:15:50.232647 ######
+2022-04-30 08:15:56,185: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:15:56,186: INFO: 
+
+###### Iteration at: 2022-04-30 08:15:56.186105 ######
+2022-04-30 08:16:02,192: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:16:02,192: INFO: 
+
+###### Iteration at: 2022-04-30 08:16:02.192587 ######
+2022-04-30 08:16:08,399: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:16:08,399: INFO: 
+
+###### Iteration at: 2022-04-30 08:16:08.399517 ######
+2022-04-30 08:16:14,717: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:16:14,717: INFO: 
+
+###### Iteration at: 2022-04-30 08:16:14.717516 ######
+2022-04-30 08:16:20,925: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:16:20,925: INFO: 
+
+###### Iteration at: 2022-04-30 08:16:20.925222 ######
+2022-04-30 08:16:26,851: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:16:26,852: INFO: 
+
+###### Iteration at: 2022-04-30 08:16:26.851988 ######
+2022-04-30 08:16:33,469: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:16:33,470: INFO: 
+
+###### Iteration at: 2022-04-30 08:16:33.470068 ######
+2022-04-30 08:16:39,150: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:16:39,150: INFO: 
+
+###### Iteration at: 2022-04-30 08:16:39.150363 ######
+2022-04-30 08:16:45,698: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:16:45,698: INFO: 
+
+###### Iteration at: 2022-04-30 08:16:45.698488 ######
+2022-04-30 08:16:51,815: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:16:51,815: INFO: 
+
+###### Iteration at: 2022-04-30 08:16:51.815792 ######
+2022-04-30 08:16:58,477: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:16:58,477: INFO: 
+
+###### Iteration at: 2022-04-30 08:16:58.477944 ######
+2022-04-30 08:17:04,485: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:17:04,485: INFO: 
+
+###### Iteration at: 2022-04-30 08:17:04.485302 ######
+2022-04-30 08:17:10,531: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:17:10,531: INFO: 
+
+###### Iteration at: 2022-04-30 08:17:10.531697 ######
+2022-04-30 08:17:16,641: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:17:16,641: INFO: 
+
+###### Iteration at: 2022-04-30 08:17:16.641474 ######
+2022-04-30 08:17:22,630: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:17:22,630: INFO: 
+
+###### Iteration at: 2022-04-30 08:17:22.630907 ######
+2022-04-30 08:17:30,245: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:17:30,246: INFO: 
+
+###### Iteration at: 2022-04-30 08:17:30.245980 ######
+2022-04-30 08:17:36,557: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:17:36,557: INFO: 
+
+###### Iteration at: 2022-04-30 08:17:36.557849 ######
+2022-04-30 08:17:43,524: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:17:43,525: INFO: 
+
+###### Iteration at: 2022-04-30 08:17:43.525112 ######
+2022-04-30 08:17:49,714: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:17:49,715: INFO: 
+
+###### Iteration at: 2022-04-30 08:17:49.715010 ######
+2022-04-30 08:17:55,767: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:17:55,767: INFO: 
+
+###### Iteration at: 2022-04-30 08:17:55.767694 ######
+2022-04-30 08:18:01,679: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:18:01,679: INFO: 
+
+###### Iteration at: 2022-04-30 08:18:01.679534 ######
+2022-04-30 08:18:07,800: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:18:07,801: INFO: 
+
+###### Iteration at: 2022-04-30 08:18:07.801016 ######
+2022-04-30 08:18:14,592: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:18:14,592: INFO: 
+
+###### Iteration at: 2022-04-30 08:18:14.592393 ######
+2022-04-30 08:18:20,810: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:18:20,810: INFO: 
+
+###### Iteration at: 2022-04-30 08:18:20.810587 ######
+2022-04-30 08:18:27,615: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:18:27,615: INFO: 
+
+###### Iteration at: 2022-04-30 08:18:27.615369 ######
+2022-04-30 08:18:33,530: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:18:33,530: INFO: 
+
+###### Iteration at: 2022-04-30 08:18:33.530590 ######
+2022-04-30 08:18:39,399: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:18:39,399: INFO: 
+
+###### Iteration at: 2022-04-30 08:18:39.399547 ######
+2022-04-30 08:18:45,200: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:18:45,200: INFO: 
+
+###### Iteration at: 2022-04-30 08:18:45.200210 ######
+2022-04-30 08:18:52,513: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:18:52,513: INFO: 
+
+###### Iteration at: 2022-04-30 08:18:52.513309 ######
+2022-04-30 08:18:58,818: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:18:58,819: INFO: 
+
+###### Iteration at: 2022-04-30 08:18:58.819040 ######
+2022-04-30 08:19:04,877: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:19:04,877: INFO: 
+
+###### Iteration at: 2022-04-30 08:19:04.877921 ######
+2022-04-30 08:19:11,062: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:19:11,134: INFO: 
+
+###### Iteration at: 2022-04-30 08:19:11.062556 ######
+2022-04-30 08:19:18,612: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:19:18,612: INFO: 
+
+###### Iteration at: 2022-04-30 08:19:18.612691 ######
+2022-04-30 08:19:26,049: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:19:26,049: INFO: 
+
+###### Iteration at: 2022-04-30 08:19:26.049598 ######
+2022-04-30 08:19:31,894: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:19:31,970: INFO: 
+
+###### Iteration at: 2022-04-30 08:19:31.894422 ######
+2022-04-30 08:19:37,895: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:19:37,896: INFO: 
+
+###### Iteration at: 2022-04-30 08:19:37.896018 ######
+2022-04-30 08:19:43,854: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:19:43,854: INFO: 
+
+###### Iteration at: 2022-04-30 08:19:43.854586 ######
+2022-04-30 08:19:49,837: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:19:49,910: INFO: 
+
+###### Iteration at: 2022-04-30 08:19:49.838095 ######
+2022-04-30 08:19:56,100: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:19:56,100: INFO: 
+
+###### Iteration at: 2022-04-30 08:19:56.100780 ######
+2022-04-30 08:20:03,965: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:20:03,966: INFO: 
+
+###### Iteration at: 2022-04-30 08:20:03.966047 ######
+2022-04-30 08:20:09,899: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:20:09,899: INFO: 
+
+###### Iteration at: 2022-04-30 08:20:09.899446 ######
+2022-04-30 08:20:16,096: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:20:16,096: INFO: 
+
+###### Iteration at: 2022-04-30 08:20:16.096672 ######
+2022-04-30 08:20:22,180: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:20:22,180: INFO: 
+
+###### Iteration at: 2022-04-30 08:20:22.180306 ######
+2022-04-30 08:20:28,302: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:20:28,302: INFO: 
+
+###### Iteration at: 2022-04-30 08:20:28.302890 ######
+2022-04-30 08:20:34,372: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:20:34,373: INFO: 
+
+###### Iteration at: 2022-04-30 08:20:34.373075 ######
+2022-04-30 08:20:41,251: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:20:41,252: INFO: 
+
+###### Iteration at: 2022-04-30 08:20:41.252110 ######
+2022-04-30 08:20:48,956: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:20:48,956: INFO: 
+
+###### Iteration at: 2022-04-30 08:20:48.956242 ######
+2022-04-30 08:20:55,446: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:20:55,446: INFO: 
+
+###### Iteration at: 2022-04-30 08:20:55.446300 ######
+2022-04-30 08:21:01,552: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:21:01,628: INFO: 
+
+###### Iteration at: 2022-04-30 08:21:01.628584 ######
+2022-04-30 08:21:07,874: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:21:07,874: INFO: 
+
+###### Iteration at: 2022-04-30 08:21:07.874782 ######
+2022-04-30 08:21:14,958: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:21:15,036: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:21:21,618: INFO: skip (no divergence detected)
+2022-04-30 08:21:21,618: INFO: 
+
+###### Iteration at: 2022-04-30 08:21:21.618664 ######
+2022-04-30 08:21:27,999: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:21:28,001: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:21:34,508: INFO: skip (no divergence detected)
+2022-04-30 08:21:34,508: INFO: 
+
+###### Iteration at: 2022-04-30 08:21:34.508351 ######
+2022-04-30 08:21:40,634: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:21:40,635: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:21:46,656: INFO: skip (no divergence detected)
+2022-04-30 08:21:46,656: INFO: 
+
+###### Iteration at: 2022-04-30 08:21:46.656575 ######
+2022-04-30 08:21:52,611: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:21:52,612: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:21:58,873: INFO: skip (no divergence detected)
+2022-04-30 08:21:58,873: INFO: 
+
+###### Iteration at: 2022-04-30 08:21:58.873750 ######
+2022-04-30 08:22:05,003: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:22:05,004: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:22:05,004: INFO: 
+
+###### Iteration at: 2022-04-30 08:22:05.004836 ######
+2022-04-30 08:22:11,094: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:22:11,176: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:22:17,751: INFO: skip (no divergence detected)
+2022-04-30 08:22:17,751: INFO: 
+
+###### Iteration at: 2022-04-30 08:22:17.751338 ######
+2022-04-30 08:22:24,594: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:22:24,672: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:22:31,340: INFO: skip (no divergence detected)
+2022-04-30 08:22:31,340: INFO: 
+
+###### Iteration at: 2022-04-30 08:22:31.340520 ######
+2022-04-30 08:22:37,394: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:22:37,396: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:22:37,396: INFO: 
+
+###### Iteration at: 2022-04-30 08:22:37.396410 ######
+2022-04-30 08:22:44,273: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:22:44,351: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:22:44,351: INFO: 
+
+###### Iteration at: 2022-04-30 08:22:44.351410 ######
+2022-04-30 08:22:51,833: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:22:51,907: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:22:51,907: INFO: 
+
+###### Iteration at: 2022-04-30 08:22:51.907674 ######
+2022-04-30 08:22:58,216: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:22:58,295: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:22:58,295: INFO: 
+
+###### Iteration at: 2022-04-30 08:22:58.295180 ######
+2022-04-30 08:23:04,206: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:23:04,207: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:23:04,207: INFO: 
+
+###### Iteration at: 2022-04-30 08:23:04.207799 ######
+2022-04-30 08:23:10,224: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:23:10,302: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:23:17,043: INFO: Regular Div detected for 'Long' in: DatetimeIndex(['2022-04-30 07:55:00'], dtype='datetime64[ns]', name='Time', freq=None)
+2022-04-30 08:23:17,044: INFO: Div = True
+2022-04-30 08:23:18,818: INFO: Order filled! Time = 2022-04-30 08:23:18.818542
+2022-04-30 08:23:20,899: INFO: Still in position, time = 2022-04-30 08:23:20.899249
+2022-04-30 08:23:26,188: INFO: Still in position, time = 2022-04-30 08:23:26.140111
+2022-04-30 08:23:32,263: INFO: SL reached
+2022-04-30 08:23:51,607: INFO: 
+
+###### Iteration at: 2022-04-30 08:23:51.607957 ######
+2022-04-30 08:23:57,504: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:23:57,505: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:23:57,505: INFO: 
+
+###### Iteration at: 2022-04-30 08:23:57.505577 ######
+2022-04-30 08:24:03,867: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:24:03,869: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:24:03,869: INFO: 
+
+###### Iteration at: 2022-04-30 08:24:03.869193 ######
+2022-04-30 08:24:09,982: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:24:10,060: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:24:16,890: INFO: skip (no divergence detected)
+2022-04-30 08:24:16,890: INFO: 
+
+###### Iteration at: 2022-04-30 08:24:16.890868 ######
+2022-04-30 08:24:22,891: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:24:22,892: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:24:29,555: INFO: skip (no divergence detected)
+2022-04-30 08:24:29,631: INFO: 
+
+###### Iteration at: 2022-04-30 08:24:29.631910 ######
+2022-04-30 08:24:35,593: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:24:35,594: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:24:43,302: INFO: skip (no divergence detected)
+2022-04-30 08:24:43,302: INFO: 
+
+###### Iteration at: 2022-04-30 08:24:43.302945 ######
+2022-04-30 08:24:49,429: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:24:49,507: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:24:56,823: INFO: skip (no divergence detected)
+2022-04-30 08:24:56,823: INFO: 
+
+###### Iteration at: 2022-04-30 08:24:56.823455 ######
+2022-04-30 08:25:03,027: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:25:03,105: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:25:10,160: INFO: skip (no divergence detected)
+2022-04-30 08:25:10,161: INFO: 
+
+###### Iteration at: 2022-04-30 08:25:10.161050 ######
+2022-04-30 08:25:16,174: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:25:16,175: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:25:16,175: INFO: 
+
+###### Iteration at: 2022-04-30 08:25:16.175830 ######
+2022-04-30 08:25:22,108: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:25:22,109: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:25:22,109: INFO: 
+
+###### Iteration at: 2022-04-30 08:25:22.109826 ######
+2022-04-30 08:25:29,025: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:25:29,027: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:25:29,027: INFO: 
+
+###### Iteration at: 2022-04-30 08:25:29.027321 ######
+2022-04-30 08:25:35,103: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:25:35,185: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:25:35,185: INFO: 
+
+###### Iteration at: 2022-04-30 08:25:35.185480 ######
+2022-04-30 08:25:41,164: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:25:41,166: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:25:41,166: INFO: 
+
+###### Iteration at: 2022-04-30 08:25:41.166151 ######
+2022-04-30 08:25:47,063: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:25:47,064: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:25:47,064: INFO: 
+
+###### Iteration at: 2022-04-30 08:25:47.064919 ######
+2022-04-30 08:25:53,894: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:25:53,971: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:25:53,971: INFO: 
+
+###### Iteration at: 2022-04-30 08:25:53.971850 ######
+2022-04-30 08:25:59,834: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:25:59,835: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:25:59,835: INFO: 
+
+###### Iteration at: 2022-04-30 08:25:59.835939 ######
+2022-04-30 08:26:06,133: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:26:06,134: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:26:06,135: INFO: 
+
+###### Iteration at: 2022-04-30 08:26:06.135116 ######
+2022-04-30 08:26:12,385: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:26:12,387: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:26:19,367: INFO: skip (no divergence detected)
+2022-04-30 08:26:19,368: INFO: 
+
+###### Iteration at: 2022-04-30 08:26:19.368161 ######
+2022-04-30 08:26:25,331: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:26:25,409: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:26:31,995: INFO: skip (no divergence detected)
+2022-04-30 08:26:31,995: INFO: 
+
+###### Iteration at: 2022-04-30 08:26:31.995572 ######
+2022-04-30 08:26:37,809: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:26:37,810: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:26:44,313: INFO: skip (no divergence detected)
+2022-04-30 08:26:44,314: INFO: 
+
+###### Iteration at: 2022-04-30 08:26:44.314118 ######
+2022-04-30 08:26:50,433: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:26:50,510: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:26:56,927: INFO: skip (no divergence detected)
+2022-04-30 08:26:56,928: INFO: 
+
+###### Iteration at: 2022-04-30 08:26:56.928146 ######
+2022-04-30 08:27:04,063: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:27:04,065: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:27:11,050: INFO: skip (no divergence detected)
+2022-04-30 08:27:11,051: INFO: 
+
+###### Iteration at: 2022-04-30 08:27:11.051110 ######
+2022-04-30 08:27:17,044: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:27:17,045: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:27:23,817: INFO: skip (no divergence detected)
+2022-04-30 08:27:23,818: INFO: 
+
+###### Iteration at: 2022-04-30 08:27:23.818095 ######
+2022-04-30 08:27:30,007: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:27:30,009: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:27:36,739: INFO: skip (no divergence detected)
+2022-04-30 08:27:36,739: INFO: 
+
+###### Iteration at: 2022-04-30 08:27:36.739416 ######
+2022-04-30 08:27:42,626: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:27:42,628: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:27:49,367: INFO: skip (no divergence detected)
+2022-04-30 08:27:49,367: INFO: 
+
+###### Iteration at: 2022-04-30 08:27:49.367274 ######
+2022-04-30 08:27:55,244: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:27:55,321: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:28:02,227: INFO: skip (no divergence detected)
+2022-04-30 08:28:02,227: INFO: 
+
+###### Iteration at: 2022-04-30 08:28:02.227603 ######
+2022-04-30 08:28:09,057: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:28:09,058: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:28:16,601: INFO: skip (no divergence detected)
+2022-04-30 08:28:16,601: INFO: 
+
+###### Iteration at: 2022-04-30 08:28:16.601782 ######
+2022-04-30 08:28:23,325: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:28:23,403: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:28:23,403: INFO: 
+
+###### Iteration at: 2022-04-30 08:28:23.403931 ######
+2022-04-30 08:28:29,510: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:28:29,588: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:28:29,588: INFO: 
+
+###### Iteration at: 2022-04-30 08:28:29.588957 ######
+2022-04-30 08:28:35,459: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:28:35,461: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:28:35,461: INFO: 
+
+###### Iteration at: 2022-04-30 08:28:35.461313 ######
+2022-04-30 08:28:41,389: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:28:41,390: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:28:41,390: INFO: 
+
+###### Iteration at: 2022-04-30 08:28:41.390794 ######
+2022-04-30 08:28:47,382: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:28:47,384: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:28:47,460: INFO: 
+
+###### Iteration at: 2022-04-30 08:28:47.460464 ######
+2022-04-30 08:28:54,133: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:28:54,211: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:28:54,212: INFO: 
+
+###### Iteration at: 2022-04-30 08:28:54.212003 ######
+2022-04-30 08:29:00,994: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:29:01,071: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:29:01,072: INFO: 
+
+###### Iteration at: 2022-04-30 08:29:01.072027 ######
+2022-04-30 08:29:07,266: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:29:07,267: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:29:14,262: INFO: skip (no divergence detected)
+2022-04-30 08:29:14,262: INFO: 
+
+###### Iteration at: 2022-04-30 08:29:14.262608 ######
+2022-04-30 08:29:20,099: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:29:20,100: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:29:27,977: INFO: skip (no divergence detected)
+2022-04-30 08:29:27,977: INFO: 
+
+###### Iteration at: 2022-04-30 08:29:27.977808 ######
+2022-04-30 08:29:35,326: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:29:35,327: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:29:42,073: INFO: skip (no divergence detected)
+2022-04-30 08:29:42,073: INFO: 
+
+###### Iteration at: 2022-04-30 08:29:42.073774 ######
+2022-04-30 08:29:47,962: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:29:47,963: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:29:55,105: INFO: skip (no divergence detected)
+2022-04-30 08:29:55,106: INFO: 
+
+###### Iteration at: 2022-04-30 08:29:55.106048 ######
+2022-04-30 08:30:01,293: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:30:01,371: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:30:07,235: INFO: skip (no divergence detected)
+2022-04-30 08:30:07,235: INFO: 
+
+###### Iteration at: 2022-04-30 08:30:07.235356 ######
+2022-04-30 08:30:09,507: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:30:09,508: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:30:09,821: INFO: skip (no divergence detected)
+2022-04-30 08:30:09,822: INFO: 
+
+###### Iteration at: 2022-04-30 08:30:09.822082 ######
+2022-04-30 08:30:11,438: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:30:11,440: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:30:11,754: INFO: skip (no divergence detected)
+2022-04-30 08:30:11,754: INFO: 
+
+###### Iteration at: 2022-04-30 08:30:11.754625 ######
+2022-04-30 08:30:12,806: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:30:12,807: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:30:13,251: INFO: skip (no divergence detected)
+2022-04-30 08:30:13,251: INFO: 
+
+###### Iteration at: 2022-04-30 08:30:13.251730 ######
+2022-04-30 08:30:14,752: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:30:14,753: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:30:15,207: INFO: skip (no divergence detected)
+2022-04-30 08:30:15,207: INFO: 
+
+###### Iteration at: 2022-04-30 08:30:15.207589 ######
+2022-04-30 08:30:16,254: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:30:16,255: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:30:16,710: INFO: skip (no divergence detected)
+2022-04-30 08:30:16,710: INFO: 
+
+###### Iteration at: 2022-04-30 08:30:16.710676 ######
+2022-04-30 08:30:18,749: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:30:18,750: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:30:19,603: INFO: skip (no divergence detected)
+2022-04-30 08:30:19,603: INFO: 
+
+###### Iteration at: 2022-04-30 08:30:19.603530 ######
+2022-04-30 08:30:20,734: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:30:20,735: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:30:21,567: INFO: skip (no divergence detected)
+2022-04-30 08:30:21,568: INFO: 
+
+###### Iteration at: 2022-04-30 08:30:21.568031 ######
+2022-04-30 08:30:27,225: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:30:27,303: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:30:35,419: INFO: skip (no divergence detected)
+2022-04-30 08:30:35,419: INFO: 
+
+###### Iteration at: 2022-04-30 08:30:35.419264 ######
+2022-04-30 08:30:41,446: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:30:41,448: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:30:48,351: INFO: skip (no divergence detected)
+2022-04-30 08:30:48,351: INFO: 
+
+###### Iteration at: 2022-04-30 08:30:48.351631 ######
+2022-04-30 08:30:55,757: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:30:55,835: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:30:55,835: INFO: 
+
+###### Iteration at: 2022-04-30 08:30:55.835319 ######
+2022-04-30 08:31:01,684: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:31:01,761: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:31:01,762: INFO: 
+
+###### Iteration at: 2022-04-30 08:31:01.762227 ######
+2022-04-30 08:31:07,997: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:31:07,998: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:31:15,307: INFO: Regular Div detected for 'Long' in: DatetimeIndex(['2022-04-30 08:29:00'], dtype='datetime64[ns]', name='Time', freq=None)
+2022-04-30 08:31:15,307: INFO: Div = True
+2022-04-30 08:31:16,364: INFO: Waiting to fill the order, time = 2022-04-30 08:31:16.364692
+2022-04-30 08:31:19,631: INFO: Waiting to fill the order, time = 2022-04-30 08:31:19.631893
+2022-04-30 08:31:22,905: INFO: Order filled! Time = 2022-04-30 08:31:22.905167
+2022-04-30 08:31:23,604: INFO: Still in position, time = 2022-04-30 08:31:23.604799
+2022-04-30 08:31:29,557: INFO: Still in position, time = 2022-04-30 08:31:29.556987
+2022-04-30 08:31:34,797: INFO: Still in position, time = 2022-04-30 08:31:34.797619
+2022-04-30 08:31:40,085: INFO: Still in position, time = 2022-04-30 08:31:40.085896
+2022-04-30 08:31:45,375: INFO: Still in position, time = 2022-04-30 08:31:45.375465
+2022-04-30 08:31:50,616: INFO: Still in position, time = 2022-04-30 08:31:50.616133
+2022-04-30 08:31:55,893: INFO: Still in position, time = 2022-04-30 08:31:55.893363
+2022-04-30 08:32:01,133: INFO: Still in position, time = 2022-04-30 08:32:01.133339
+2022-04-30 08:32:07,045: INFO: Still in position, time = 2022-04-30 08:32:07.045109
+2022-04-30 08:32:12,286: INFO: Still in position, time = 2022-04-30 08:32:12.286069
+2022-04-30 08:32:17,604: INFO: Still in position, time = 2022-04-30 08:32:17.604688
+2022-04-30 08:32:22,846: INFO: Still in position, time = 2022-04-30 08:32:22.846285
+2022-04-30 08:32:28,825: INFO: SL reached
+2022-04-30 08:32:45,848: INFO: 
+
+###### Iteration at: 2022-04-30 08:32:45.848810 ######
+2022-04-30 08:32:51,737: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:32:51,814: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:32:51,815: INFO: 
+
+###### Iteration at: 2022-04-30 08:32:51.815003 ######
+2022-04-30 08:32:58,666: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:32:58,667: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:32:58,668: INFO: 
+
+###### Iteration at: 2022-04-30 08:32:58.668085 ######
+2022-04-30 08:33:04,825: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:33:04,904: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:33:04,904: INFO: 
+
+###### Iteration at: 2022-04-30 08:33:04.904227 ######
+2022-04-30 08:33:11,271: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:33:11,349: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:33:19,373: INFO: skip (no divergence detected)
+2022-04-30 08:33:19,374: INFO: 
+
+###### Iteration at: 2022-04-30 08:33:19.374153 ######
+2022-04-30 08:33:26,183: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:33:26,261: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:33:33,903: INFO: skip (no divergence detected)
+2022-04-30 08:33:33,903: INFO: 
+
+###### Iteration at: 2022-04-30 08:33:33.903238 ######
+2022-04-30 08:33:39,752: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:33:39,829: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:33:47,053: INFO: skip (no divergence detected)
+2022-04-30 08:33:47,054: INFO: 
+
+###### Iteration at: 2022-04-30 08:33:47.054074 ######
+2022-04-30 08:33:52,862: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:33:52,863: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:34:00,412: INFO: skip (no divergence detected)
+2022-04-30 08:34:00,489: INFO: 
+
+###### Iteration at: 2022-04-30 08:34:00.489155 ######
+2022-04-30 08:34:08,490: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:34:08,568: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:34:16,268: INFO: skip (no divergence detected)
+2022-04-30 08:34:16,268: INFO: 
+
+###### Iteration at: 2022-04-30 08:34:16.268919 ######
+2022-04-30 08:34:22,347: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:34:22,348: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:34:29,813: INFO: skip (no divergence detected)
+2022-04-30 08:34:29,813: INFO: 
+
+###### Iteration at: 2022-04-30 08:34:29.813342 ######
+2022-04-30 08:34:35,654: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:34:35,656: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:34:42,475: INFO: skip (no divergence detected)
+2022-04-30 08:34:42,475: INFO: 
+
+###### Iteration at: 2022-04-30 08:34:42.475882 ######
+2022-04-30 08:34:49,777: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:34:49,778: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:34:56,675: INFO: skip (no divergence detected)
+2022-04-30 08:34:56,676: INFO: 
+
+###### Iteration at: 2022-04-30 08:34:56.676104 ######
+2022-04-30 08:35:02,594: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:35:02,672: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:35:07,172: INFO: skip (no divergence detected)
+2022-04-30 08:35:07,172: INFO: 
+
+###### Iteration at: 2022-04-30 08:35:07.172824 ######
+2022-04-30 08:35:07,896: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:35:07,898: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:35:08,233: INFO: skip (no divergence detected)
+2022-04-30 08:35:08,233: INFO: 
+
+###### Iteration at: 2022-04-30 08:35:08.233294 ######
+2022-04-30 08:35:08,948: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:35:08,950: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:35:09,280: INFO: skip (no divergence detected)
+2022-04-30 08:35:09,280: INFO: 
+
+###### Iteration at: 2022-04-30 08:35:09.280846 ######
+2022-04-30 08:35:09,995: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:35:09,997: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:35:10,326: INFO: skip (no divergence detected)
+2022-04-30 08:35:10,326: INFO: 
+
+###### Iteration at: 2022-04-30 08:35:10.326438 ######
+2022-04-30 08:35:12,594: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:35:12,595: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:35:12,931: INFO: skip (no divergence detected)
+2022-04-30 08:35:12,931: INFO: 
+
+###### Iteration at: 2022-04-30 08:35:12.931671 ######
+2022-04-30 08:35:14,541: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:35:14,542: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:35:14,878: INFO: skip (no divergence detected)
+2022-04-30 08:35:14,878: INFO: 
+
+###### Iteration at: 2022-04-30 08:35:14.878832 ######
+2022-04-30 08:35:15,599: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:35:15,600: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:35:15,936: INFO: skip (no divergence detected)
+2022-04-30 08:35:15,936: INFO: 
+
+###### Iteration at: 2022-04-30 08:35:15.936724 ######
+2022-04-30 08:35:16,878: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:35:16,879: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:35:17,280: INFO: skip (no divergence detected)
+2022-04-30 08:35:17,288: INFO: 
+
+###### Iteration at: 2022-04-30 08:35:17.288581 ######
+2022-04-30 08:35:18,108: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:35:18,110: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:35:18,591: INFO: skip (no divergence detected)
+2022-04-30 08:35:18,591: INFO: 
+
+###### Iteration at: 2022-04-30 08:35:18.591815 ######
+2022-04-30 08:35:19,634: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:35:19,636: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:35:20,117: INFO: skip (no divergence detected)
+2022-04-30 08:35:20,117: INFO: 
+
+###### Iteration at: 2022-04-30 08:35:20.117192 ######
+2022-04-30 08:35:20,950: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:35:20,951: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:35:21,434: INFO: skip (no divergence detected)
+2022-04-30 08:35:21,434: INFO: 
+
+###### Iteration at: 2022-04-30 08:35:21.434662 ######
+2022-04-30 08:35:22,779: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:35:22,797: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:35:23,693: INFO: skip (no divergence detected)
+2022-04-30 08:35:23,693: INFO: 
+
+###### Iteration at: 2022-04-30 08:35:23.693475 ######
+2022-04-30 08:35:24,832: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:35:24,846: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:35:25,746: INFO: skip (no divergence detected)
+2022-04-30 08:35:25,747: INFO: 
+
+###### Iteration at: 2022-04-30 08:35:25.747063 ######
+2022-04-30 08:35:26,863: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:35:26,865: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:35:32,752: INFO: skip (no divergence detected)
+2022-04-30 08:35:32,752: INFO: 
+
+###### Iteration at: 2022-04-30 08:35:32.752256 ######
+2022-04-30 08:35:38,937: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:35:38,939: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:35:46,497: INFO: skip (no divergence detected)
+2022-04-30 08:35:46,498: INFO: 
+
+###### Iteration at: 2022-04-30 08:35:46.498239 ######
+2022-04-30 08:35:52,605: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:35:52,683: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:36:00,481: INFO: skip (no divergence detected)
+2022-04-30 08:36:00,482: INFO: 
+
+###### Iteration at: 2022-04-30 08:36:00.482092 ######
+2022-04-30 08:36:07,613: INFO: next steps: long (stochastic is verified)
+2022-04-30 08:36:07,690: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 08:36:15,731: INFO: skip (no divergence detected)
+2022-04-30 08:36:15,731: INFO: 
+
+###### Iteration at: 2022-04-30 08:36:15.731400 ######
+2022-04-30 08:36:21,877: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:36:21,878: INFO: 
+
+###### Iteration at: 2022-04-30 08:36:21.878120 ######
+2022-04-30 08:36:29,686: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:36:29,686: INFO: 
+
+###### Iteration at: 2022-04-30 08:36:29.686551 ######
+2022-04-30 08:36:35,702: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:36:35,702: INFO: 
+
+###### Iteration at: 2022-04-30 08:36:35.702804 ######
+2022-04-30 08:36:42,755: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:36:42,755: INFO: 
+
+###### Iteration at: 2022-04-30 08:36:42.755435 ######
+2022-04-30 08:36:50,369: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:36:50,369: INFO: 
+
+###### Iteration at: 2022-04-30 08:36:50.369921 ######
+2022-04-30 08:36:56,354: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:36:56,354: INFO: 
+
+###### Iteration at: 2022-04-30 08:36:56.354375 ######
+2022-04-30 08:37:02,288: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:37:02,288: INFO: 
+
+###### Iteration at: 2022-04-30 08:37:02.288232 ######
+2022-04-30 08:37:08,296: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:37:08,296: INFO: 
+
+###### Iteration at: 2022-04-30 08:37:08.296902 ######
+2022-04-30 08:37:14,295: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:37:14,295: INFO: 
+
+###### Iteration at: 2022-04-30 08:37:14.295821 ######
+2022-04-30 08:37:21,024: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:37:21,024: INFO: 
+
+###### Iteration at: 2022-04-30 08:37:21.024800 ######
+2022-04-30 08:37:27,051: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:37:27,051: INFO: 
+
+###### Iteration at: 2022-04-30 08:37:27.051535 ######
+2022-04-30 08:37:33,204: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:37:33,204: INFO: 
+
+###### Iteration at: 2022-04-30 08:37:33.204408 ######
+2022-04-30 08:37:40,127: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:37:40,127: INFO: 
+
+###### Iteration at: 2022-04-30 08:37:40.127766 ######
+2022-04-30 08:37:46,217: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:37:46,217: INFO: 
+
+###### Iteration at: 2022-04-30 08:37:46.217395 ######
+2022-04-30 08:37:52,395: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:37:52,395: INFO: 
+
+###### Iteration at: 2022-04-30 08:37:52.395550 ######
+2022-04-30 08:37:58,337: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:37:58,337: INFO: 
+
+###### Iteration at: 2022-04-30 08:37:58.337349 ######
+2022-04-30 08:38:04,411: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:38:04,411: INFO: 
+
+###### Iteration at: 2022-04-30 08:38:04.411852 ######
+2022-04-30 08:38:11,313: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:38:11,313: INFO: 
+
+###### Iteration at: 2022-04-30 08:38:11.313432 ######
+2022-04-30 08:38:18,198: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:38:18,198: INFO: 
+
+###### Iteration at: 2022-04-30 08:38:18.198701 ######
+2022-04-30 08:38:24,015: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:38:24,015: INFO: 
+
+###### Iteration at: 2022-04-30 08:38:24.015355 ######
+2022-04-30 08:38:29,984: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:38:29,984: INFO: 
+
+###### Iteration at: 2022-04-30 08:38:29.984858 ######
+2022-04-30 08:38:36,225: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:38:36,226: INFO: 
+
+###### Iteration at: 2022-04-30 08:38:36.226018 ######
+2022-04-30 08:38:42,796: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:38:42,797: INFO: 
+
+###### Iteration at: 2022-04-30 08:38:42.797030 ######
+2022-04-30 08:38:50,023: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:38:50,023: INFO: 
+
+###### Iteration at: 2022-04-30 08:38:50.023186 ######
+2022-04-30 08:38:57,112: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:38:57,112: INFO: 
+
+###### Iteration at: 2022-04-30 08:38:57.112817 ######
+2022-04-30 08:39:03,610: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:39:03,610: INFO: 
+
+###### Iteration at: 2022-04-30 08:39:03.610252 ######
+2022-04-30 08:39:09,792: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:39:09,793: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:39:17,748: INFO: skip (no divergence detected)
+2022-04-30 08:39:17,748: INFO: 
+
+###### Iteration at: 2022-04-30 08:39:17.748671 ######
+2022-04-30 08:39:23,901: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:39:23,979: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:39:23,979: INFO: 
+
+###### Iteration at: 2022-04-30 08:39:23.979742 ######
+2022-04-30 08:39:30,172: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:39:30,173: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:39:30,173: INFO: 
+
+###### Iteration at: 2022-04-30 08:39:30.173826 ######
+2022-04-30 08:39:36,401: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:39:36,402: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:39:36,402: INFO: 
+
+###### Iteration at: 2022-04-30 08:39:36.402796 ######
+2022-04-30 08:39:42,457: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:39:42,534: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:39:42,535: INFO: 
+
+###### Iteration at: 2022-04-30 08:39:42.535150 ######
+2022-04-30 08:39:49,466: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:39:49,467: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:39:49,467: INFO: 
+
+###### Iteration at: 2022-04-30 08:39:49.467542 ######
+2022-04-30 08:39:55,608: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:39:55,766: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:39:55,766: INFO: 
+
+###### Iteration at: 2022-04-30 08:39:55.766898 ######
+2022-04-30 08:40:02,901: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:40:02,902: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:40:02,902: INFO: 
+
+###### Iteration at: 2022-04-30 08:40:02.902887 ######
+2022-04-30 08:40:09,180: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:40:09,181: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:40:17,059: INFO: skip (no divergence detected)
+2022-04-30 08:40:17,060: INFO: 
+
+###### Iteration at: 2022-04-30 08:40:17.060026 ######
+2022-04-30 08:40:23,351: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:40:23,352: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:40:23,352: INFO: 
+
+###### Iteration at: 2022-04-30 08:40:23.352828 ######
+2022-04-30 08:40:29,326: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:40:29,404: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:40:29,404: INFO: 
+
+###### Iteration at: 2022-04-30 08:40:29.404542 ######
+2022-04-30 08:40:36,147: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:40:36,148: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:40:36,148: INFO: 
+
+###### Iteration at: 2022-04-30 08:40:36.148512 ######
+2022-04-30 08:40:42,095: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:40:42,096: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:40:42,096: INFO: 
+
+###### Iteration at: 2022-04-30 08:40:42.096524 ######
+2022-04-30 08:40:48,022: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:40:48,023: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:40:48,024: INFO: 
+
+###### Iteration at: 2022-04-30 08:40:48.024088 ######
+2022-04-30 08:40:54,763: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:40:54,841: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:40:54,841: INFO: 
+
+###### Iteration at: 2022-04-30 08:40:54.841204 ######
+2022-04-30 08:41:01,720: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:41:01,798: INFO: skip (condition 5 min NOT verified)
+2022-04-30 08:41:01,798: INFO: 
+
+###### Iteration at: 2022-04-30 08:41:01.798580 ######
+2022-04-30 08:41:08,943: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:41:08,944: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:41:16,082: INFO: skip (no divergence detected)
+2022-04-30 08:41:16,082: INFO: 
+
+###### Iteration at: 2022-04-30 08:41:16.082959 ######
+2022-04-30 08:41:22,273: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:41:22,275: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:41:30,301: INFO: skip (no divergence detected)
+2022-04-30 08:41:30,301: INFO: 
+
+###### Iteration at: 2022-04-30 08:41:30.301755 ######
+2022-04-30 08:41:37,230: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:41:37,309: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:41:44,716: INFO: skip (no divergence detected)
+2022-04-30 08:41:44,793: INFO: 
+
+###### Iteration at: 2022-04-30 08:41:44.793245 ######
+2022-04-30 08:41:50,786: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:41:50,860: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:41:58,330: INFO: skip (no divergence detected)
+2022-04-30 08:41:58,331: INFO: 
+
+###### Iteration at: 2022-04-30 08:41:58.331002 ######
+2022-04-30 08:42:04,492: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:42:04,493: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:42:12,209: INFO: skip (no divergence detected)
+2022-04-30 08:42:12,209: INFO: 
+
+###### Iteration at: 2022-04-30 08:42:12.209214 ######
+2022-04-30 08:42:19,658: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:42:19,660: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:42:27,457: INFO: skip (no divergence detected)
+2022-04-30 08:42:27,457: INFO: 
+
+###### Iteration at: 2022-04-30 08:42:27.457392 ######
+2022-04-30 08:42:33,396: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:42:33,473: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:42:40,788: INFO: skip (no divergence detected)
+2022-04-30 08:42:40,788: INFO: 
+
+###### Iteration at: 2022-04-30 08:42:40.788334 ######
+2022-04-30 08:42:46,819: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:42:46,820: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:42:54,452: INFO: skip (no divergence detected)
+2022-04-30 08:42:54,452: INFO: 
+
+###### Iteration at: 2022-04-30 08:42:54.452329 ######
+2022-04-30 08:43:00,754: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:43:00,755: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:43:08,548: INFO: skip (no divergence detected)
+2022-04-30 08:43:08,548: INFO: 
+
+###### Iteration at: 2022-04-30 08:43:08.548231 ######
+2022-04-30 08:43:14,683: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:43:14,761: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:43:22,072: INFO: skip (no divergence detected)
+2022-04-30 08:43:22,148: INFO: 
+
+###### Iteration at: 2022-04-30 08:43:22.148862 ######
+2022-04-30 08:43:28,946: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:43:28,948: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:43:36,342: INFO: Hidden Div detected for 'Short' in: DatetimeIndex(['2022-04-30 08:40:00'], dtype='datetime64[ns]', name='Time', freq=None)
+2022-04-30 08:43:36,416: INFO: Div = True
+2022-04-30 08:43:38,079: INFO: Waiting to fill the order, time = 2022-04-30 08:43:38.079346
+2022-04-30 08:43:41,316: INFO: Waiting to fill the order, time = 2022-04-30 08:43:41.316921
+2022-04-30 08:43:44,557: INFO: Waiting to fill the order, time = 2022-04-30 08:43:44.557411
+2022-04-30 08:43:47,889: INFO: Waiting to fill the order, time = 2022-04-30 08:43:47.889169
+2022-04-30 08:43:51,129: INFO: Waiting to fill the order, time = 2022-04-30 08:43:51.129516
+2022-04-30 08:43:54,405: INFO: Waiting to fill the order, time = 2022-04-30 08:43:54.405305
+2022-04-30 08:43:57,646: INFO: Waiting to fill the order, time = 2022-04-30 08:43:57.646545
+2022-04-30 08:44:00,960: INFO: Waiting to fill the order, time = 2022-04-30 08:44:00.960000
+2022-04-30 08:44:04,252: INFO: Waiting to fill the order, time = 2022-04-30 08:44:04.252196
+2022-04-30 08:44:08,148: INFO: Waiting to fill the order, time = 2022-04-30 08:44:08.148136
+2022-04-30 08:44:11,383: INFO: Waiting to fill the order, time = 2022-04-30 08:44:11.383747
+2022-04-30 08:44:14,660: INFO: Waiting to fill the order, time = 2022-04-30 08:44:14.660297
+2022-04-30 08:44:17,898: INFO: Waiting to fill the order, time = 2022-04-30 08:44:17.898081
+2022-04-30 08:44:21,803: INFO: Waiting to fill the order, time = 2022-04-30 08:44:21.803629
+2022-04-30 08:44:25,045: INFO: Waiting to fill the order, time = 2022-04-30 08:44:25.045503
+2022-04-30 08:44:28,284: INFO: Waiting to fill the order, time = 2022-04-30 08:44:28.284290
+2022-04-30 08:44:31,522: INFO: Waiting to fill the order, time = 2022-04-30 08:44:31.522237
+2022-04-30 08:44:34,780: INFO: Waiting to fill the order, time = 2022-04-30 08:44:34.780194
+2022-04-30 08:44:38,021: INFO: Waiting to fill the order, time = 2022-04-30 08:44:38.021160
+2022-04-30 08:44:41,261: INFO: Waiting to fill the order, time = 2022-04-30 08:44:41.261338
+2022-04-30 08:44:44,538: INFO: Waiting to fill the order, time = 2022-04-30 08:44:44.538358
+2022-04-30 08:44:48,448: INFO: Waiting to fill the order, time = 2022-04-30 08:44:48.448656
+2022-04-30 08:44:52,353: INFO: Waiting to fill the order, time = 2022-04-30 08:44:52.353957
+2022-04-30 08:44:55,593: INFO: Waiting to fill the order, time = 2022-04-30 08:44:55.593023
+2022-04-30 08:44:58,872: INFO: Waiting to fill the order, time = 2022-04-30 08:44:58.872917
+2022-04-30 08:45:02,152: INFO: Waiting to fill the order, time = 2022-04-30 08:45:02.152470
+2022-04-30 08:45:05,392: INFO: Waiting to fill the order, time = 2022-04-30 08:45:05.392415
+2022-04-30 08:45:08,630: INFO: Waiting to fill the order, time = 2022-04-30 08:45:08.630271
+2022-04-30 08:45:11,869: INFO: Waiting to fill the order, time = 2022-04-30 08:45:11.869538
+2022-04-30 08:45:15,114: INFO: Waiting to fill the order, time = 2022-04-30 08:45:15.114698
+2022-04-30 08:45:18,354: INFO: Waiting to fill the order, time = 2022-04-30 08:45:18.354936
+2022-04-30 08:45:22,258: INFO: Waiting to fill the order, time = 2022-04-30 08:45:22.258092
+2022-04-30 08:45:25,497: INFO: Waiting to fill the order, time = 2022-04-30 08:45:25.497914
+2022-04-30 08:45:28,735: INFO: Waiting to fill the order, time = 2022-04-30 08:45:28.735925
+2022-04-30 08:45:31,973: INFO: Waiting to fill the order, time = 2022-04-30 08:45:31.973118
+2022-04-30 08:45:35,211: INFO: Waiting to fill the order, time = 2022-04-30 08:45:35.211720
+2022-04-30 08:45:39,113: INFO: Waiting to fill the order, time = 2022-04-30 08:45:39.113145
+2022-04-30 08:45:43,016: INFO: Waiting to fill the order, time = 2022-04-30 08:45:43.016234
+2022-04-30 08:45:46,254: INFO: Waiting to fill the order, time = 2022-04-30 08:45:46.254953
+2022-04-30 08:45:49,498: INFO: Entry position : Time out! time = 2022-04-30 08:45:49.498405
+2022-04-30 08:45:49,965: INFO: (its a timeout case)
+2022-04-30 08:45:50,192: INFO: 
+
+###### Iteration at: 2022-04-30 08:45:50.192850 ######
+2022-04-30 08:45:50,915: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:45:50,915: INFO: 
+
+###### Iteration at: 2022-04-30 08:45:50.915769 ######
+2022-04-30 08:45:51,640: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:45:51,641: INFO: 
+
+###### Iteration at: 2022-04-30 08:45:51.641050 ######
+2022-04-30 08:45:52,582: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:45:52,583: INFO: 
+
+###### Iteration at: 2022-04-30 08:45:52.583051 ######
+2022-04-30 08:45:53,299: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:45:53,299: INFO: 
+
+###### Iteration at: 2022-04-30 08:45:53.299550 ######
+2022-04-30 08:45:54,017: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:45:54,017: INFO: 
+
+###### Iteration at: 2022-04-30 08:45:54.017431 ######
+2022-04-30 08:45:54,959: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:45:54,960: INFO: 
+
+###### Iteration at: 2022-04-30 08:45:54.960093 ######
+2022-04-30 08:45:55,672: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:45:55,672: INFO: 
+
+###### Iteration at: 2022-04-30 08:45:55.672370 ######
+2022-04-30 08:45:56,386: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:45:56,386: INFO: 
+
+###### Iteration at: 2022-04-30 08:45:56.386206 ######
+2022-04-30 08:45:57,109: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:45:57,109: INFO: 
+
+###### Iteration at: 2022-04-30 08:45:57.109188 ######
+2022-04-30 08:45:57,933: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:45:57,933: INFO: 
+
+###### Iteration at: 2022-04-30 08:45:57.933975 ######
+2022-04-30 08:45:58,756: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:45:58,756: INFO: 
+
+###### Iteration at: 2022-04-30 08:45:58.756571 ######
+2022-04-30 08:45:59,580: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:45:59,580: INFO: 
+
+###### Iteration at: 2022-04-30 08:45:59.580274 ######
+2022-04-30 08:46:00,630: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:46:00,630: INFO: 
+
+###### Iteration at: 2022-04-30 08:46:00.630610 ######
+2022-04-30 08:46:01,460: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:46:01,460: INFO: 
+
+###### Iteration at: 2022-04-30 08:46:01.460267 ######
+2022-04-30 08:46:02,487: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 08:46:02,487: INFO: 
+
+###### Iteration at: 2022-04-30 08:46:02.487462 ######
+2022-04-30 08:46:03,641: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:46:03,641: INFO: 
+
+###### Iteration at: 2022-04-30 08:46:03.641660 ######
+2022-04-30 08:46:04,807: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:46:04,808: INFO: 
+
+###### Iteration at: 2022-04-30 08:46:04.807995 ######
+2022-04-30 08:46:05,956: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:46:05,956: INFO: 
+
+###### Iteration at: 2022-04-30 08:46:05.956196 ######
+2022-04-30 08:46:07,367: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:46:07,368: INFO: 
+
+###### Iteration at: 2022-04-30 08:46:07.368097 ######
+2022-04-30 08:46:13,159: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:46:13,159: INFO: 
+
+###### Iteration at: 2022-04-30 08:46:13.159663 ######
+2022-04-30 08:46:19,458: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:46:19,458: INFO: 
+
+###### Iteration at: 2022-04-30 08:46:19.458279 ######
+2022-04-30 08:46:27,303: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:46:27,303: INFO: 
+
+###### Iteration at: 2022-04-30 08:46:27.303439 ######
+2022-04-30 08:46:34,302: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:46:34,302: INFO: 
+
+###### Iteration at: 2022-04-30 08:46:34.302383 ######
+2022-04-30 08:46:40,435: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:46:40,435: INFO: 
+
+###### Iteration at: 2022-04-30 08:46:40.435200 ######
+2022-04-30 08:46:46,364: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:46:46,364: INFO: 
+
+###### Iteration at: 2022-04-30 08:46:46.364829 ######
+2022-04-30 08:46:52,558: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:46:52,558: INFO: 
+
+###### Iteration at: 2022-04-30 08:46:52.558195 ######
+2022-04-30 08:46:59,794: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:46:59,794: INFO: 
+
+###### Iteration at: 2022-04-30 08:46:59.794936 ######
+2022-04-30 08:47:05,796: INFO: skip: last two candles are not in the same color!
+2022-04-30 08:47:05,797: INFO: 
+
+###### Iteration at: 2022-04-30 08:47:05.797188 ######
+2022-04-30 08:47:11,939: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:47:12,013: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:47:19,885: INFO: skip (no divergence detected)
+2022-04-30 08:47:19,885: INFO: 
+
+###### Iteration at: 2022-04-30 08:47:19.885292 ######
+2022-04-30 08:47:26,002: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:47:26,004: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:47:33,875: INFO: skip (no divergence detected)
+2022-04-30 08:47:33,875: INFO: 
+
+###### Iteration at: 2022-04-30 08:47:33.875458 ######
+2022-04-30 08:47:39,986: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:47:39,987: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:47:47,131: INFO: skip (no divergence detected)
+2022-04-30 08:47:47,131: INFO: 
+
+###### Iteration at: 2022-04-30 08:47:47.131509 ######
+2022-04-30 08:47:53,058: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:47:53,059: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:48:00,445: INFO: skip (no divergence detected)
+2022-04-30 08:48:00,446: INFO: 
+
+###### Iteration at: 2022-04-30 08:48:00.446039 ######
+2022-04-30 08:48:07,046: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:48:07,047: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:48:16,827: INFO: skip (no divergence detected)
+2022-04-30 08:48:16,827: INFO: 
+
+###### Iteration at: 2022-04-30 08:48:16.827320 ######
+2022-04-30 08:48:23,705: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:48:23,783: INFO: next steps (Short): Verify div (condition 5 min verified)
+2022-04-30 08:48:31,253: INFO: skip (no divergence detected)
+2022-04-30 08:48:31,253: INFO: 
+
+###### Iteration at: 2022-04-30 08:48:31.253618 ######
+2022-04-30 08:48:37,459: INFO: next steps: short (stochastic is verified)
+2022-04-30 08:48:37,460: INFO: next steps (Short): Verify div (condition 5 min verified)
