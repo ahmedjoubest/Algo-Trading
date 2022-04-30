@@ -8628,3 +8628,10 @@
 ###### Iteration at: 2022-04-30 00:40:53.943904 ######
 2022-04-30 00:40:55,266: INFO: next steps: long (stochastic is verified)
 2022-04-30 00:40:55,269: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 10:59:31,446: INFO: 
+
+###### Iteration at: 2022-04-30 10:59:31.446517 ######
+2022-04-30 11:03:52,743: INFO: skip: step 2 (stochastic not verified)
+2022-04-30 11:04:37,319: INFO: next steps: long (stochastic is verified)
+2022-04-30 11:04:43,749: INFO: next steps (Long): Verify div (condition 5 min verified)
+2022-04-30 11:18:46,934: INFO: Regular Div detected for 'Long' in: DatetimeIndex(['2022-04-30 08:29:00'], dtype='datetime64[ns]', name='Time', freq=None)
