@@ -181,7 +181,8 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1, 
                 # update leverage
                 client.futures_change_leverage(symbol=symbol, leverage=levier)
                 # entry position (limit)
-                entry_price = round(HAdf_5mn.iloc[-1].Low,3) if (OB_or_OS == 0) else round(HAdf_5mn.iloc[-1].High,3)
+                # entry_price = round(HAdf_5mn.iloc[-1].Low,3) if (OB_or_OS == 0) else round(HAdf_5mn.iloc[-1].High,3)
+                entry_price = round(HAdf_5mn.iloc[-1].Close, 3)
                 order = client.futures_create_order(symbol=symbol, side='BUY' if (OB_or_OS == 0) else "SELL",
                                                     type='LIMIT', quantity=qty, timeInForce='GTC',
                                                     price = entry_price)
