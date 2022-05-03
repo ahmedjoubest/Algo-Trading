@@ -1,7 +1,7 @@
 
 # Author: Ahmed / Yasine
 # 26/04/2022
-# Function that eliminates crossed pics
+# Bot div
 
 # --- Import
 import pandas as pd
@@ -22,6 +22,7 @@ import logging
 from oauth2client.service_account import ServiceAccountCredentials
 import gspread
 # import datetime
+import math
 
 
 

@@ -3,6 +3,9 @@
 # 26/04/2022
 
 # --- 1 keep uncrossed preaks rpice
+import pandas_ta
+
+
 def keep_uncrossed_peaks(close,open,peaks,tolerance,Short):
 
     uncrossed_peaks = []
@@ -241,5 +244,79 @@ def divergence_verificaiton(uncrossed_peaks_RSI,OB_or_OS,RSI,HAdf_5mn,currect_pi
                 else:
                     continue
     return(Div)
+
+
+# --- 8 ATR Support resistence
+def supp_resis(df,length = 14,mult = 2,maLen = 14):
+
+    ATR = pta.atr(df.High,df.Low, df.Close, length)
+    dev = mult*ATR
+    basis = pta.sma(df.Close,14)
+    upper = basis + dev
+    lower = basis - dev
+    bbr = (df.Close - lower)/(upper - lower)
+    bbe = pta.ema(bbr, maLen)
+    up = []
+    for idx, element in enumerate(bbe):
+        if (bbe[idx - 1] > bbe[idx] and bbe[idx - 2] < bbe[idx - 1]):
+            up.append(bbe[idx])
+        else:
+            up.append(float("NAN"))
+    bt=[]
+    for idx, element in enumerate(bbe):
+        if (bbe[idx - 1] < bbe[idx] and bbe[idx - 2] > bbe[idx - 1]):
+            bt.append(bbe[idx])
+        else:
+            bt.append(float("NAN"))
+    up = pd.Series(up, index=bbe.index)
+    bt = pd.Series(bt, index=bbe.index)
+    topH = []
+    for idx,element in enumerate(up):
+        if(not math.isnan(element)):
+            topH.append(max(df.High.iloc[idx],df.High.iloc[idx-1],df.High.iloc[idx-2]))
+        else:
+            topH.append(float("NAN"))
+    topH = pd.Series(topH, index=bbe.index)
+    bottomL = []
+    for idx, element in enumerate(bt):
+        if (not math.isnan(element)):
+            bottomL.append(min(df.Low.iloc[idx], df.Low.iloc[idx - 1], df.Low.iloc[idx - 2]))
+        else:
+            bottomL.append(float("NAN"))
+    bottomL = pd.Series(bottomL, index=bbe.index)
+    tf = topH.fillna(method = "ffill").shift(-1)
+    bf = bottomL.fillna(method = "ffill").shift(-1)
+
+    tf[-1]= tf[-2]
+    bf[-1]= bf[-2]
+
+    return(tf,bf)
+
+
+
+# fig = go.Figure(
+#    data=[
+    #        go.Candlestick(
+    #            x=df.index,
+    #          open=df.Open,
+    #        high=df.High,
+    #        low=df.Low,
+    #       close=df.Close
+    #   ),
+    #  go.Scatter(
+    #      x=bf.index,
+    #       y=bf,
+    #        mode = 'markers',
+    #        line_color = "green"
+    #   ),
+    #   go.Scatter(
+    #       x=tf.index,
+    #       y=tf,
+    #      mode = 'markers',
+    #      line_color = "red"
+    #   )
+# ]
+#)
+#fig.show()
 
 print("'math_tools.py' has been Sucessfully executed ")

@@ -14,6 +14,7 @@ import math
 import plotly.graph_objects as go
 import random
 from plotly.subplots import make_subplots
+from plotly.graph_objs import Line
 
 
 # --- 1 API (Confidential) (Useless if we only want to read the data, only for order automation)
