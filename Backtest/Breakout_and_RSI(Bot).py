@@ -106,7 +106,7 @@ while(True):
 
         # 3 --- Wait for the break out (or timeout, or RSI get back to OS)
         time_crossrsi = datetime.now()
-        while(True):
+        while(True): #
 
             # read data
             try:
