@@ -53,7 +53,7 @@ client = Client(api_key,api_secret)
 # logging system
 # More on login system : https://algotrading101.com/learn/live-algo-trading-on-the-cloud-aws/
 # https://docs.python.org/fr/3/howto/logging.html
-logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(message)s', filename='events.log', filemode='a')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(message)s', filename='events_breakout.log', filemode='a')
 
 
 symbol = "WAVESUSDT"

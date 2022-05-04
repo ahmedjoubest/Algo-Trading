@@ -29,7 +29,7 @@ api_key = 'vCvbNDYnP04sL3ZMGdGxY4QuEPEdotvw9JqBoM7cL9sSUol5m86EZwhy3JOI0kon'
 api_secret = '9GZ3AlmbVHg0NawM1MYVIzNSjw7eh53f60TtETu7M5jcce1fRtnKzhVlMJbfT14y'
 client = Client(api_key,api_secret)
 timeout_entry_seconds = 120
-tp = 0.5
+tp = 0.45
 sl = 0.4
 
 # --- Sourcing functions
@@ -46,6 +46,10 @@ try:
 except Exception as e: print("I'm NOT on the server man")
 
 
+# logging system
+# More on login system : https://algotrading101.com/learn/live-algo-trading-on-the-cloud-aws/
+# https://docs.python.org/fr/3/howto/logging.html
+logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(message)s', filename='events_breakout.log', filemode='a')
 
 
 # add time out not to miss opportuniutes f les crypto lokhrin
@@ -77,6 +81,7 @@ while(True):
         position = "short"
     else : position = "nothing"
     print("Position = "+ position)
+    logging.info("Position = "+ position)
 
     if position == "nothing":
         continue
@@ -87,6 +92,7 @@ while(True):
         while(RSI[-1]<30):
             if datetime.now().second > 40:
                 print("waiting for the RSI cross")
+                logging.info("waiting for the RSI cross")
                 # Get data and transform it to HA
                 try:
                     df = getdata_min_ago(symbol, interval=interval, lookback=str(10 * 60))
@@ -101,6 +107,7 @@ while(True):
                 time.sleep(1)
                 continue
         print("RSI crossed the position for "+ position)
+        logging.info("RSI crossed the position for "+ position)
 
         # 2 --- identify level of last support
         i = len(bf)-1
@@ -108,6 +115,7 @@ while(True):
             i = i-1
         support_level = bf[i]
         print("support level = " + str(round(support_level,4)))
+        logging.info("support level = " + str(round(support_level,4)))
 
         # 3 --- Wait for the break out (or timeout, or RSI get back to OS)
         time_crossrsi = datetime.now()
@@ -115,6 +123,7 @@ while(True):
 
             if datetime.now().second > 40:
                 print("waiting for the breakout")
+                logging.info("waiting for the breakout")
                 # read data
                 try:
                     df = getdata_min_ago(symbol, interval=interval, lookback=str(10 * 60))
@@ -129,11 +138,13 @@ while(True):
                 if(dif>timeout):
                     event = "timeout"
                     print("Break out time out")
+                    logging.info("Break out time out")
                     break
 
                 if(RSI[-1]<30):
                     event = "RSI_anti_cross"
                     print("RSI anti crossed")
+                    logging.info("RSI anti crossed")
                     break
 
 
@@ -141,6 +152,7 @@ while(True):
                 breakout = True if (abs(HAdf.Close[-1]-HAdf.Close[-1])/2)+min([HAdf.Close[-1],HAdf.Open[-1]]) > support_level else False
                 if(breakout):
                     print("Breakout detected, entry position : !" + position)
+                    logging.info("Breakout detected, entry position : !" + position)
                     event = "Entry"
                     break
             else:
@@ -323,6 +335,7 @@ while(True):
         while(RSI[-1]>70):
             if datetime.now().second > 40:
                 print("waiting for the RSI cross")
+                logging.info("waiting for the RSI cross")
                 # Get data and transform it to HA
                 try:
                     df = getdata_min_ago(symbol, interval=interval, lookback=str(10 * 60))
@@ -337,6 +350,7 @@ while(True):
                 time.sleep(1)
                 continue
         print("RSI crossed the position for "+ position)
+        logging.info("RSI crossed the position for "+ position)
 
         # 2 --- identify level of last support
         i = len(tf) - 1
@@ -344,12 +358,14 @@ while(True):
             i = i - 1
         resistence_level = tf[i]
         print("resistence level = " + str(round(resistence_level,4)))
+        logging.info("resistence level = " + str(round(resistence_level,4)))
 
         # 3 --- Wait for the break out (or timeout, or RSI get back to OS)
         time_crossrsi = datetime.now()
         while(True):
             if datetime.now().second > 40:
                 print("waiting for the breakout")
+                logging.info("waiting for the breakout")
                 # read data
                 try:
                     df = getdata_min_ago(symbol, interval=interval, lookback=str(10 * 60))
@@ -364,17 +380,20 @@ while(True):
                 if(dif>timeout):
                     event = "timeout"
                     print("Break out time out")
+                    logging.info("Break out time out")
                     break
 
                 if(RSI[-1]>70):
                     event = "RSI_anti_cross"
                     print("RSI anti crossed")
+                    logging.info("RSI anti crossed")
                     break
 
                 # Verify break out code
                 breakout = True if (abs(HAdf.Close[-1] - HAdf.Close[-1]) / 2) + min([HAdf.Close[-1], HAdf.Open[-1]]) < resistence_level else False
                 if(breakout):
                     print("Breakout detected, entry position!" + position)
+                    logging.info("Breakout detected, entry position!" + position)
                     event = "Entry"
                     break
             else:
