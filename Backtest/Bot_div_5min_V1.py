@@ -184,9 +184,9 @@ def div_5min(symbol = "WAVESUSDT", window_div= 7, tolerance = 0.25, levier = 1, 
                 # entry position (limit)
                 # calculated_price_entry = round(HAdf_5mn.iloc[-1].Low,3) if (OB_or_OS == 0) else round(HAdf_5mn.iloc[-1].High,3)
                 calculated_price_entry = round(HAdf_5mn.iloc[-1].Close, 3)
-                order = client.futures_create_order(symbol=symbol, side='BUY' if (OB_or_OS == 0) else "SELL",
-                                                    type='LIMIT', quantity=qty, timeInForce='GTC',
-                                                    price = calculated_price_entry)
+                    order = client.futures_create_order(symbol=symbol, side='BUY' if (OB_or_OS == 0) else "SELL",
+                                                        type='LIMIT', quantity=qty, timeInForce='GTC',
+                                                        price = calculated_price_entry)
 
                 # Verify if the entry order limit is filled:
                 a = pd.DataFrame(client.futures_position_information())
