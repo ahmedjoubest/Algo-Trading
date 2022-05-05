@@ -218,7 +218,12 @@ fig.update_layout(yaxis_range=[HAdf_5mn_realtime.Low.min(), HAdf_5mn_realtime.Hi
 fig.show()
 
 
-
+fig = go.Figure(data=[go.Candlestick(x=df.index,
+                open=df.Open,
+                high=df.High,
+                low=df.Low,
+                close=df.Close)])
+fig.show()
 # 1- ( à écrire dans la fin du fichier)
 # 	kayn machakil f candles lwlin c'est pas très précis car O(i) = (O(i-1)+C(i-1)) / 2
 # 	mais ça s'étenue très vite
