@@ -29,7 +29,6 @@ api_key = 'vCvbNDYnP04sL3ZMGdGxY4QuEPEdotvw9JqBoM7cL9sSUol5m86EZwhy3JOI0kon'
 api_secret = '9GZ3AlmbVHg0NawM1MYVIzNSjw7eh53f60TtETu7M5jcce1fRtnKzhVlMJbfT14y'
 client = Client(api_key,api_secret)
 
-
 # --- Sourcing functions
 try:
     exec(open("functions/get_data.py").read())
@@ -55,12 +54,13 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(me
 
 
 timeout_entry_seconds = 180
-tp = 0.57
-sl = 0.57
+tp = 0.58
+sl = 1.4
 interval = "1m"
 symbol = "WAVESUSDT"
 timeout = 30
-levier = 15
+levier = 10
+incertitude = 0.1
 
 while(True):
 
@@ -203,6 +203,21 @@ while(True):
                     logging.info("Order filled! Time = " + str(datetime.now()))
                     TP = calculated_price_entry + tp / 100 * calculated_price_entry
                     SL = calculated_price_entry - sl / 100 * calculated_price_entry
+
+                    # 0 --- Get data and transform it to HA
+                    try:
+                        df = getdata_min_ago(symbol, interval=interval, lookback=str(10 * 60))
+                    except Exception as e:
+                        print(f'Problem in reading data, exception hya : {e}')
+                        logging.info(f'Problem in reading data, exception hya : {e}')
+                    # global HAdf,RSI_stoch_k,RSI_stoch_d,RSI
+                    HAdf = HA_transformation(df)
+                    RSI = round(pta.rsi(HAdf.Close, 14), 2)
+                    tf, bf = supp_resis(HAdf, )
+                    SL_support = bf[-1]
+                    if(SL<=SL_support):
+                        SL = SL_support - incertitude
+
                     order_tp = client.futures_create_order(symbol=symbol, side = "SELL", type='LIMIT', quantity=qty,
                                                            price=round(TP, 3), timeInForce='GTC')
                     order_sl = client.futures_create_order(symbol=symbol, side = "SELL", type='STOP_MARKET', quantity=qty,
@@ -444,6 +459,21 @@ while(True):
                     logging.info("Order filled! Time = " + str(datetime.now()))
                     TP = calculated_price_entry - tp / 100 * calculated_price_entry
                     SL = calculated_price_entry + sl / 100 * calculated_price_entry
+
+                    # 0 --- Get data and transform it to HA
+                    try:
+                        df = getdata_min_ago(symbol, interval=interval, lookback=str(10 * 60))
+                    except Exception as e:
+                        print(f'Problem in reading data, exception hya : {e}')
+                        logging.info(f'Problem in reading data, exception hya : {e}')
+                    # global HAdf,RSI_stoch_k,RSI_stoch_d,RSI
+                    HAdf = HA_transformation(df)
+                    RSI = round(pta.rsi(HAdf.Close, 14), 2)
+                    tf, bf = supp_resis(HAdf, )
+                    SL_support = tf[-1]
+                    if (SL >= SL_support):
+                        SL = SL_support + incertitude
+
                     order_tp = client.futures_create_order(symbol=symbol, side = "BUY", type='LIMIT', quantity=qty,
                                                            price=round(TP, 3), timeInForce='GTC')
                     order_sl = client.futures_create_order(symbol=symbol, side = "BUY", type='STOP_MARKET', quantity=qty,

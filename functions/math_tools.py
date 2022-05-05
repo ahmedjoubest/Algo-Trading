@@ -3,6 +3,8 @@
 # 26/04/2022
 
 # --- 1 keep uncrossed preaks rpice
+import math
+
 import pandas_ta
 
 
@@ -291,6 +293,35 @@ def supp_resis(df,length = 14,mult = 2,maLen = 14):
     bf[-1]= bf[-2]
 
     return(tf,bf)
+
+
+# --- 8 ATR Support resistence
+def detect_RSI_cross(RSI,window=40,bottom_line_rsi=30 ,top_line_rsi = 70):
+    if 30 < RSI[-1] < 70:
+        top_line = pd.Series([top_line_rsi] * len(RSI))
+        bottom_line = pd.Series([bottom_line_rsi] * len(RSI))
+        top_line.index, bottom_line.index = RSI.index, RSI.index
+        idx_cross_rsi_bottom = np.argwhere(np.diff(np.sign(bottom_line - RSI))).flatten()
+        idx_cross_rsi_top = np.argwhere(np.diff(np.sign(top_line - RSI))).flatten()
+        idx_cross_rsi_bottom = np.append(idx_cross_rsi_bottom, [0, 1]) if (
+                len(idx_cross_rsi_bottom) == 0) else idx_cross_rsi_bottom
+        idx_cross_rsi_top = np.append(idx_cross_rsi_top, [0, 1]) if (len(idx_cross_rsi_top) == 0) else idx_cross_rsi_top
+        idx_cross_rsi_bottom = RSI.index[idx_cross_rsi_bottom + 1][-1]
+        idx_cross_rsi_top = RSI.index[idx_cross_rsi_top + 1][-1]
+        cross_time = idx_cross_rsi_top if (idx_cross_rsi_top > idx_cross_rsi_bottom) else idx_cross_rsi_bottom
+        position = "short" if (idx_cross_rsi_top > idx_cross_rsi_bottom) else "long"
+        print(position + " position detected --- cross_time = "+str(cross_time))
+    else:
+        print("RSI is still on OB or OS")
+        logging.info("RSI is still on OB or OS")
+        position = "nothing"
+        cross_time = None
+    return(position,cross_time)
+
+position, cross_time = detect_RSI_cross(RSI=RSI,window=40,bottom_line_rsi=30 ,top_line_rsi = 70)
+position
+cross_time
+
 
 
 
