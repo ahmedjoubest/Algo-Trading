@@ -317,14 +317,6 @@ def detect_RSI_cross(RSI,window=40,bottom_line_rsi=30 ,top_line_rsi = 70):
         position = "nothing"
         cross_time = None
     return(position,cross_time)
-
-position, cross_time = detect_RSI_cross(RSI=RSI,window=40,bottom_line_rsi=30 ,top_line_rsi = 70)
-position
-cross_time
-
-
-
-
 # fig = go.Figure(
 #    data=[
     #        go.Candlestick(
