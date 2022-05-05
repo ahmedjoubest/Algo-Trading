@@ -37451,3 +37451,30 @@
 2022-05-05 08:09:46,551: INFO: waiting for the RSI cross
 2022-05-05 08:09:51,423: INFO: waiting for the RSI cross
 2022-05-05 08:09:56,399: INFO: waiting for the RSI cross
+2022-05-05 08:10:41,370: INFO: waiting for the RSI cross
+2022-05-05 08:10:42,030: INFO: RSI crossed the position for long
+2022-05-05 08:10:42,030: INFO: support level = 16.208
+2022-05-05 08:10:42,030: INFO: waiting for the breakout
+2022-05-05 08:10:42,667: INFO: waiting for the breakout
+2022-05-05 08:10:43,308: INFO: waiting for the breakout
+2022-05-05 08:10:44,841: INFO: waiting for the breakout
+2022-05-05 08:10:47,036: INFO: waiting for the breakout
+2022-05-05 08:10:47,672: INFO: waiting for the breakout
+2022-05-05 08:10:49,197: INFO: waiting for the breakout
+2022-05-05 08:10:50,727: INFO: waiting for the breakout
+2022-05-05 08:10:51,373: INFO: waiting for the breakout
+2022-05-05 08:10:52,914: INFO: RSI anti crossed
+2022-05-05 08:10:55,123: INFO: Position = long
+2022-05-05 08:10:55,123: INFO: waiting for the RSI cross
+2022-05-05 08:10:55,780: INFO: RSI crossed the position for long
+2022-05-05 08:10:55,781: INFO: support level = 16.208
+2022-05-05 08:10:55,781: INFO: waiting for the breakout
+2022-05-05 08:10:56,418: INFO: RSI anti crossed
+2022-05-05 08:10:57,300: INFO: Position = long
+2022-05-05 08:10:57,301: INFO: waiting for the RSI cross
+2022-05-05 08:10:57,959: INFO: waiting for the RSI cross
+2022-05-05 08:10:59,501: INFO: waiting for the RSI cross
+2022-05-05 08:11:00,834: INFO: RSI crossed the position for long
+2022-05-05 08:11:00,835: INFO: support level = 16.208
+2022-05-05 08:11:41,881: INFO: waiting for the breakout
+2022-05-05 08:11:42,521: INFO: waiting for the breakout
