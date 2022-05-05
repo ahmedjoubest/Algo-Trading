@@ -389,7 +389,7 @@ while(True):
                     logging.info("RSI anti crossed")
                     break
 
-                # Verify break out code
+                # Verify break out
                 breakout = True if (abs(HAdf.Open[-1] - HAdf.Close[-1]) / 2) + min([HAdf.Close[-1], HAdf.Open[-1]]) < resistence_level else False
                 if(breakout):
                     print("Breakout detected, entry position!" + position)
