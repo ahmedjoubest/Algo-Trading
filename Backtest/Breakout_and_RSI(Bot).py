@@ -28,9 +28,7 @@ import math
 api_key = 'vCvbNDYnP04sL3ZMGdGxY4QuEPEdotvw9JqBoM7cL9sSUol5m86EZwhy3JOI0kon'
 api_secret = '9GZ3AlmbVHg0NawM1MYVIzNSjw7eh53f60TtETu7M5jcce1fRtnKzhVlMJbfT14y'
 client = Client(api_key,api_secret)
-timeout_entry_seconds = 120
-tp = 0.45
-sl = 0.4
+
 
 # --- Sourcing functions
 try:
@@ -56,10 +54,13 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(me
 # support wla resistence khass ykon mtraversyin l prix
 
 
+timeout_entry_seconds = 180
+tp = 0.57
+sl = 0.57
 interval = "1m"
 symbol = "WAVESUSDT"
-timeout = 15
-levier = 1
+timeout = 30
+levier = 15
 
 while(True):
 
@@ -149,7 +150,7 @@ while(True):
 
 
                 # Verify break out code
-                breakout = True if (abs(HAdf.Open[-1]-HAdf.Close[-1])/2)+min([HAdf.Close[-1],HAdf.Open[-1]]) > support_level else False
+                breakout = True if (abs(HAdf.High[-1]-HAdf.Low[-1])/2)+HAdf.Low[-1] > support_level else False
                 if(breakout):
                     print("Breakout detected, entry position : !" + position)
                     logging.info("Breakout detected, entry position : !" + position)
@@ -390,7 +391,7 @@ while(True):
                     break
 
                 # Verify break out
-                breakout = True if (abs(HAdf.Open[-1] - HAdf.Close[-1]) / 2) + min([HAdf.Close[-1], HAdf.Open[-1]]) < resistence_level else False
+                breakout = True if (abs(HAdf.High[-1] - HAdf.Low[-1]) / 2) + HAdf.Low[-1] < resistence_level else False
                 if(breakout):
                     print("Breakout detected, entry position!" + position)
                     logging.info("Breakout detected, entry position!" + position)
