@@ -54,11 +54,11 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(me
 
 
 timeout_entry_seconds = 180
-tp = 0.44
-sl = 0.33
+tp = 0.45
+sl = 0.4
 interval = "1m"
 symbol = "WAVESUSDT"
-timeout = 30
+timeout = 50
 levier = 10
 # incertitude = 0.1
 
@@ -150,7 +150,7 @@ while(True):
 
 
                 # Verify break out code
-                breakout = True if (abs(HAdf.High[-1]-HAdf.Low[-1])/2)+HAdf.Low[-1] > support_level else False
+                breakout = True if (abs(HAdf.Close[-1]-HAdf.Close[-1])/2)+min([HAdf.Close[-1],HAdf.Open[-1]]) > support_level else False
                 if(breakout):
                     print("Breakout detected, entry position : !" + position)
                     logging.info("Breakout detected, entry position : !" + position)
@@ -391,7 +391,7 @@ while(True):
                     break
 
                 # Verify break out#
-                breakout = True if (abs(HAdf.High[-1] - HAdf.Low[-1]) / 2) + HAdf.Low[-1] < resistence_level else False
+                breakout = True if (abs(HAdf.Close[-1] - HAdf.Close[-1]) / 2) + min([HAdf.Close[-1], HAdf.Open[-1]]) < resistence_level else False
                 if(breakout):
                     print("Breakout detected, entry position!" + position)
                     logging.info("Breakout detected, entry position!" + position)
@@ -535,3 +535,20 @@ while(True):
                 logging.info('(its a timeout case)')
 
 
+
+
+
+
+
+
+
+import logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(message)s', filename='events_breakout.log', filemode='a')
+
+i = 0
+while(i<=0):
+    i = i + 1
+    try:
+        logging.info('i = ' + i)
+    except Exception as e:
+        print(f'erreur hya {e}')
