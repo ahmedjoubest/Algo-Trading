@@ -8490,3 +8490,1477 @@
 2022-05-06 20:01:55,845: INFO: waiting for the breakout
 2022-05-06 20:02:41,216: INFO: waiting for the breakout
 2022-05-06 20:02:51,066: INFO: waiting for the breakout
+2022-05-06 20:02:59,744: INFO: waiting for the breakout
+2022-05-06 20:03:41,053: INFO: waiting for the breakout
+2022-05-06 20:03:49,306: INFO: waiting for the breakout
+2022-05-06 20:03:57,447: INFO: waiting for the breakout
+2022-05-06 20:04:41,482: INFO: waiting for the breakout
+2022-05-06 20:04:49,423: INFO: waiting for the breakout
+2022-05-06 20:04:58,349: INFO: waiting for the breakout
+2022-05-06 20:05:41,375: INFO: waiting for the breakout
+2022-05-06 20:05:42,180: INFO: waiting for the breakout
+2022-05-06 20:05:42,984: INFO: waiting for the breakout
+2022-05-06 20:05:43,621: INFO: waiting for the breakout
+2022-05-06 20:05:44,251: INFO: waiting for the breakout
+2022-05-06 20:05:44,885: INFO: waiting for the breakout
+2022-05-06 20:05:45,519: INFO: waiting for the breakout
+2022-05-06 20:05:46,151: INFO: waiting for the breakout
+2022-05-06 20:05:46,785: INFO: waiting for the breakout
+2022-05-06 20:05:47,422: INFO: waiting for the breakout
+2022-05-06 20:05:48,212: INFO: waiting for the breakout
+2022-05-06 20:05:48,850: INFO: waiting for the breakout
+2022-05-06 20:05:49,486: INFO: waiting for the breakout
+2022-05-06 20:05:50,123: INFO: waiting for the breakout
+2022-05-06 20:05:50,764: INFO: waiting for the breakout
+2022-05-06 20:05:51,402: INFO: waiting for the breakout
+2022-05-06 20:05:52,937: INFO: waiting for the breakout
+2022-05-06 20:05:54,350: INFO: waiting for the breakout
+2022-05-06 20:05:54,989: INFO: waiting for the breakout
+2022-05-06 20:05:55,628: INFO: waiting for the breakout
+2022-05-06 20:05:56,263: INFO: waiting for the breakout
+2022-05-06 20:05:56,980: INFO: waiting for the breakout
+2022-05-06 20:05:57,696: INFO: waiting for the breakout
+2022-05-06 20:05:58,773: INFO: waiting for the breakout
+2022-05-06 20:05:59,483: INFO: waiting for the breakout
+2022-05-06 20:06:41,268: INFO: waiting for the breakout
+2022-05-06 20:06:49,443: INFO: waiting for the breakout
+2022-05-06 20:06:57,812: INFO: waiting for the breakout
+2022-05-06 20:07:41,856: INFO: waiting for the breakout
+2022-05-06 20:07:49,971: INFO: waiting for the breakout
+2022-05-06 20:07:58,003: INFO: waiting for the breakout
+2022-05-06 20:08:41,182: INFO: waiting for the breakout
+2022-05-06 20:08:49,879: INFO: waiting for the breakout
+2022-05-06 20:08:58,341: INFO: waiting for the breakout
+2022-05-06 20:09:41,605: INFO: waiting for the breakout
+2022-05-06 20:09:51,503: INFO: RSI anti crossed
+2022-05-06 20:10:00,503: INFO: Position = short
+2022-05-06 20:10:41,721: INFO: waiting for the RSI cross
+2022-05-06 20:10:42,383: INFO: waiting for the RSI cross
+2022-05-06 20:10:43,294: INFO: waiting for the RSI cross
+2022-05-06 20:10:43,956: INFO: waiting for the RSI cross
+2022-05-06 20:10:44,618: INFO: waiting for the RSI cross
+2022-05-06 20:10:45,279: INFO: waiting for the RSI cross
+2022-05-06 20:10:45,936: INFO: waiting for the RSI cross
+2022-05-06 20:10:46,597: INFO: waiting for the RSI cross
+2022-05-06 20:10:47,254: INFO: waiting for the RSI cross
+2022-05-06 20:10:48,106: INFO: waiting for the RSI cross
+2022-05-06 20:10:48,966: INFO: waiting for the RSI cross
+2022-05-06 20:10:49,825: INFO: waiting for the RSI cross
+2022-05-06 20:10:50,482: INFO: waiting for the RSI cross
+2022-05-06 20:10:51,141: INFO: waiting for the RSI cross
+2022-05-06 20:10:52,467: INFO: waiting for the RSI cross
+2022-05-06 20:10:53,124: INFO: waiting for the RSI cross
+2022-05-06 20:10:53,787: INFO: waiting for the RSI cross
+2022-05-06 20:10:54,448: INFO: waiting for the RSI cross
+2022-05-06 20:10:55,113: INFO: waiting for the RSI cross
+2022-05-06 20:10:55,777: INFO: waiting for the RSI cross
+2022-05-06 20:10:56,454: INFO: waiting for the RSI cross
+2022-05-06 20:10:57,272: INFO: waiting for the RSI cross
+2022-05-06 20:10:58,082: INFO: waiting for the RSI cross
+2022-05-06 20:10:58,741: INFO: waiting for the RSI cross
+2022-05-06 20:10:59,400: INFO: waiting for the RSI cross
+2022-05-06 20:11:41,104: INFO: waiting for the RSI cross
+2022-05-06 20:11:50,138: INFO: RSI crossed the position for short
+2022-05-06 20:11:50,295: INFO: resistence level = 14.056
+2022-05-06 20:11:50,295: INFO: waiting for the breakout
+2022-05-06 20:11:58,378: INFO: waiting for the breakout
+2022-05-06 20:12:41,038: INFO: waiting for the breakout
+2022-05-06 20:12:49,630: INFO: waiting for the breakout
+2022-05-06 20:12:57,882: INFO: waiting for the breakout
+2022-05-06 20:13:41,506: INFO: waiting for the breakout
+2022-05-06 20:13:49,629: INFO: waiting for the breakout
+2022-05-06 20:13:58,647: INFO: waiting for the breakout
+2022-05-06 20:14:41,759: INFO: waiting for the breakout
+2022-05-06 20:14:49,870: INFO: waiting for the breakout
+2022-05-06 20:14:58,107: INFO: waiting for the breakout
+2022-05-06 20:15:41,435: INFO: waiting for the breakout
+2022-05-06 20:15:42,291: INFO: waiting for the breakout
+2022-05-06 20:15:43,593: INFO: waiting for the breakout
+2022-05-06 20:15:44,406: INFO: waiting for the breakout
+2022-05-06 20:15:45,264: INFO: waiting for the breakout
+2022-05-06 20:15:46,056: INFO: waiting for the breakout
+2022-05-06 20:15:46,693: INFO: waiting for the breakout
+2022-05-06 20:15:47,334: INFO: waiting for the breakout
+2022-05-06 20:15:47,971: INFO: waiting for the breakout
+2022-05-06 20:15:48,612: INFO: waiting for the breakout
+2022-05-06 20:15:50,809: INFO: waiting for the breakout
+2022-05-06 20:15:51,730: INFO: waiting for the breakout
+2022-05-06 20:15:52,370: INFO: waiting for the breakout
+2022-05-06 20:15:53,005: INFO: waiting for the breakout
+2022-05-06 20:15:53,869: INFO: waiting for the breakout
+2022-05-06 20:15:54,510: INFO: waiting for the breakout
+2022-05-06 20:15:55,816: INFO: waiting for the breakout
+2022-05-06 20:15:57,340: INFO: waiting for the breakout
+2022-05-06 20:15:58,887: INFO: waiting for the breakout
+2022-05-06 20:15:59,526: INFO: waiting for the breakout
+2022-05-06 20:16:41,214: INFO: waiting for the breakout
+2022-05-06 20:16:41,858: INFO: Breakout detected, entry position!short
+2022-05-06 20:16:42,804: INFO: Waiting to fill the order, time = 2022-05-06 20:16:42.804760
+2022-05-06 20:16:46,043: INFO: Waiting to fill the order, time = 2022-05-06 20:16:46.043644
+2022-05-06 20:16:49,282: INFO: Waiting to fill the order, time = 2022-05-06 20:16:49.282908
+2022-05-06 20:16:52,521: INFO: Waiting to fill the order, time = 2022-05-06 20:16:52.521380
+2022-05-06 20:16:56,422: INFO: Waiting to fill the order, time = 2022-05-06 20:16:56.422051
+2022-05-06 20:16:59,667: INFO: Waiting to fill the order, time = 2022-05-06 20:16:59.667250
+2022-05-06 20:17:02,905: INFO: Waiting to fill the order, time = 2022-05-06 20:17:02.905393
+2022-05-06 20:17:06,144: INFO: Waiting to fill the order, time = 2022-05-06 20:17:06.144555
+2022-05-06 20:17:09,385: INFO: Waiting to fill the order, time = 2022-05-06 20:17:09.385252
+2022-05-06 20:17:12,624: INFO: Waiting to fill the order, time = 2022-05-06 20:17:12.624456
+2022-05-06 20:17:15,861: INFO: Waiting to fill the order, time = 2022-05-06 20:17:15.861246
+2022-05-06 20:17:19,100: INFO: Waiting to fill the order, time = 2022-05-06 20:17:19.100766
+2022-05-06 20:17:22,338: INFO: Waiting to fill the order, time = 2022-05-06 20:17:22.337988
+2022-05-06 20:17:25,577: INFO: Waiting to fill the order, time = 2022-05-06 20:17:25.577449
+2022-05-06 20:17:28,814: INFO: Waiting to fill the order, time = 2022-05-06 20:17:28.814919
+2022-05-06 20:17:32,054: INFO: Waiting to fill the order, time = 2022-05-06 20:17:32.054413
+2022-05-06 20:17:35,290: INFO: Waiting to fill the order, time = 2022-05-06 20:17:35.290796
+2022-05-06 20:17:38,530: INFO: Waiting to fill the order, time = 2022-05-06 20:17:38.530039
+2022-05-06 20:17:41,769: INFO: Order filled! Time = 2022-05-06 20:17:41.769536
+2022-05-06 20:17:43,133: INFO: Still in position, time = 2022-05-06 20:17:43.133941
+2022-05-06 20:17:46,371: INFO: Still in position, time = 2022-05-06 20:17:46.371092
+2022-05-06 20:17:49,609: INFO: Still in position, time = 2022-05-06 20:17:49.609612
+2022-05-06 20:17:52,888: INFO: Still in position, time = 2022-05-06 20:17:52.888230
+2022-05-06 20:17:56,126: INFO: Still in position, time = 2022-05-06 20:17:56.126745
+2022-05-06 20:17:59,365: INFO: Still in position, time = 2022-05-06 20:17:59.365855
+2022-05-06 20:18:02,603: INFO: Still in position, time = 2022-05-06 20:18:02.603085
+2022-05-06 20:18:05,885: INFO: Still in position, time = 2022-05-06 20:18:05.885316
+2022-05-06 20:18:09,124: INFO: Still in position, time = 2022-05-06 20:18:09.124308
+2022-05-06 20:18:13,084: INFO: Still in position, time = 2022-05-06 20:18:13.084219
+2022-05-06 20:18:16,349: INFO: Still in position, time = 2022-05-06 20:18:16.349266
+2022-05-06 20:18:19,612: INFO: Still in position, time = 2022-05-06 20:18:19.612464
+2022-05-06 20:18:22,887: INFO: Still in position, time = 2022-05-06 20:18:22.887682
+2022-05-06 20:18:26,993: INFO: Still in position, time = 2022-05-06 20:18:26.993117
+2022-05-06 20:18:30,232: INFO: Still in position, time = 2022-05-06 20:18:30.232080
+2022-05-06 20:18:33,503: INFO: Still in position, time = 2022-05-06 20:18:33.503536
+2022-05-06 20:18:36,741: INFO: Still in position, time = 2022-05-06 20:18:36.741751
+2022-05-06 20:18:40,678: INFO: Still in position, time = 2022-05-06 20:18:40.678094
+2022-05-06 20:18:43,915: INFO: Still in position, time = 2022-05-06 20:18:43.915186
+2022-05-06 20:18:47,155: INFO: Still in position, time = 2022-05-06 20:18:47.155070
+2022-05-06 20:18:50,394: INFO: Still in position, time = 2022-05-06 20:18:50.394492
+2022-05-06 20:18:53,631: INFO: Still in position, time = 2022-05-06 20:18:53.631818
+2022-05-06 20:18:56,869: INFO: Still in position, time = 2022-05-06 20:18:56.869174
+2022-05-06 20:19:00,106: INFO: Still in position, time = 2022-05-06 20:19:00.106119
+2022-05-06 20:19:03,394: INFO: Still in position, time = 2022-05-06 20:19:03.345928
+2022-05-06 20:19:06,661: INFO: Still in position, time = 2022-05-06 20:19:06.661417
+2022-05-06 20:19:09,902: INFO: Still in position, time = 2022-05-06 20:19:09.902254
+2022-05-06 20:19:13,141: INFO: Still in position, time = 2022-05-06 20:19:13.141613
+2022-05-06 20:19:16,409: INFO: Still in position, time = 2022-05-06 20:19:16.409947
+2022-05-06 20:19:19,676: INFO: Still in position, time = 2022-05-06 20:19:19.676270
+2022-05-06 20:19:22,952: INFO: Still in position, time = 2022-05-06 20:19:22.952640
+2022-05-06 20:19:26,190: INFO: Still in position, time = 2022-05-06 20:19:26.190048
+2022-05-06 20:19:29,465: INFO: Still in position, time = 2022-05-06 20:19:29.465799
+2022-05-06 20:19:32,744: INFO: Still in position, time = 2022-05-06 20:19:32.744803
+2022-05-06 20:19:35,984: INFO: Still in position, time = 2022-05-06 20:19:35.984199
+2022-05-06 20:19:39,224: INFO: Still in position, time = 2022-05-06 20:19:39.224072
+2022-05-06 20:19:42,498: INFO: Still in position, time = 2022-05-06 20:19:42.498522
+2022-05-06 20:19:45,738: INFO: Still in position, time = 2022-05-06 20:19:45.738001
+2022-05-06 20:19:48,975: INFO: Still in position, time = 2022-05-06 20:19:48.975095
+2022-05-06 20:19:52,236: INFO: Still in position, time = 2022-05-06 20:19:52.236530
+2022-05-06 20:19:55,502: INFO: Still in position, time = 2022-05-06 20:19:55.502667
+2022-05-06 20:19:58,743: INFO: Still in position, time = 2022-05-06 20:19:58.743167
+2022-05-06 20:20:02,027: INFO: Still in position, time = 2022-05-06 20:20:02.027498
+2022-05-06 20:20:05,324: INFO: Still in position, time = 2022-05-06 20:20:05.324845
+2022-05-06 20:20:08,565: INFO: Still in position, time = 2022-05-06 20:20:08.565469
+2022-05-06 20:20:11,802: INFO: Still in position, time = 2022-05-06 20:20:11.802702
+2022-05-06 20:20:15,045: INFO: Still in position, time = 2022-05-06 20:20:15.045178
+2022-05-06 20:20:18,284: INFO: Still in position, time = 2022-05-06 20:20:18.284696
+2022-05-06 20:20:21,521: INFO: Still in position, time = 2022-05-06 20:20:21.521511
+2022-05-06 20:20:24,759: INFO: Still in position, time = 2022-05-06 20:20:24.759716
+2022-05-06 20:20:27,999: INFO: Still in position, time = 2022-05-06 20:20:27.999203
+2022-05-06 20:20:31,237: INFO: Still in position, time = 2022-05-06 20:20:31.237608
+2022-05-06 20:20:35,147: INFO: Still in position, time = 2022-05-06 20:20:35.147003
+2022-05-06 20:20:38,385: INFO: Still in position, time = 2022-05-06 20:20:38.385271
+2022-05-06 20:20:41,623: INFO: Still in position, time = 2022-05-06 20:20:41.623878
+2022-05-06 20:20:44,860: INFO: Still in position, time = 2022-05-06 20:20:44.860857
+2022-05-06 20:20:48,100: INFO: Still in position, time = 2022-05-06 20:20:48.100747
+2022-05-06 20:20:51,340: INFO: Still in position, time = 2022-05-06 20:20:51.339974
+2022-05-06 20:20:54,577: INFO: Still in position, time = 2022-05-06 20:20:54.577795
+2022-05-06 20:20:57,815: INFO: Still in position, time = 2022-05-06 20:20:57.815882
+2022-05-06 20:21:02,002: INFO: TP reached
+2022-05-06 20:22:22,520: INFO: Position = nothing
+2022-05-06 20:22:23,177: INFO: Position = nothing
+2022-05-06 20:22:24,060: INFO: Position = nothing
+2022-05-06 20:22:24,713: INFO: Position = nothing
+2022-05-06 20:22:25,592: INFO: Position = nothing
+2022-05-06 20:22:26,250: INFO: Position = nothing
+2022-05-06 20:22:27,140: INFO: Position = nothing
+2022-05-06 20:22:28,021: INFO: Position = nothing
+2022-05-06 20:22:29,564: INFO: Position = nothing
+2022-05-06 20:22:30,891: INFO: Position = nothing
+2022-05-06 20:22:32,434: INFO: Position = nothing
+2022-05-06 20:22:33,087: INFO: Position = nothing
+2022-05-06 20:22:33,745: INFO: Position = nothing
+2022-05-06 20:22:34,400: INFO: Position = nothing
+2022-05-06 20:22:35,057: INFO: Position = nothing
+2022-05-06 20:22:35,932: INFO: Position = nothing
+2022-05-06 20:22:36,592: INFO: Position = nothing
+2022-05-06 20:22:37,247: INFO: Position = nothing
+2022-05-06 20:22:37,905: INFO: Position = nothing
+2022-05-06 20:22:38,782: INFO: Position = nothing
+2022-05-06 20:22:39,452: INFO: Position = nothing
+2022-05-06 20:22:40,116: INFO: Position = nothing
+2022-05-06 20:22:40,771: INFO: Position = nothing
+2022-05-06 20:22:41,427: INFO: Position = nothing
+2022-05-06 20:22:42,082: INFO: Position = nothing
+2022-05-06 20:22:42,745: INFO: Position = nothing
+2022-05-06 20:22:43,620: INFO: Position = nothing
+2022-05-06 20:22:44,283: INFO: Position = nothing
+2022-05-06 20:22:44,941: INFO: Position = nothing
+2022-05-06 20:22:45,595: INFO: Position = nothing
+2022-05-06 20:22:46,478: INFO: Position = nothing
+2022-05-06 20:22:47,137: INFO: Position = nothing
+2022-05-06 20:22:48,016: INFO: Position = nothing
+2022-05-06 20:22:48,673: INFO: Position = nothing
+2022-05-06 20:22:49,334: INFO: Position = nothing
+2022-05-06 20:22:50,212: INFO: Position = nothing
+2022-05-06 20:22:50,873: INFO: Position = nothing
+2022-05-06 20:22:51,526: INFO: Position = nothing
+2022-05-06 20:22:52,401: INFO: Position = nothing
+2022-05-06 20:22:53,059: INFO: Position = nothing
+2022-05-06 20:22:53,713: INFO: Position = nothing
+2022-05-06 20:22:54,367: INFO: Position = nothing
+2022-05-06 20:22:55,029: INFO: Position = nothing
+2022-05-06 20:22:55,691: INFO: Position = nothing
+2022-05-06 20:22:56,353: INFO: Position = nothing
+2022-05-06 20:22:57,017: INFO: Position = nothing
+2022-05-06 20:22:57,672: INFO: Position = nothing
+2022-05-06 20:22:58,327: INFO: Position = nothing
+2022-05-06 20:22:58,980: INFO: Position = nothing
+2022-05-06 20:22:59,640: INFO: Position = nothing
+2022-05-06 20:23:00,300: INFO: Position = nothing
+2022-05-06 20:23:00,956: INFO: Position = nothing
+2022-05-06 20:23:01,618: INFO: Position = nothing
+2022-05-06 20:23:02,274: INFO: Position = nothing
+2022-05-06 20:23:03,150: INFO: Position = nothing
+2022-05-06 20:23:03,807: INFO: Position = nothing
+2022-05-06 20:23:04,465: INFO: Position = nothing
+2022-05-06 20:23:05,342: INFO: Position = nothing
+2022-05-06 20:23:06,000: INFO: Position = nothing
+2022-05-06 20:23:06,659: INFO: Position = nothing
+2022-05-06 20:23:07,320: INFO: Position = nothing
+2022-05-06 20:23:07,976: INFO: Position = nothing
+2022-05-06 20:23:08,637: INFO: Position = nothing
+2022-05-06 20:23:09,300: INFO: Position = nothing
+2022-05-06 20:23:09,958: INFO: Position = nothing
+2022-05-06 20:23:10,624: INFO: Position = nothing
+2022-05-06 20:23:11,571: INFO: Position = nothing
+2022-05-06 20:23:12,309: INFO: Position = nothing
+2022-05-06 20:23:13,054: INFO: Position = nothing
+2022-05-06 20:23:13,805: INFO: Position = nothing
+2022-05-06 20:23:14,552: INFO: Position = nothing
+2022-05-06 20:23:15,280: INFO: Position = nothing
+2022-05-06 20:23:16,031: INFO: Position = nothing
+2022-05-06 20:23:17,010: INFO: Position = nothing
+2022-05-06 20:23:17,996: INFO: Position = nothing
+2022-05-06 20:23:18,990: INFO: Position = nothing
+2022-05-06 20:23:19,991: INFO: Position = nothing
+2022-05-06 20:23:21,221: INFO: Position = nothing
+2022-05-06 20:23:26,082: INFO: Position = nothing
+2022-05-06 20:23:31,039: INFO: Position = nothing
+2022-05-06 20:23:36,220: INFO: Position = nothing
+2022-05-06 20:23:41,033: INFO: Position = nothing
+2022-05-06 20:23:46,129: INFO: Position = nothing
+2022-05-06 20:23:52,057: INFO: Position = nothing
+2022-05-06 20:23:57,100: INFO: Position = nothing
+2022-05-06 20:24:02,319: INFO: Position = nothing
+2022-05-06 20:24:07,190: INFO: Position = nothing
+2022-05-06 20:24:12,086: INFO: Position = nothing
+2022-05-06 20:24:17,126: INFO: Position = nothing
+2022-05-06 20:24:21,985: INFO: Position = nothing
+2022-05-06 20:24:27,181: INFO: Position = nothing
+2022-05-06 20:24:32,325: INFO: Position = nothing
+2022-05-06 20:24:37,362: INFO: Position = nothing
+2022-05-06 20:24:43,316: INFO: Position = nothing
+2022-05-06 20:24:48,133: INFO: Position = nothing
+2022-05-06 20:24:53,138: INFO: Position = nothing
+2022-05-06 20:24:58,030: INFO: Position = nothing
+2022-05-06 20:25:03,760: INFO: Position = nothing
+2022-05-06 20:25:06,508: INFO: Position = nothing
+2022-05-06 20:25:07,168: INFO: Position = nothing
+2022-05-06 20:25:07,822: INFO: Position = nothing
+2022-05-06 20:25:08,478: INFO: Position = nothing
+2022-05-06 20:25:09,132: INFO: Position = nothing
+2022-05-06 20:25:10,452: INFO: Position = nothing
+2022-05-06 20:25:11,106: INFO: Position = nothing
+2022-05-06 20:25:11,767: INFO: Position = nothing
+2022-05-06 20:25:12,428: INFO: Position = nothing
+2022-05-06 20:25:13,095: INFO: Position = nothing
+2022-05-06 20:25:14,646: INFO: Position = nothing
+2022-05-06 20:25:15,962: INFO: Position = nothing
+2022-05-06 20:25:18,170: INFO: Position = nothing
+2022-05-06 20:25:19,725: INFO: Position = nothing
+2022-05-06 20:25:20,381: INFO: Position = nothing
+2022-05-06 20:25:21,036: INFO: Position = nothing
+2022-05-06 20:25:21,690: INFO: Position = nothing
+2022-05-06 20:25:22,349: INFO: Position = nothing
+2022-05-06 20:25:23,233: INFO: Position = nothing
+2022-05-06 20:25:24,559: INFO: Position = nothing
+2022-05-06 20:25:25,658: INFO: Position = nothing
+2022-05-06 20:25:26,533: INFO: Position = nothing
+2022-05-06 20:25:27,185: INFO: Position = nothing
+2022-05-06 20:25:28,054: INFO: Position = nothing
+2022-05-06 20:25:28,712: INFO: Position = nothing
+2022-05-06 20:25:29,365: INFO: Position = nothing
+2022-05-06 20:25:30,025: INFO: Position = nothing
+2022-05-06 20:25:30,680: INFO: Position = nothing
+2022-05-06 20:25:32,216: INFO: Position = nothing
+2022-05-06 20:25:33,088: INFO: Position = nothing
+2022-05-06 20:25:33,741: INFO: Position = nothing
+2022-05-06 20:25:34,392: INFO: Position = nothing
+2022-05-06 20:25:35,047: INFO: Position = nothing
+2022-05-06 20:25:35,698: INFO: Position = nothing
+2022-05-06 20:25:36,576: INFO: Position = nothing
+2022-05-06 20:25:37,230: INFO: Position = nothing
+2022-05-06 20:25:37,880: INFO: Position = nothing
+2022-05-06 20:25:38,536: INFO: Position = nothing
+2022-05-06 20:25:39,186: INFO: Position = nothing
+2022-05-06 20:25:39,843: INFO: Position = nothing
+2022-05-06 20:25:40,496: INFO: Position = nothing
+2022-05-06 20:25:41,155: INFO: Position = nothing
+2022-05-06 20:25:41,892: INFO: Position = nothing
+2022-05-06 20:25:42,622: INFO: Position = nothing
+2022-05-06 20:25:43,368: INFO: Position = nothing
+2022-05-06 20:25:44,102: INFO: Position = nothing
+2022-05-06 20:25:44,833: INFO: Position = nothing
+2022-05-06 20:25:45,575: INFO: Position = nothing
+2022-05-06 20:25:46,315: INFO: Position = nothing
+2022-05-06 20:25:47,321: INFO: Position = nothing
+2022-05-06 20:25:48,325: INFO: Position = nothing
+2022-05-06 20:25:49,322: INFO: Position = nothing
+2022-05-06 20:25:50,313: INFO: Position = nothing
+2022-05-06 20:25:51,304: INFO: Position = nothing
+2022-05-06 20:25:56,012: INFO: Position = nothing
+2022-05-06 20:26:00,844: INFO: Position = nothing
+2022-05-06 20:26:05,628: INFO: Position = nothing
+2022-05-06 20:26:11,383: INFO: Position = nothing
+2022-05-06 20:26:16,317: INFO: Position = nothing
+2022-05-06 20:26:22,810: INFO: Position = nothing
+2022-05-06 20:26:27,764: INFO: Position = nothing
+2022-05-06 20:26:34,438: INFO: Position = nothing
+2022-05-06 20:26:39,527: INFO: Position = nothing
+2022-05-06 20:26:44,452: INFO: Position = nothing
+2022-05-06 20:26:49,395: INFO: Position = nothing
+2022-05-06 20:26:54,313: INFO: Position = nothing
+2022-05-06 20:27:00,177: INFO: Position = nothing
+2022-05-06 20:27:05,026: INFO: Position = nothing
+2022-05-06 20:27:09,965: INFO: Position = nothing
+2022-05-06 20:27:15,005: INFO: Position = nothing
+2022-05-06 20:27:21,748: INFO: Position = nothing
+2022-05-06 20:27:26,606: INFO: Position = nothing
+2022-05-06 20:27:31,620: INFO: Position = nothing
+2022-05-06 20:27:36,689: INFO: Position = nothing
+2022-05-06 20:27:41,773: INFO: Position = nothing
+2022-05-06 20:27:51,382: INFO: Position = nothing
+2022-05-06 20:28:02,064: INFO: Position = nothing
+2022-05-06 20:28:10,737: INFO: Position = nothing
+2022-05-06 20:28:22,054: INFO: Position = nothing
+2022-05-06 20:28:32,922: INFO: Position = nothing
+2022-05-06 20:28:41,774: INFO: Position = nothing
+2022-05-06 20:28:50,614: INFO: Position = nothing
+2022-05-06 20:28:59,861: INFO: Position = nothing
+2022-05-06 20:29:08,867: INFO: Position = nothing
+2022-05-06 20:29:18,111: INFO: Position = nothing
+2022-05-06 20:29:27,097: INFO: Position = nothing
+2022-05-06 20:29:37,449: INFO: Position = nothing
+2022-05-06 20:29:47,303: INFO: Position = nothing
+2022-05-06 20:29:56,564: INFO: Position = nothing
+2022-05-06 20:30:06,304: INFO: Position = nothing
+2022-05-06 20:30:14,908: INFO: Position = nothing
+2022-05-06 20:30:24,077: INFO: Position = nothing
+2022-05-06 20:30:33,245: INFO: Position = nothing
+2022-05-06 20:30:42,817: INFO: Position = nothing
+2022-05-06 20:30:52,778: INFO: Position = nothing
+2022-05-06 20:31:01,711: INFO: Position = nothing
+2022-05-06 20:31:12,638: INFO: Position = nothing
+2022-05-06 20:31:22,048: INFO: Position = nothing
+2022-05-06 20:31:32,330: INFO: Position = nothing
+2022-05-06 20:31:41,595: INFO: Position = nothing
+2022-05-06 20:31:50,991: INFO: Position = nothing
+2022-05-06 20:32:00,080: INFO: Position = nothing
+2022-05-06 20:32:09,969: INFO: Position = nothing
+2022-05-06 20:32:19,293: INFO: Position = nothing
+2022-05-06 20:32:28,543: INFO: Position = nothing
+2022-05-06 20:32:38,770: INFO: Position = nothing
+2022-05-06 20:32:48,007: INFO: Position = nothing
+2022-05-06 20:32:57,245: INFO: Position = nothing
+2022-05-06 20:33:07,128: INFO: Position = nothing
+2022-05-06 20:33:18,511: INFO: Position = nothing
+2022-05-06 20:33:27,756: INFO: Position = nothing
+2022-05-06 20:33:36,752: INFO: Position = nothing
+2022-05-06 20:33:46,414: INFO: Position = nothing
+2022-05-06 20:33:55,964: INFO: Position = nothing
+2022-05-06 20:34:06,588: INFO: Position = nothing
+2022-05-06 20:34:15,752: INFO: Position = nothing
+2022-05-06 20:34:25,973: INFO: Position = nothing
+2022-05-06 20:34:34,988: INFO: Position = nothing
+2022-05-06 20:34:44,479: INFO: Position = nothing
+2022-05-06 20:34:54,039: INFO: Position = nothing
+2022-05-06 20:35:03,026: INFO: Position = nothing
+2022-05-06 20:35:12,441: INFO: Position = nothing
+2022-05-06 20:35:21,591: INFO: Position = nothing
+2022-05-06 20:35:32,269: INFO: Position = nothing
+2022-05-06 20:35:41,831: INFO: Position = nothing
+2022-05-06 20:35:51,242: INFO: Position = short
+2022-05-06 20:35:51,242: INFO: waiting for the RSI cross
+2022-05-06 20:36:41,520: INFO: waiting for the RSI cross
+2022-05-06 20:36:50,892: INFO: RSI crossed the position for short
+2022-05-06 20:36:50,892: INFO: resistence level = 14.1394
+2022-05-06 20:36:50,892: INFO: waiting for the breakout
+2022-05-06 20:37:41,842: INFO: waiting for the breakout
+2022-05-06 20:37:52,074: INFO: waiting for the breakout
+2022-05-06 20:38:41,678: INFO: waiting for the breakout
+2022-05-06 20:38:50,845: INFO: RSI anti crossed
+2022-05-06 20:38:59,773: INFO: Position = short
+2022-05-06 20:38:59,774: INFO: waiting for the RSI cross
+2022-05-06 20:39:41,697: INFO: waiting for the RSI cross
+2022-05-06 20:39:50,673: INFO: waiting for the RSI cross
+2022-05-06 20:39:59,845: INFO: waiting for the RSI cross
+2022-05-06 20:40:41,199: INFO: waiting for the RSI cross
+2022-05-06 20:40:41,858: INFO: waiting for the RSI cross
+2022-05-06 20:40:42,511: INFO: waiting for the RSI cross
+2022-05-06 20:40:43,385: INFO: waiting for the RSI cross
+2022-05-06 20:40:44,706: INFO: waiting for the RSI cross
+2022-05-06 20:40:46,254: INFO: waiting for the RSI cross
+2022-05-06 20:40:47,146: INFO: waiting for the RSI cross
+2022-05-06 20:40:48,694: INFO: waiting for the RSI cross
+2022-05-06 20:40:49,352: INFO: waiting for the RSI cross
+2022-05-06 20:40:50,009: INFO: waiting for the RSI cross
+2022-05-06 20:40:51,096: INFO: waiting for the RSI cross
+2022-05-06 20:40:51,760: INFO: waiting for the RSI cross
+2022-05-06 20:40:52,417: INFO: waiting for the RSI cross
+2022-05-06 20:40:53,932: INFO: waiting for the RSI cross
+2022-05-06 20:40:54,762: INFO: waiting for the RSI cross
+2022-05-06 20:40:55,645: INFO: waiting for the RSI cross
+2022-05-06 20:40:56,322: INFO: waiting for the RSI cross
+2022-05-06 20:40:57,130: INFO: waiting for the RSI cross
+2022-05-06 20:40:57,787: INFO: waiting for the RSI cross
+2022-05-06 20:40:58,446: INFO: waiting for the RSI cross
+2022-05-06 20:40:59,105: INFO: waiting for the RSI cross
+2022-05-06 20:40:59,764: INFO: waiting for the RSI cross
+2022-05-06 20:41:41,467: INFO: waiting for the RSI cross
+2022-05-06 20:41:50,654: INFO: waiting for the RSI cross
+2022-05-06 20:41:59,769: INFO: waiting for the RSI cross
+2022-05-06 20:42:41,599: INFO: waiting for the RSI cross
+2022-05-06 20:42:51,564: INFO: RSI crossed the position for short
+2022-05-06 20:42:51,565: INFO: resistence level = 14.1394
+2022-05-06 20:42:51,565: INFO: waiting for the breakout
+2022-05-06 20:43:41,538: INFO: waiting for the breakout
+2022-05-06 20:43:49,679: INFO: waiting for the breakout
+2022-05-06 20:43:57,964: INFO: waiting for the breakout
+2022-05-06 20:44:41,292: INFO: waiting for the breakout
+2022-05-06 20:44:49,665: INFO: waiting for the breakout
+2022-05-06 20:44:58,814: INFO: waiting for the breakout
+2022-05-06 20:45:41,478: INFO: waiting for the breakout
+2022-05-06 20:45:42,338: INFO: waiting for the breakout
+2022-05-06 20:45:43,197: INFO: waiting for the breakout
+2022-05-06 20:45:44,726: INFO: waiting for the breakout
+2022-05-06 20:45:45,365: INFO: waiting for the breakout
+2022-05-06 20:45:46,007: INFO: waiting for the breakout
+2022-05-06 20:45:46,654: INFO: waiting for the breakout
+2022-05-06 20:45:47,349: INFO: waiting for the breakout
+2022-05-06 20:45:48,214: INFO: waiting for the breakout
+2022-05-06 20:45:48,854: INFO: waiting for the breakout
+2022-05-06 20:45:49,769: INFO: waiting for the breakout
+2022-05-06 20:45:50,412: INFO: waiting for the breakout
+2022-05-06 20:45:51,301: INFO: waiting for the breakout
+2022-05-06 20:45:51,981: INFO: waiting for the breakout
+2022-05-06 20:45:52,620: INFO: waiting for the breakout
+2022-05-06 20:45:53,261: INFO: waiting for the breakout
+2022-05-06 20:45:54,116: INFO: waiting for the breakout
+2022-05-06 20:45:55,794: INFO: waiting for the breakout
+2022-05-06 20:45:56,434: INFO: waiting for the breakout
+2022-05-06 20:45:57,072: INFO: waiting for the breakout
+2022-05-06 20:45:57,720: INFO: waiting for the breakout
+2022-05-06 20:45:58,362: INFO: waiting for the breakout
+2022-05-06 20:45:59,175: INFO: waiting for the breakout
+2022-05-06 20:45:59,813: INFO: waiting for the breakout
+2022-05-06 20:46:41,496: INFO: waiting for the breakout
+2022-05-06 20:46:42,545: INFO: waiting for the breakout
+2022-05-06 20:46:43,408: INFO: waiting for the breakout
+2022-05-06 20:46:44,935: INFO: waiting for the breakout
+2022-05-06 20:46:45,796: INFO: waiting for the breakout
+2022-05-06 20:46:46,435: INFO: waiting for the breakout
+2022-05-06 20:46:47,365: INFO: waiting for the breakout
+2022-05-06 20:46:49,114: INFO: waiting for the breakout
+2022-05-06 20:46:49,986: INFO: waiting for the breakout
+2022-05-06 20:46:50,696: INFO: waiting for the breakout
+2022-05-06 20:46:51,814: INFO: waiting for the breakout
+2022-05-06 20:46:53,043: INFO: waiting for the breakout
+2022-05-06 20:46:54,304: INFO: waiting for the breakout
+2022-05-06 20:46:55,668: INFO: waiting for the breakout
+2022-05-06 20:47:41,998: INFO: waiting for the breakout
+2022-05-06 20:47:49,902: INFO: waiting for the breakout
+2022-05-06 20:47:58,279: INFO: waiting for the breakout
+2022-05-06 20:48:41,973: INFO: waiting for the breakout
+2022-05-06 20:48:50,330: INFO: waiting for the breakout
+2022-05-06 20:48:58,573: INFO: waiting for the breakout
+2022-05-06 20:49:41,907: INFO: waiting for the breakout
+2022-05-06 20:49:50,101: INFO: waiting for the breakout
+2022-05-06 20:49:57,996: INFO: waiting for the breakout
+2022-05-06 20:50:41,484: INFO: waiting for the breakout
+2022-05-06 20:50:42,299: INFO: waiting for the breakout
+2022-05-06 20:50:43,830: INFO: waiting for the breakout
+2022-05-06 20:50:44,687: INFO: waiting for the breakout
+2022-05-06 20:50:46,876: INFO: waiting for the breakout
+2022-05-06 20:50:48,401: INFO: waiting for the breakout
+2022-05-06 20:50:49,859: INFO: waiting for the breakout
+2022-05-06 20:50:50,709: INFO: waiting for the breakout
+2022-05-06 20:50:51,570: INFO: waiting for the breakout
+2022-05-06 20:50:52,206: INFO: waiting for the breakout
+2022-05-06 20:50:52,878: INFO: waiting for the breakout
+2022-05-06 20:50:53,550: INFO: waiting for the breakout
+2022-05-06 20:50:55,086: INFO: waiting for the breakout
+2022-05-06 20:50:55,721: INFO: waiting for the breakout
+2022-05-06 20:50:56,361: INFO: waiting for the breakout
+2022-05-06 20:50:57,014: INFO: waiting for the breakout
+2022-05-06 20:50:57,668: INFO: waiting for the breakout
+2022-05-06 20:50:58,329: INFO: waiting for the breakout
+2022-05-06 20:50:59,097: INFO: waiting for the breakout
+2022-05-06 20:50:59,878: INFO: waiting for the breakout
+2022-05-06 20:51:42,041: INFO: waiting for the breakout
+2022-05-06 20:51:50,387: INFO: waiting for the breakout
+2022-05-06 20:51:58,489: INFO: waiting for the breakout
+2022-05-06 20:52:41,903: INFO: waiting for the breakout
+2022-05-06 20:52:49,462: INFO: waiting for the breakout
+2022-05-06 20:52:58,247: INFO: waiting for the breakout
+2022-05-06 20:53:41,409: INFO: waiting for the breakout
+2022-05-06 20:53:50,214: INFO: waiting for the breakout
+2022-05-06 20:53:58,795: INFO: waiting for the breakout
+2022-05-06 20:54:41,437: INFO: waiting for the breakout
+2022-05-06 20:54:49,861: INFO: waiting for the breakout
+2022-05-06 20:54:57,750: INFO: waiting for the breakout
+2022-05-06 20:55:41,513: INFO: waiting for the breakout
+2022-05-06 20:55:42,342: INFO: waiting for the breakout
+2022-05-06 20:55:43,860: INFO: waiting for the breakout
+2022-05-06 20:55:45,384: INFO: waiting for the breakout
+2022-05-06 20:55:46,908: INFO: waiting for the breakout
+2022-05-06 20:55:48,424: INFO: waiting for the breakout
+2022-05-06 20:55:49,284: INFO: waiting for the breakout
+2022-05-06 20:55:49,918: INFO: waiting for the breakout
+2022-05-06 20:55:51,230: INFO: waiting for the breakout
+2022-05-06 20:55:51,865: INFO: waiting for the breakout
+2022-05-06 20:55:52,726: INFO: waiting for the breakout
+2022-05-06 20:55:53,361: INFO: waiting for the breakout
+2022-05-06 20:55:54,233: INFO: waiting for the breakout
+2022-05-06 20:55:54,867: INFO: waiting for the breakout
+2022-05-06 20:55:55,500: INFO: waiting for the breakout
+2022-05-06 20:55:56,297: INFO: waiting for the breakout
+2022-05-06 20:55:57,105: INFO: waiting for the breakout
+2022-05-06 20:55:57,923: INFO: waiting for the breakout
+2022-05-06 20:55:58,726: INFO: waiting for the breakout
+2022-05-06 20:55:59,541: INFO: waiting for the breakout
+2022-05-06 20:56:41,407: INFO: waiting for the breakout
+2022-05-06 20:56:42,225: INFO: waiting for the breakout
+2022-05-06 20:56:44,620: INFO: waiting for the breakout
+2022-05-06 20:56:46,339: INFO: waiting for the breakout
+2022-05-06 20:56:47,201: INFO: waiting for the breakout
+2022-05-06 20:56:47,838: INFO: waiting for the breakout
+2022-05-06 20:56:48,702: INFO: waiting for the breakout
+2022-05-06 20:56:50,000: INFO: waiting for the breakout
+2022-05-06 20:56:50,671: INFO: waiting for the breakout
+2022-05-06 20:56:51,308: INFO: waiting for the breakout
+2022-05-06 20:56:52,185: INFO: waiting for the breakout
+2022-05-06 20:56:53,998: INFO: waiting for the breakout
+2022-05-06 20:56:54,875: INFO: waiting for the breakout
+2022-05-06 20:56:55,816: INFO: waiting for the breakout
+2022-05-06 20:56:56,939: INFO: waiting for the breakout
+2022-05-06 20:56:58,255: INFO: waiting for the breakout
+2022-05-06 20:56:59,582: INFO: waiting for the breakout
+2022-05-06 20:57:41,283: INFO: waiting for the breakout
+2022-05-06 20:57:49,299: INFO: waiting for the breakout
+2022-05-06 20:57:57,297: INFO: waiting for the breakout
+2022-05-06 20:58:41,086: INFO: waiting for the breakout
+2022-05-06 20:58:48,483: INFO: waiting for the breakout
+2022-05-06 20:58:57,477: INFO: waiting for the breakout
+2022-05-06 20:59:41,425: INFO: waiting for the breakout
+2022-05-06 20:59:49,249: INFO: waiting for the breakout
+2022-05-06 20:59:57,317: INFO: waiting for the breakout
+2022-05-06 21:00:41,530: INFO: waiting for the breakout
+2022-05-06 21:00:42,334: INFO: waiting for the breakout
+2022-05-06 21:00:44,711: INFO: waiting for the breakout
+2022-05-06 21:00:46,230: INFO: waiting for the breakout
+2022-05-06 21:00:47,752: INFO: waiting for the breakout
+2022-05-06 21:00:49,273: INFO: waiting for the breakout
+2022-05-06 21:00:50,128: INFO: waiting for the breakout
+2022-05-06 21:00:50,758: INFO: waiting for the breakout
+2022-05-06 21:00:51,616: INFO: waiting for the breakout
+2022-05-06 21:00:52,265: INFO: waiting for the breakout
+2022-05-06 21:00:53,145: INFO: waiting for the breakout
+2022-05-06 21:00:53,892: INFO: waiting for the breakout
+2022-05-06 21:00:54,623: INFO: waiting for the breakout
+2022-05-06 21:00:55,339: INFO: waiting for the breakout
+2022-05-06 21:00:56,055: INFO: waiting for the breakout
+2022-05-06 21:00:56,758: INFO: waiting for the breakout
+2022-05-06 21:00:58,320: INFO: waiting for the breakout
+2022-05-06 21:00:59,001: INFO: waiting for the breakout
+2022-05-06 21:00:59,688: INFO: waiting for the breakout
+2022-05-06 21:01:41,415: INFO: waiting for the breakout
+2022-05-06 21:01:49,676: INFO: waiting for the breakout
+2022-05-06 21:01:58,141: INFO: waiting for the breakout
+2022-05-06 21:02:41,958: INFO: waiting for the breakout
+2022-05-06 21:02:51,100: INFO: waiting for the breakout
+2022-05-06 21:02:59,052: INFO: waiting for the breakout
+2022-05-06 21:03:41,253: INFO: waiting for the breakout
+2022-05-06 21:03:49,208: INFO: waiting for the breakout
+2022-05-06 21:03:58,399: INFO: waiting for the breakout
+2022-05-06 21:04:41,637: INFO: waiting for the breakout
+2022-05-06 21:04:50,247: INFO: waiting for the breakout
+2022-05-06 21:04:58,434: INFO: waiting for the breakout
+2022-05-06 21:05:41,540: INFO: waiting for the breakout
+2022-05-06 21:05:42,356: INFO: waiting for the breakout
+2022-05-06 21:05:43,889: INFO: waiting for the breakout
+2022-05-06 21:05:46,083: INFO: waiting for the breakout
+2022-05-06 21:05:47,607: INFO: waiting for the breakout
+2022-05-06 21:05:49,142: INFO: waiting for the breakout
+2022-05-06 21:05:49,776: INFO: waiting for the breakout
+2022-05-06 21:05:50,526: INFO: waiting for the breakout
+2022-05-06 21:05:51,160: INFO: waiting for the breakout
+2022-05-06 21:05:52,793: INFO: waiting for the breakout
+2022-05-06 21:05:53,546: INFO: waiting for the breakout
+2022-05-06 21:05:54,862: INFO: waiting for the breakout
+2022-05-06 21:05:55,500: INFO: waiting for the breakout
+2022-05-06 21:05:56,510: INFO: waiting for the breakout
+2022-05-06 21:05:57,369: INFO: waiting for the breakout
+2022-05-06 21:05:58,006: INFO: waiting for the breakout
+2022-05-06 21:05:58,870: INFO: waiting for the breakout
+2022-05-06 21:05:59,508: INFO: waiting for the breakout
+2022-05-06 21:06:41,237: INFO: waiting for the breakout
+2022-05-06 21:06:41,928: INFO: waiting for the breakout
+2022-05-06 21:06:42,642: INFO: waiting for the breakout
+2022-05-06 21:06:43,281: INFO: waiting for the breakout
+2022-05-06 21:06:43,950: INFO: waiting for the breakout
+2022-05-06 21:06:44,586: INFO: waiting for the breakout
+2022-05-06 21:06:45,220: INFO: waiting for the breakout
+2022-05-06 21:06:47,442: INFO: waiting for the breakout
+2022-05-06 21:06:48,421: INFO: waiting for the breakout
+2022-05-06 21:06:49,275: INFO: waiting for the breakout
+2022-05-06 21:06:50,045: INFO: waiting for the breakout
+2022-05-06 21:06:50,819: INFO: waiting for the breakout
+2022-05-06 21:06:51,670: INFO: waiting for the breakout
+2022-05-06 21:06:52,612: INFO: waiting for the breakout
+2022-05-06 21:06:53,328: INFO: waiting for the breakout
+2022-05-06 21:06:54,262: INFO: waiting for the breakout
+2022-05-06 21:06:55,224: INFO: waiting for the breakout
+2022-05-06 21:06:55,957: INFO: waiting for the breakout
+2022-05-06 21:06:57,266: INFO: waiting for the breakout
+2022-05-06 21:06:58,540: INFO: waiting for the breakout
+2022-05-06 21:06:59,888: INFO: waiting for the breakout
+2022-05-06 21:07:41,879: INFO: waiting for the breakout
+2022-05-06 21:07:49,783: INFO: waiting for the breakout
+2022-05-06 21:07:58,126: INFO: waiting for the breakout
+2022-05-06 21:08:41,256: INFO: waiting for the breakout
+2022-05-06 21:08:49,520: INFO: waiting for the breakout
+2022-05-06 21:08:58,111: INFO: waiting for the breakout
+2022-05-06 21:09:41,633: INFO: waiting for the breakout
+2022-05-06 21:09:49,682: INFO: waiting for the breakout
+2022-05-06 21:09:57,873: INFO: waiting for the breakout
+2022-05-06 21:10:41,533: INFO: waiting for the breakout
+2022-05-06 21:10:42,360: INFO: waiting for the breakout
+2022-05-06 21:10:43,896: INFO: waiting for the breakout
+2022-05-06 21:10:46,085: INFO: waiting for the breakout
+2022-05-06 21:10:47,608: INFO: waiting for the breakout
+2022-05-06 21:10:49,801: INFO: waiting for the breakout
+2022-05-06 21:10:50,663: INFO: waiting for the breakout
+2022-05-06 21:10:52,183: INFO: waiting for the breakout
+2022-05-06 21:10:53,191: INFO: waiting for the breakout
+2022-05-06 21:10:53,827: INFO: waiting for the breakout
+2022-05-06 21:10:54,658: INFO: waiting for the breakout
+2022-05-06 21:10:55,310: INFO: waiting for the breakout
+2022-05-06 21:10:55,950: INFO: waiting for the breakout
+2022-05-06 21:10:56,592: INFO: waiting for the breakout
+2022-05-06 21:10:57,232: INFO: waiting for the breakout
+2022-05-06 21:10:57,871: INFO: waiting for the breakout
+2022-05-06 21:10:58,510: INFO: waiting for the breakout
+2022-05-06 21:10:59,150: INFO: waiting for the breakout
+2022-05-06 21:10:59,936: INFO: waiting for the breakout
+2022-05-06 21:11:41,936: INFO: waiting for the breakout
+2022-05-06 21:11:50,174: INFO: waiting for the breakout
+2022-05-06 21:11:57,944: INFO: waiting for the breakout
+2022-05-06 21:12:41,985: INFO: waiting for the breakout
+2022-05-06 21:12:50,081: INFO: waiting for the breakout
+2022-05-06 21:12:59,174: INFO: waiting for the breakout
+2022-05-06 21:13:41,616: INFO: waiting for the breakout
+2022-05-06 21:13:49,935: INFO: Breakout detected, entry position!short
+2022-05-06 21:13:51,700: INFO: Order filled! Time = 2022-05-06 21:13:51.700825
+2022-05-06 21:13:53,811: INFO: Still in position, time = 2022-05-06 21:13:53.811545
+2022-05-06 21:13:57,096: INFO: Still in position, time = 2022-05-06 21:13:57.096219
+2022-05-06 21:14:01,060: INFO: Still in position, time = 2022-05-06 21:14:01.060427
+2022-05-06 21:14:04,309: INFO: Still in position, time = 2022-05-06 21:14:04.309344
+2022-05-06 21:14:07,590: INFO: Still in position, time = 2022-05-06 21:14:07.590219
+2022-05-06 21:14:10,830: INFO: Still in position, time = 2022-05-06 21:14:10.830059
+2022-05-06 21:14:14,069: INFO: Still in position, time = 2022-05-06 21:14:14.069406
+2022-05-06 21:14:17,309: INFO: Still in position, time = 2022-05-06 21:14:17.309271
+2022-05-06 21:14:20,588: INFO: Still in position, time = 2022-05-06 21:14:20.588026
+2022-05-06 21:14:24,490: INFO: Still in position, time = 2022-05-06 21:14:24.490260
+2022-05-06 21:14:27,847: INFO: Still in position, time = 2022-05-06 21:14:27.847308
+2022-05-06 21:14:31,122: INFO: Still in position, time = 2022-05-06 21:14:31.122666
+2022-05-06 21:14:34,385: INFO: Still in position, time = 2022-05-06 21:14:34.385726
+2022-05-06 21:14:37,668: INFO: Still in position, time = 2022-05-06 21:14:37.668880
+2022-05-06 21:14:40,909: INFO: Still in position, time = 2022-05-06 21:14:40.909873
+2022-05-06 21:14:44,147: INFO: Still in position, time = 2022-05-06 21:14:44.147623
+2022-05-06 21:14:47,425: INFO: Still in position, time = 2022-05-06 21:14:47.425337
+2022-05-06 21:14:50,714: INFO: Still in position, time = 2022-05-06 21:14:50.714829
+2022-05-06 21:14:53,955: INFO: Still in position, time = 2022-05-06 21:14:53.955326
+2022-05-06 21:14:57,211: INFO: Still in position, time = 2022-05-06 21:14:57.211132
+2022-05-06 21:15:00,452: INFO: Still in position, time = 2022-05-06 21:15:00.452258
+2022-05-06 21:15:03,732: INFO: Still in position, time = 2022-05-06 21:15:03.732334
+2022-05-06 21:15:06,982: INFO: Still in position, time = 2022-05-06 21:15:06.982808
+2022-05-06 21:15:10,895: INFO: Still in position, time = 2022-05-06 21:15:10.895505
+2022-05-06 21:15:14,137: INFO: Still in position, time = 2022-05-06 21:15:14.137220
+2022-05-06 21:15:17,376: INFO: Still in position, time = 2022-05-06 21:15:17.376425
+2022-05-06 21:15:20,616: INFO: Still in position, time = 2022-05-06 21:15:20.616193
+2022-05-06 21:15:23,855: INFO: Still in position, time = 2022-05-06 21:15:23.855590
+2022-05-06 21:15:27,096: INFO: Still in position, time = 2022-05-06 21:15:27.096165
+2022-05-06 21:15:30,332: INFO: Still in position, time = 2022-05-06 21:15:30.332079
+2022-05-06 21:15:33,573: INFO: Still in position, time = 2022-05-06 21:15:33.573526
+2022-05-06 21:15:36,811: INFO: Still in position, time = 2022-05-06 21:15:36.811939
+2022-05-06 21:15:40,053: INFO: Still in position, time = 2022-05-06 21:15:40.052987
+2022-05-06 21:15:43,306: INFO: Still in position, time = 2022-05-06 21:15:43.306332
+2022-05-06 21:15:46,546: INFO: Still in position, time = 2022-05-06 21:15:46.546229
+2022-05-06 21:15:49,789: INFO: Still in position, time = 2022-05-06 21:15:49.789800
+2022-05-06 21:15:53,029: INFO: Still in position, time = 2022-05-06 21:15:53.029235
+2022-05-06 21:15:56,269: INFO: Still in position, time = 2022-05-06 21:15:56.269490
+2022-05-06 21:15:59,509: INFO: Still in position, time = 2022-05-06 21:15:59.509638
+2022-05-06 21:16:02,747: INFO: Still in position, time = 2022-05-06 21:16:02.747487
+2022-05-06 21:16:05,987: INFO: Still in position, time = 2022-05-06 21:16:05.987713
+2022-05-06 21:16:09,228: INFO: Still in position, time = 2022-05-06 21:16:09.228542
+2022-05-06 21:16:13,138: INFO: Still in position, time = 2022-05-06 21:16:13.138459
+2022-05-06 21:16:16,376: INFO: Still in position, time = 2022-05-06 21:16:16.376798
+2022-05-06 21:16:19,615: INFO: Still in position, time = 2022-05-06 21:16:19.615074
+2022-05-06 21:16:22,853: INFO: Still in position, time = 2022-05-06 21:16:22.853953
+2022-05-06 21:16:26,092: INFO: Still in position, time = 2022-05-06 21:16:26.092030
+2022-05-06 21:16:29,330: INFO: Still in position, time = 2022-05-06 21:16:29.330455
+2022-05-06 21:16:32,571: INFO: Still in position, time = 2022-05-06 21:16:32.571534
+2022-05-06 21:16:35,811: INFO: Still in position, time = 2022-05-06 21:16:35.811720
+2022-05-06 21:16:39,050: INFO: Still in position, time = 2022-05-06 21:16:39.050034
+2022-05-06 21:16:42,289: INFO: Still in position, time = 2022-05-06 21:16:42.289899
+2022-05-06 21:16:46,197: INFO: Still in position, time = 2022-05-06 21:16:46.197322
+2022-05-06 21:16:49,446: INFO: Still in position, time = 2022-05-06 21:16:49.445971
+2022-05-06 21:16:52,685: INFO: Still in position, time = 2022-05-06 21:16:52.685830
+2022-05-06 21:16:55,926: INFO: Still in position, time = 2022-05-06 21:16:55.926440
+2022-05-06 21:16:59,167: INFO: Still in position, time = 2022-05-06 21:16:59.167819
+2022-05-06 21:17:02,408: INFO: Still in position, time = 2022-05-06 21:17:02.408194
+2022-05-06 21:17:05,646: INFO: Still in position, time = 2022-05-06 21:17:05.645970
+2022-05-06 21:17:08,884: INFO: Still in position, time = 2022-05-06 21:17:08.884870
+2022-05-06 21:17:12,128: INFO: Still in position, time = 2022-05-06 21:17:12.128955
+2022-05-06 21:17:15,364: INFO: Still in position, time = 2022-05-06 21:17:15.364605
+2022-05-06 21:17:18,606: INFO: Still in position, time = 2022-05-06 21:17:18.606150
+2022-05-06 21:17:21,844: INFO: Still in position, time = 2022-05-06 21:17:21.844718
+2022-05-06 21:17:25,084: INFO: Still in position, time = 2022-05-06 21:17:25.084572
+2022-05-06 21:17:28,325: INFO: Still in position, time = 2022-05-06 21:17:28.325451
+2022-05-06 21:17:32,232: INFO: Still in position, time = 2022-05-06 21:17:32.232508
+2022-05-06 21:17:36,136: INFO: Still in position, time = 2022-05-06 21:17:36.136052
+2022-05-06 21:17:40,972: INFO: TP reached
+2022-05-06 21:19:02,470: INFO: Position = nothing
+2022-05-06 21:19:04,014: INFO: Position = nothing
+2022-05-06 21:19:05,558: INFO: Position = nothing
+2022-05-06 21:19:06,216: INFO: Position = nothing
+2022-05-06 21:19:08,427: INFO: Position = nothing
+2022-05-06 21:19:10,635: INFO: Position = nothing
+2022-05-06 21:19:11,517: INFO: Position = nothing
+2022-05-06 21:19:13,064: INFO: Position = nothing
+2022-05-06 21:19:13,943: INFO: Position = nothing
+2022-05-06 21:19:14,602: INFO: Position = nothing
+2022-05-06 21:19:15,483: INFO: Position = nothing
+2022-05-06 21:19:16,144: INFO: Position = nothing
+2022-05-06 21:19:16,805: INFO: Position = nothing
+2022-05-06 21:19:18,347: INFO: Position = nothing
+2022-05-06 21:19:19,883: INFO: Position = nothing
+2022-05-06 21:19:21,421: INFO: Position = nothing
+2022-05-06 21:19:22,961: INFO: Position = nothing
+2022-05-06 21:19:23,614: INFO: Position = nothing
+2022-05-06 21:19:24,272: INFO: Position = nothing
+2022-05-06 21:19:25,815: INFO: Position = nothing
+2022-05-06 21:19:26,476: INFO: Position = nothing
+2022-05-06 21:19:27,129: INFO: Position = nothing
+2022-05-06 21:19:27,781: INFO: Position = nothing
+2022-05-06 21:19:29,317: INFO: Position = nothing
+2022-05-06 21:19:30,637: INFO: Position = nothing
+2022-05-06 21:19:31,299: INFO: Position = nothing
+2022-05-06 21:19:31,955: INFO: Position = nothing
+2022-05-06 21:19:32,611: INFO: Position = nothing
+2022-05-06 21:19:33,268: INFO: Position = nothing
+2022-05-06 21:19:33,920: INFO: Position = nothing
+2022-05-06 21:19:34,579: INFO: Position = nothing
+2022-05-06 21:19:35,232: INFO: Position = nothing
+2022-05-06 21:19:35,888: INFO: Position = nothing
+2022-05-06 21:19:36,554: INFO: Position = nothing
+2022-05-06 21:19:37,204: INFO: Position = nothing
+2022-05-06 21:19:37,855: INFO: Position = nothing
+2022-05-06 21:19:38,510: INFO: Position = nothing
+2022-05-06 21:19:39,166: INFO: Position = nothing
+2022-05-06 21:19:39,828: INFO: Position = nothing
+2022-05-06 21:19:40,488: INFO: Position = nothing
+2022-05-06 21:19:41,143: INFO: Position = nothing
+2022-05-06 21:19:41,800: INFO: Position = nothing
+2022-05-06 21:19:42,678: INFO: Position = nothing
+2022-05-06 21:19:43,334: INFO: Position = nothing
+2022-05-06 21:19:43,990: INFO: Position = nothing
+2022-05-06 21:19:44,649: INFO: Position = nothing
+2022-05-06 21:19:45,309: INFO: Position = nothing
+2022-05-06 21:19:45,964: INFO: Position = nothing
+2022-05-06 21:19:46,693: INFO: Position = nothing
+2022-05-06 21:19:47,431: INFO: Position = nothing
+2022-05-06 21:19:48,177: INFO: Position = nothing
+2022-05-06 21:19:48,921: INFO: Position = nothing
+2022-05-06 21:19:49,719: INFO: Position = nothing
+2022-05-06 21:19:50,464: INFO: Position = nothing
+2022-05-06 21:19:51,198: INFO: Position = nothing
+2022-05-06 21:19:52,179: INFO: Position = nothing
+2022-05-06 21:19:53,161: INFO: Position = nothing
+2022-05-06 21:19:54,130: INFO: Position = nothing
+2022-05-06 21:19:55,106: INFO: Position = nothing
+2022-05-06 21:19:56,311: INFO: Position = nothing
+2022-05-06 21:20:01,105: INFO: Position = nothing
+2022-05-06 21:20:06,519: INFO: Position = nothing
+2022-05-06 21:20:07,185: INFO: Position = nothing
+2022-05-06 21:20:07,843: INFO: Position = nothing
+2022-05-06 21:20:08,502: INFO: Position = nothing
+2022-05-06 21:20:09,156: INFO: Position = nothing
+2022-05-06 21:20:09,809: INFO: Position = nothing
+2022-05-06 21:20:10,470: INFO: Position = nothing
+2022-05-06 21:20:11,127: INFO: Position = nothing
+2022-05-06 21:20:11,784: INFO: Position = nothing
+2022-05-06 21:20:12,444: INFO: Position = nothing
+2022-05-06 21:20:13,100: INFO: Position = nothing
+2022-05-06 21:20:15,315: INFO: Position = nothing
+2022-05-06 21:20:16,641: INFO: Position = nothing
+2022-05-06 21:20:17,299: INFO: Position = nothing
+2022-05-06 21:20:18,845: INFO: Position = nothing
+2022-05-06 21:20:19,500: INFO: Position = nothing
+2022-05-06 21:20:20,157: INFO: Position = nothing
+2022-05-06 21:20:20,814: INFO: Position = nothing
+2022-05-06 21:20:21,691: INFO: Position = nothing
+2022-05-06 21:20:22,344: INFO: Position = nothing
+2022-05-06 21:20:23,224: INFO: Position = nothing
+2022-05-06 21:20:23,880: INFO: Position = nothing
+2022-05-06 21:20:24,536: INFO: Position = nothing
+2022-05-06 21:20:25,195: INFO: Position = nothing
+2022-05-06 21:20:25,847: INFO: Position = nothing
+2022-05-06 21:20:26,500: INFO: Position = nothing
+2022-05-06 21:20:27,151: INFO: Position = nothing
+2022-05-06 21:20:27,803: INFO: Position = nothing
+2022-05-06 21:20:28,457: INFO: Position = nothing
+2022-05-06 21:20:29,111: INFO: Position = nothing
+2022-05-06 21:20:29,764: INFO: Position = nothing
+2022-05-06 21:20:30,638: INFO: Position = nothing
+2022-05-06 21:20:31,292: INFO: Position = nothing
+2022-05-06 21:20:31,951: INFO: Position = nothing
+2022-05-06 21:20:32,603: INFO: Position = nothing
+2022-05-06 21:20:33,258: INFO: Position = nothing
+2022-05-06 21:20:33,917: INFO: Position = nothing
+2022-05-06 21:20:34,578: INFO: Position = nothing
+2022-05-06 21:20:35,232: INFO: Position = nothing
+2022-05-06 21:20:35,889: INFO: Position = nothing
+2022-05-06 21:20:36,544: INFO: Position = nothing
+2022-05-06 21:20:37,199: INFO: Position = nothing
+2022-05-06 21:20:37,855: INFO: Position = nothing
+2022-05-06 21:20:38,509: INFO: Position = nothing
+2022-05-06 21:20:39,171: INFO: Position = nothing
+2022-05-06 21:20:39,832: INFO: Position = nothing
+2022-05-06 21:20:41,365: INFO: Position = nothing
+2022-05-06 21:20:42,025: INFO: Position = nothing
+2022-05-06 21:20:42,680: INFO: Position = nothing
+2022-05-06 21:20:43,340: INFO: Position = nothing
+2022-05-06 21:20:43,998: INFO: Position = nothing
+2022-05-06 21:20:44,654: INFO: Position = nothing
+2022-05-06 21:20:45,311: INFO: Position = nothing
+2022-05-06 21:20:45,965: INFO: Position = nothing
+2022-05-06 21:20:46,618: INFO: Position = nothing
+2022-05-06 21:20:47,275: INFO: Position = nothing
+2022-05-06 21:20:47,928: INFO: Position = nothing
+2022-05-06 21:20:48,808: INFO: Position = nothing
+2022-05-06 21:20:49,460: INFO: Position = nothing
+2022-05-06 21:20:50,114: INFO: Position = nothing
+2022-05-06 21:20:50,767: INFO: Position = nothing
+2022-05-06 21:20:51,425: INFO: Position = nothing
+2022-05-06 21:20:52,161: INFO: Position = nothing
+2022-05-06 21:20:52,900: INFO: Position = nothing
+2022-05-06 21:20:53,673: INFO: Position = nothing
+2022-05-06 21:20:54,412: INFO: Position = nothing
+2022-05-06 21:20:55,151: INFO: Position = nothing
+2022-05-06 21:20:55,888: INFO: Position = nothing
+2022-05-06 21:20:56,736: INFO: Position = nothing
+2022-05-06 21:20:57,737: INFO: Position = nothing
+2022-05-06 21:20:58,693: INFO: Position = nothing
+2022-05-06 21:20:59,652: INFO: Position = nothing
+2022-05-06 21:21:00,655: INFO: Position = nothing
+2022-05-06 21:21:02,467: INFO: Position = nothing
+2022-05-06 21:21:07,297: INFO: Position = nothing
+2022-05-06 21:21:12,092: INFO: Position = nothing
+2022-05-06 21:21:17,721: INFO: Position = nothing
+2022-05-06 21:21:24,160: INFO: Position = nothing
+2022-05-06 21:21:29,952: INFO: Position = nothing
+2022-05-06 21:21:34,755: INFO: Position = nothing
+2022-05-06 21:21:40,250: INFO: Position = nothing
+2022-05-06 21:21:44,955: INFO: Position = nothing
+2022-05-06 21:21:49,899: INFO: Position = long
+2022-05-06 21:21:49,899: INFO: waiting for the RSI cross
+2022-05-06 21:21:54,546: INFO: waiting for the RSI cross
+2022-05-06 21:21:59,637: INFO: waiting for the RSI cross
+2022-05-06 21:22:41,906: INFO: waiting for the RSI cross
+2022-05-06 21:22:46,572: INFO: waiting for the RSI cross
+2022-05-06 21:22:51,386: INFO: waiting for the RSI cross
+2022-05-06 21:22:56,109: INFO: waiting for the RSI cross
+2022-05-06 21:23:41,148: INFO: waiting for the RSI cross
+2022-05-06 21:23:45,828: INFO: waiting for the RSI cross
+2022-05-06 21:23:51,421: INFO: waiting for the RSI cross
+2022-05-06 21:23:56,372: INFO: waiting for the RSI cross
+2022-05-06 21:24:41,155: INFO: waiting for the RSI cross
+2022-05-06 21:24:50,327: INFO: RSI crossed the position for long
+2022-05-06 21:24:50,327: INFO: support level = 14.066
+2022-05-06 21:24:50,327: INFO: waiting for the breakout
+2022-05-06 21:24:58,363: INFO: RSI anti crossed
+2022-05-06 21:25:06,589: INFO: Position = long
+2022-05-06 21:25:41,630: INFO: waiting for the RSI cross
+2022-05-06 21:25:42,497: INFO: waiting for the RSI cross
+2022-05-06 21:25:43,369: INFO: waiting for the RSI cross
+2022-05-06 21:25:44,230: INFO: waiting for the RSI cross
+2022-05-06 21:25:45,101: INFO: waiting for the RSI cross
+2022-05-06 21:25:45,985: INFO: waiting for the RSI cross
+2022-05-06 21:25:46,643: INFO: waiting for the RSI cross
+2022-05-06 21:25:47,482: INFO: waiting for the RSI cross
+2022-05-06 21:25:48,143: INFO: waiting for the RSI cross
+2022-05-06 21:25:48,804: INFO: waiting for the RSI cross
+2022-05-06 21:25:49,462: INFO: waiting for the RSI cross
+2022-05-06 21:25:50,121: INFO: waiting for the RSI cross
+2022-05-06 21:25:50,781: INFO: waiting for the RSI cross
+2022-05-06 21:25:51,480: INFO: waiting for the RSI cross
+2022-05-06 21:25:52,191: INFO: waiting for the RSI cross
+2022-05-06 21:25:52,853: INFO: waiting for the RSI cross
+2022-05-06 21:25:53,650: INFO: waiting for the RSI cross
+2022-05-06 21:25:54,459: INFO: waiting for the RSI cross
+2022-05-06 21:25:55,251: INFO: waiting for the RSI cross
+2022-05-06 21:25:55,911: INFO: waiting for the RSI cross
+2022-05-06 21:25:56,604: INFO: waiting for the RSI cross
+2022-05-06 21:25:57,358: INFO: waiting for the RSI cross
+2022-05-06 21:25:58,542: INFO: waiting for the RSI cross
+2022-05-06 21:25:59,739: INFO: waiting for the RSI cross
+2022-05-06 21:26:41,528: INFO: waiting for the RSI cross
+2022-05-06 21:26:51,140: INFO: waiting for the RSI cross
+2022-05-06 21:27:41,049: INFO: waiting for the RSI cross
+2022-05-06 21:27:50,390: INFO: waiting for the RSI cross
+2022-05-06 21:27:59,602: INFO: waiting for the RSI cross
+2022-05-06 21:28:41,500: INFO: waiting for the RSI cross
+2022-05-06 21:28:51,075: INFO: waiting for the RSI cross
+2022-05-06 21:29:41,430: INFO: waiting for the RSI cross
+2022-05-06 21:29:50,726: INFO: waiting for the RSI cross
+2022-05-06 21:29:59,023: INFO: waiting for the RSI cross
+2022-05-06 21:30:41,928: INFO: waiting for the RSI cross
+2022-05-06 21:30:42,605: INFO: waiting for the RSI cross
+2022-05-06 21:30:43,264: INFO: waiting for the RSI cross
+2022-05-06 21:30:44,797: INFO: waiting for the RSI cross
+2022-05-06 21:30:46,997: INFO: waiting for the RSI cross
+2022-05-06 21:30:48,539: INFO: waiting for the RSI cross
+2022-05-06 21:30:50,765: INFO: waiting for the RSI cross
+2022-05-06 21:30:51,426: INFO: waiting for the RSI cross
+2022-05-06 21:30:52,974: INFO: waiting for the RSI cross
+2022-05-06 21:30:53,630: INFO: waiting for the RSI cross
+2022-05-06 21:30:54,509: INFO: waiting for the RSI cross
+2022-05-06 21:30:55,167: INFO: waiting for the RSI cross
+2022-05-06 21:30:55,855: INFO: waiting for the RSI cross
+2022-05-06 21:30:56,736: INFO: waiting for the RSI cross
+2022-05-06 21:30:57,397: INFO: waiting for the RSI cross
+2022-05-06 21:30:58,058: INFO: waiting for the RSI cross
+2022-05-06 21:31:41,321: INFO: waiting for the RSI cross
+2022-05-06 21:31:49,946: INFO: waiting for the RSI cross
+2022-05-06 21:31:58,779: INFO: waiting for the RSI cross
+2022-05-06 21:32:41,124: INFO: waiting for the RSI cross
+2022-05-06 21:32:51,608: INFO: waiting for the RSI cross
+2022-05-06 21:33:41,015: INFO: waiting for the RSI cross
+2022-05-06 21:33:50,078: INFO: waiting for the RSI cross
+2022-05-06 21:34:41,544: INFO: waiting for the RSI cross
+2022-05-06 21:34:49,552: INFO: waiting for the RSI cross
+2022-05-06 21:34:58,767: INFO: waiting for the RSI cross
+2022-05-06 21:35:41,321: INFO: waiting for the RSI cross
+2022-05-06 21:35:41,985: INFO: waiting for the RSI cross
+2022-05-06 21:35:43,533: INFO: waiting for the RSI cross
+2022-05-06 21:35:44,414: INFO: waiting for the RSI cross
+2022-05-06 21:35:46,629: INFO: waiting for the RSI cross
+2022-05-06 21:35:47,513: INFO: waiting for the RSI cross
+2022-05-06 21:35:48,454: INFO: waiting for the RSI cross
+2022-05-06 21:35:49,113: INFO: waiting for the RSI cross
+2022-05-06 21:35:49,769: INFO: waiting for the RSI cross
+2022-05-06 21:35:50,428: INFO: waiting for the RSI cross
+2022-05-06 21:35:51,092: INFO: waiting for the RSI cross
+2022-05-06 21:35:51,974: INFO: waiting for the RSI cross
+2022-05-06 21:35:52,630: INFO: waiting for the RSI cross
+2022-05-06 21:35:53,466: INFO: waiting for the RSI cross
+2022-05-06 21:35:54,303: INFO: waiting for the RSI cross
+2022-05-06 21:35:54,966: INFO: waiting for the RSI cross
+2022-05-06 21:35:55,645: INFO: waiting for the RSI cross
+2022-05-06 21:35:57,361: INFO: waiting for the RSI cross
+2022-05-06 21:35:58,197: INFO: waiting for the RSI cross
+2022-05-06 21:35:59,037: INFO: waiting for the RSI cross
+2022-05-06 21:35:59,884: INFO: waiting for the RSI cross
+2022-05-06 21:36:41,766: INFO: waiting for the RSI cross
+2022-05-06 21:36:42,638: INFO: waiting for the RSI cross
+2022-05-06 21:36:43,513: INFO: waiting for the RSI cross
+2022-05-06 21:36:45,058: INFO: waiting for the RSI cross
+2022-05-06 21:36:45,921: INFO: waiting for the RSI cross
+2022-05-06 21:36:47,654: INFO: waiting for the RSI cross
+2022-05-06 21:36:49,413: INFO: waiting for the RSI cross
+2022-05-06 21:36:50,085: INFO: waiting for the RSI cross
+2022-05-06 21:36:51,645: INFO: waiting for the RSI cross
+2022-05-06 21:36:53,058: INFO: waiting for the RSI cross
+2022-05-06 21:36:53,931: INFO: waiting for the RSI cross
+2022-05-06 21:36:54,664: INFO: waiting for the RSI cross
+2022-05-06 21:36:55,845: INFO: waiting for the RSI cross
+2022-05-06 21:36:57,140: INFO: waiting for the RSI cross
+2022-05-06 21:36:58,492: INFO: waiting for the RSI cross
+2022-05-06 21:36:59,726: INFO: waiting for the RSI cross
+2022-05-06 21:37:41,884: INFO: waiting for the RSI cross
+2022-05-06 21:37:50,630: INFO: waiting for the RSI cross
+2022-05-06 21:37:59,539: INFO: waiting for the RSI cross
+2022-05-06 21:38:41,573: INFO: waiting for the RSI cross
+2022-05-06 21:38:51,215: INFO: waiting for the RSI cross
+2022-05-06 21:39:41,779: INFO: waiting for the RSI cross
+2022-05-06 21:39:51,162: INFO: waiting for the RSI cross
+2022-05-06 21:39:59,903: INFO: waiting for the RSI cross
+2022-05-06 21:40:41,720: INFO: waiting for the RSI cross
+2022-05-06 21:40:42,569: INFO: waiting for the RSI cross
+2022-05-06 21:40:43,629: INFO: waiting for the RSI cross
+2022-05-06 21:40:45,172: INFO: waiting for the RSI cross
+2022-05-06 21:40:47,383: INFO: waiting for the RSI cross
+2022-05-06 21:40:48,263: INFO: waiting for the RSI cross
+2022-05-06 21:40:50,636: INFO: waiting for the RSI cross
+2022-05-06 21:40:51,700: INFO: waiting for the RSI cross
+2022-05-06 21:40:53,439: INFO: waiting for the RSI cross
+2022-05-06 21:40:54,315: INFO: waiting for the RSI cross
+2022-05-06 21:40:54,970: INFO: waiting for the RSI cross
+2022-05-06 21:40:56,516: INFO: waiting for the RSI cross
+2022-05-06 21:40:57,601: INFO: waiting for the RSI cross
+2022-05-06 21:40:58,258: INFO: waiting for the RSI cross
+2022-05-06 21:40:58,909: INFO: waiting for the RSI cross
+2022-05-06 21:40:59,568: INFO: waiting for the RSI cross
+2022-05-06 21:41:41,270: INFO: waiting for the RSI cross
+2022-05-06 21:41:41,932: INFO: waiting for the RSI cross
+2022-05-06 21:41:42,594: INFO: waiting for the RSI cross
+2022-05-06 21:41:44,802: INFO: waiting for the RSI cross
+2022-05-06 21:41:46,135: INFO: waiting for the RSI cross
+2022-05-06 21:41:47,097: INFO: waiting for the RSI cross
+2022-05-06 21:41:47,874: INFO: waiting for the RSI cross
+2022-05-06 21:41:48,617: INFO: waiting for the RSI cross
+2022-05-06 21:41:49,358: INFO: waiting for the RSI cross
+2022-05-06 21:41:50,094: INFO: waiting for the RSI cross
+2022-05-06 21:41:50,940: INFO: waiting for the RSI cross
+2022-05-06 21:41:52,132: INFO: waiting for the RSI cross
+2022-05-06 21:41:54,142: INFO: waiting for the RSI cross
+2022-05-06 21:41:55,708: INFO: waiting for the RSI cross
+2022-05-06 21:42:41,360: INFO: waiting for the RSI cross
+2022-05-06 21:42:50,107: INFO: waiting for the RSI cross
+2022-05-06 21:42:59,079: INFO: waiting for the RSI cross
+2022-05-06 21:43:41,566: INFO: waiting for the RSI cross
+2022-05-06 21:43:50,233: INFO: waiting for the RSI cross
+2022-05-06 21:43:59,397: INFO: waiting for the RSI cross
+2022-05-06 21:44:41,469: INFO: waiting for the RSI cross
+2022-05-06 21:44:50,536: INFO: waiting for the RSI cross
+2022-05-06 21:44:59,632: INFO: waiting for the RSI cross
+2022-05-06 21:45:41,695: INFO: waiting for the RSI cross
+2022-05-06 21:45:42,504: INFO: waiting for the RSI cross
+2022-05-06 21:45:44,039: INFO: waiting for the RSI cross
+2022-05-06 21:45:46,413: INFO: waiting for the RSI cross
+2022-05-06 21:45:47,745: INFO: waiting for the RSI cross
+2022-05-06 21:45:48,622: INFO: waiting for the RSI cross
+2022-05-06 21:45:49,277: INFO: waiting for the RSI cross
+2022-05-06 21:45:50,358: INFO: waiting for the RSI cross
+2022-05-06 21:45:51,903: INFO: waiting for the RSI cross
+2022-05-06 21:45:52,553: INFO: waiting for the RSI cross
+2022-05-06 21:45:53,424: INFO: waiting for the RSI cross
+2022-05-06 21:45:54,079: INFO: waiting for the RSI cross
+2022-05-06 21:45:54,741: INFO: waiting for the RSI cross
+2022-05-06 21:45:56,283: INFO: waiting for the RSI cross
+2022-05-06 21:45:56,944: INFO: waiting for the RSI cross
+2022-05-06 21:45:57,599: INFO: waiting for the RSI cross
+2022-05-06 21:45:58,254: INFO: waiting for the RSI cross
+2022-05-06 21:45:58,932: INFO: waiting for the RSI cross
+2022-05-06 21:45:59,608: INFO: waiting for the RSI cross
+2022-05-06 21:46:41,357: INFO: waiting for the RSI cross
+2022-05-06 21:46:50,407: INFO: waiting for the RSI cross
+2022-05-06 21:46:59,600: INFO: waiting for the RSI cross
+2022-05-06 21:47:41,942: INFO: waiting for the RSI cross
+2022-05-06 21:47:50,970: INFO: waiting for the RSI cross
+2022-05-06 21:48:41,489: INFO: waiting for the RSI cross
+2022-05-06 21:48:50,928: INFO: waiting for the RSI cross
+2022-05-06 21:49:41,254: INFO: waiting for the RSI cross
+2022-05-06 21:49:49,641: INFO: waiting for the RSI cross
+2022-05-06 21:49:58,948: INFO: waiting for the RSI cross
+2022-05-06 21:50:41,753: INFO: waiting for the RSI cross
+2022-05-06 21:50:42,596: INFO: waiting for the RSI cross
+2022-05-06 21:50:43,452: INFO: waiting for the RSI cross
+2022-05-06 21:50:44,781: INFO: waiting for the RSI cross
+2022-05-06 21:50:45,659: INFO: waiting for the RSI cross
+2022-05-06 21:50:47,204: INFO: waiting for the RSI cross
+2022-05-06 21:50:48,525: INFO: waiting for the RSI cross
+2022-05-06 21:50:49,610: INFO: waiting for the RSI cross
+2022-05-06 21:50:51,151: INFO: waiting for the RSI cross
+2022-05-06 21:50:52,695: INFO: waiting for the RSI cross
+2022-05-06 21:50:53,573: INFO: waiting for the RSI cross
+2022-05-06 21:50:54,227: INFO: waiting for the RSI cross
+2022-05-06 21:50:55,115: INFO: waiting for the RSI cross
+2022-05-06 21:50:55,786: INFO: waiting for the RSI cross
+2022-05-06 21:50:56,442: INFO: waiting for the RSI cross
+2022-05-06 21:50:57,130: INFO: waiting for the RSI cross
+2022-05-06 21:50:57,821: INFO: waiting for the RSI cross
+2022-05-06 21:50:58,517: INFO: waiting for the RSI cross
+2022-05-06 21:50:59,325: INFO: waiting for the RSI cross
+2022-05-06 21:51:41,183: INFO: waiting for the RSI cross
+2022-05-06 21:51:50,047: INFO: waiting for the RSI cross
+2022-05-06 21:51:59,238: INFO: waiting for the RSI cross
+2022-05-06 21:52:41,869: INFO: waiting for the RSI cross
+2022-05-06 21:52:50,386: INFO: waiting for the RSI cross
+2022-05-06 21:52:59,600: INFO: waiting for the RSI cross
+2022-05-06 21:53:41,315: INFO: waiting for the RSI cross
+2022-05-06 21:53:49,844: INFO: RSI crossed the position for long
+2022-05-06 21:53:49,844: INFO: support level = 13.901
+2022-05-06 21:53:49,844: INFO: waiting for the breakout
+2022-05-06 21:53:57,402: INFO: waiting for the breakout
+2022-05-06 21:54:41,241: INFO: waiting for the breakout
+2022-05-06 21:54:49,417: INFO: waiting for the breakout
+2022-05-06 21:54:58,403: INFO: waiting for the breakout
+2022-05-06 21:55:41,587: INFO: waiting for the breakout
+2022-05-06 21:55:42,419: INFO: waiting for the breakout
+2022-05-06 21:55:43,944: INFO: waiting for the breakout
+2022-05-06 21:55:46,139: INFO: waiting for the breakout
+2022-05-06 21:55:46,995: INFO: waiting for the breakout
+2022-05-06 21:55:49,181: INFO: waiting for the breakout
+2022-05-06 21:55:50,036: INFO: waiting for the breakout
+2022-05-06 21:55:51,564: INFO: waiting for the breakout
+2022-05-06 21:55:53,093: INFO: waiting for the breakout
+2022-05-06 21:55:53,947: INFO: waiting for the breakout
+2022-05-06 21:55:54,581: INFO: waiting for the breakout
+2022-05-06 21:55:55,525: INFO: waiting for the breakout
+2022-05-06 21:55:56,158: INFO: waiting for the breakout
+2022-05-06 21:55:56,794: INFO: waiting for the breakout
+2022-05-06 21:55:57,428: INFO: waiting for the breakout
+2022-05-06 21:55:58,060: INFO: waiting for the breakout
+2022-05-06 21:55:58,819: INFO: waiting for the breakout
+2022-05-06 21:55:59,677: INFO: waiting for the breakout
+2022-05-06 21:56:41,360: INFO: waiting for the breakout
+2022-05-06 21:56:41,998: INFO: waiting for the breakout
+2022-05-06 21:56:42,632: INFO: waiting for the breakout
+2022-05-06 21:56:43,264: INFO: waiting for the breakout
+2022-05-06 21:56:43,898: INFO: waiting for the breakout
+2022-05-06 21:56:46,099: INFO: waiting for the breakout
+2022-05-06 21:56:47,627: INFO: waiting for the breakout
+2022-05-06 21:56:49,282: INFO: waiting for the breakout
+2022-05-06 21:56:49,925: INFO: waiting for the breakout
+2022-05-06 21:56:50,731: INFO: waiting for the breakout
+2022-05-06 21:56:51,546: INFO: waiting for the breakout
+2022-05-06 21:56:52,510: INFO: waiting for the breakout
+2022-05-06 21:56:53,477: INFO: waiting for the breakout
+2022-05-06 21:56:54,461: INFO: waiting for the breakout
+2022-05-06 21:56:55,191: INFO: waiting for the breakout
+2022-05-06 21:56:55,906: INFO: waiting for the breakout
+2022-05-06 21:56:56,665: INFO: waiting for the breakout
+2022-05-06 21:56:57,797: INFO: waiting for the breakout
+2022-05-06 21:56:58,891: INFO: waiting for the breakout
+2022-05-06 21:56:59,978: INFO: waiting for the breakout
+2022-05-06 21:57:41,127: INFO: waiting for the breakout
+2022-05-06 21:57:49,140: INFO: Breakout detected, entry position : !long
+2022-05-06 21:57:51,059: INFO: Waiting to fill the order, time = 2022-05-06 21:57:51.059218
+2022-05-06 21:57:54,330: INFO: Waiting to fill the order, time = 2022-05-06 21:57:54.330834
+2022-05-06 21:57:57,568: INFO: Waiting to fill the order, time = 2022-05-06 21:57:57.568422
+2022-05-06 21:58:00,809: INFO: Waiting to fill the order, time = 2022-05-06 21:58:00.809075
+2022-05-06 21:58:04,095: INFO: Waiting to fill the order, time = 2022-05-06 21:58:04.095829
+2022-05-06 21:58:07,333: INFO: Waiting to fill the order, time = 2022-05-06 21:58:07.332971
+2022-05-06 21:58:10,617: INFO: Waiting to fill the order, time = 2022-05-06 21:58:10.617408
+2022-05-06 21:58:13,876: INFO: Order filled! Time = 2022-05-06 21:58:13.876641
+2022-05-06 21:58:16,817: INFO: Still in position, time = 2022-05-06 21:58:16.817321
+2022-05-06 21:58:20,340: INFO: Still in position, time = 2022-05-06 21:58:20.340872
+2022-05-06 21:58:23,579: INFO: Still in position, time = 2022-05-06 21:58:23.579661
+2022-05-06 21:58:26,821: INFO: Still in position, time = 2022-05-06 21:58:26.821620
+2022-05-06 21:58:30,062: INFO: Still in position, time = 2022-05-06 21:58:30.062401
+2022-05-06 21:58:33,301: INFO: Still in position, time = 2022-05-06 21:58:33.301848
+2022-05-06 21:58:36,590: INFO: Still in position, time = 2022-05-06 21:58:36.590587
+2022-05-06 21:58:39,856: INFO: Still in position, time = 2022-05-06 21:58:39.856228
+2022-05-06 21:58:43,094: INFO: Still in position, time = 2022-05-06 21:58:43.094666
+2022-05-06 21:58:46,341: INFO: Still in position, time = 2022-05-06 21:58:46.341659
+2022-05-06 21:58:49,583: INFO: Still in position, time = 2022-05-06 21:58:49.583552
+2022-05-06 21:58:52,821: INFO: Still in position, time = 2022-05-06 21:58:52.821370
+2022-05-06 21:58:56,064: INFO: Still in position, time = 2022-05-06 21:58:56.064123
+2022-05-06 21:58:59,303: INFO: Still in position, time = 2022-05-06 21:58:59.303622
+2022-05-06 21:59:02,544: INFO: Still in position, time = 2022-05-06 21:59:02.544610
+2022-05-06 21:59:05,783: INFO: Still in position, time = 2022-05-06 21:59:05.783352
+2022-05-06 21:59:09,072: INFO: Still in position, time = 2022-05-06 21:59:09.072057
+2022-05-06 21:59:12,314: INFO: Still in position, time = 2022-05-06 21:59:12.314270
+2022-05-06 21:59:15,554: INFO: Still in position, time = 2022-05-06 21:59:15.554679
+2022-05-06 21:59:18,833: INFO: Still in position, time = 2022-05-06 21:59:18.833584
+2022-05-06 21:59:22,133: INFO: Still in position, time = 2022-05-06 21:59:22.133937
+2022-05-06 21:59:25,372: INFO: Still in position, time = 2022-05-06 21:59:25.372720
+2022-05-06 21:59:28,656: INFO: Still in position, time = 2022-05-06 21:59:28.656580
+2022-05-06 21:59:31,896: INFO: Still in position, time = 2022-05-06 21:59:31.896545
+2022-05-06 21:59:35,169: INFO: Still in position, time = 2022-05-06 21:59:35.169707
+2022-05-06 21:59:40,810: INFO: SL reached
+2022-05-06 22:01:06,190: INFO: Position = nothing
+2022-05-06 22:01:07,730: INFO: Position = nothing
+2022-05-06 22:01:08,604: INFO: Position = nothing
+2022-05-06 22:01:09,262: INFO: Position = nothing
+2022-05-06 22:01:11,474: INFO: Position = nothing
+2022-05-06 22:01:13,030: INFO: Position = nothing
+2022-05-06 22:01:14,572: INFO: Position = nothing
+2022-05-06 22:01:15,446: INFO: Position = nothing
+2022-05-06 22:01:16,773: INFO: Position = nothing
+2022-05-06 22:01:17,427: INFO: Position = nothing
+2022-05-06 22:01:18,313: INFO: Position = nothing
+2022-05-06 22:01:18,969: INFO: Position = nothing
+2022-05-06 22:01:19,629: INFO: Position = nothing
+2022-05-06 22:01:20,287: INFO: Position = nothing
+2022-05-06 22:01:20,946: INFO: Position = nothing
+2022-05-06 22:01:21,830: INFO: Position = nothing
+2022-05-06 22:01:22,486: INFO: Position = nothing
+2022-05-06 22:01:23,150: INFO: Position = nothing
+2022-05-06 22:01:23,810: INFO: Position = nothing
+2022-05-06 22:01:24,470: INFO: Position = nothing
+2022-05-06 22:01:25,130: INFO: Position = nothing
+2022-05-06 22:01:25,795: INFO: Position = nothing
+2022-05-06 22:01:26,451: INFO: Position = nothing
+2022-05-06 22:01:27,107: INFO: Position = nothing
+2022-05-06 22:01:27,773: INFO: Position = nothing
+2022-05-06 22:01:28,433: INFO: Position = nothing
+2022-05-06 22:01:29,092: INFO: Position = nothing
+2022-05-06 22:01:29,754: INFO: Position = nothing
+2022-05-06 22:01:30,412: INFO: Position = nothing
+2022-05-06 22:01:31,070: INFO: Position = nothing
+2022-05-06 22:01:32,394: INFO: Position = nothing
+2022-05-06 22:01:33,944: INFO: Position = nothing
+2022-05-06 22:01:34,602: INFO: Position = nothing
+2022-05-06 22:01:36,157: INFO: Position = nothing
+2022-05-06 22:01:36,823: INFO: Position = nothing
+2022-05-06 22:01:38,369: INFO: Position = nothing
+2022-05-06 22:01:39,030: INFO: Position = nothing
+2022-05-06 22:01:39,688: INFO: Position = nothing
+2022-05-06 22:01:40,352: INFO: Position = nothing
+2022-05-06 22:01:41,237: INFO: Position = nothing
+2022-05-06 22:01:41,899: INFO: Position = nothing
+2022-05-06 22:01:42,554: INFO: Position = nothing
+2022-05-06 22:01:43,211: INFO: Position = nothing
+2022-05-06 22:01:43,873: INFO: Position = nothing
+2022-05-06 22:01:44,529: INFO: Position = nothing
+2022-05-06 22:01:45,188: INFO: Position = nothing
+2022-05-06 22:01:45,843: INFO: Position = nothing
+2022-05-06 22:01:46,498: INFO: Position = nothing
+2022-05-06 22:01:47,237: INFO: Position = nothing
+2022-05-06 22:01:48,195: INFO: Position = nothing
+2022-05-06 22:01:48,934: INFO: Position = nothing
+2022-05-06 22:01:49,669: INFO: Position = nothing
+2022-05-06 22:01:50,408: INFO: Position = nothing
+2022-05-06 22:01:51,143: INFO: Position = nothing
+2022-05-06 22:01:52,145: INFO: Position = nothing
+2022-05-06 22:01:53,132: INFO: Position = nothing
+2022-05-06 22:01:54,117: INFO: Position = nothing
+2022-05-06 22:01:55,330: INFO: Position = nothing
+2022-05-06 22:01:56,320: INFO: Position = nothing
+2022-05-06 22:02:00,970: INFO: Position = nothing
+2022-05-06 22:02:06,120: INFO: Position = nothing
+2022-05-06 22:02:11,183: INFO: Position = nothing
+2022-05-06 22:02:16,127: INFO: Position = nothing
+2022-05-06 22:02:21,354: INFO: Position = nothing
+2022-05-06 22:02:26,671: INFO: Position = nothing
+2022-05-06 22:02:32,494: INFO: Position = nothing
+2022-05-06 22:02:37,520: INFO: Position = nothing
+2022-05-06 22:02:42,427: INFO: Position = nothing
+2022-05-06 22:02:47,237: INFO: Position = nothing
+2022-05-06 22:02:52,129: INFO: Position = nothing
+2022-05-06 22:02:57,005: INFO: Position = nothing
+2022-05-06 22:03:02,974: INFO: Position = nothing
+2022-05-06 22:03:07,818: INFO: Position = nothing
+2022-05-06 22:03:12,786: INFO: Position = nothing
+2022-05-06 22:03:17,471: INFO: Position = nothing
+2022-05-06 22:03:22,256: INFO: Position = nothing
+2022-05-06 22:03:27,297: INFO: Position = nothing
+2022-05-06 22:03:32,203: INFO: Position = nothing
+2022-05-06 22:03:37,940: INFO: Position = nothing
+2022-05-06 22:03:43,775: INFO: Position = nothing
+2022-05-06 22:03:48,790: INFO: Position = nothing
+2022-05-06 22:03:54,717: INFO: Position = nothing
+2022-05-06 22:03:59,651: INFO: Position = nothing
+2022-05-06 22:04:04,723: INFO: Position = nothing
+2022-05-06 22:04:09,970: INFO: Position = nothing
+2022-05-06 22:04:15,625: INFO: Position = nothing
+2022-05-06 22:04:20,528: INFO: Position = nothing
+2022-05-06 22:04:25,594: INFO: Position = nothing
+2022-05-06 22:04:30,743: INFO: Position = nothing
+2022-05-06 22:04:35,709: INFO: Position = nothing
+2022-05-06 22:04:40,713: INFO: Position = nothing
+2022-05-06 22:04:46,620: INFO: Position = nothing
+2022-05-06 22:04:51,524: INFO: Position = nothing
+2022-05-06 22:04:56,850: INFO: Position = nothing
+2022-05-06 22:05:01,864: INFO: Position = nothing
+2022-05-06 22:05:06,639: INFO: Position = nothing
+2022-05-06 22:05:07,295: INFO: Position = nothing
+2022-05-06 22:05:07,952: INFO: Position = nothing
+2022-05-06 22:05:08,832: INFO: Position = nothing
+2022-05-06 22:05:09,488: INFO: Position = nothing
+2022-05-06 22:05:10,141: INFO: Position = nothing
+2022-05-06 22:05:10,796: INFO: Position = nothing
+2022-05-06 22:05:11,450: INFO: Position = nothing
+2022-05-06 22:05:12,323: INFO: Position = nothing
+2022-05-06 22:05:12,985: INFO: Position = nothing
+2022-05-06 22:05:13,643: INFO: Position = nothing
+2022-05-06 22:05:14,300: INFO: Position = nothing
+2022-05-06 22:05:14,957: INFO: Position = nothing
+2022-05-06 22:05:15,615: INFO: Position = nothing
+2022-05-06 22:05:16,271: INFO: Position = nothing
+2022-05-06 22:05:16,929: INFO: Position = nothing
+2022-05-06 22:05:17,805: INFO: Position = nothing
+2022-05-06 22:05:18,464: INFO: Position = nothing
+2022-05-06 22:05:19,122: INFO: Position = nothing
+2022-05-06 22:05:19,782: INFO: Position = nothing
+2022-05-06 22:05:21,334: INFO: Position = nothing
+2022-05-06 22:05:23,632: INFO: Position = nothing
+2022-05-06 22:05:25,273: INFO: Position = nothing
+2022-05-06 22:05:26,020: INFO: Position = nothing
+2022-05-06 22:05:26,934: INFO: Position = nothing
+2022-05-06 22:05:27,925: INFO: Position = nothing
+2022-05-06 22:05:29,150: INFO: Position = nothing
+2022-05-06 22:05:30,130: INFO: Position = nothing
+2022-05-06 22:05:31,344: INFO: Position = nothing
+2022-05-06 22:05:36,825: INFO: Position = nothing
+2022-05-06 22:05:41,640: INFO: Position = nothing
+2022-05-06 22:05:46,562: INFO: Position = nothing
+2022-05-06 22:05:51,249: INFO: Position = nothing
+2022-05-06 22:05:56,441: INFO: Position = nothing
+2022-05-06 22:06:01,386: INFO: Position = nothing
+2022-05-06 22:06:06,250: INFO: Position = nothing
+2022-05-06 22:06:11,187: INFO: Position = nothing
+2022-05-06 22:06:15,840: INFO: Position = nothing
+2022-05-06 22:06:20,699: INFO: Position = nothing
+2022-05-06 22:06:25,575: INFO: Position = nothing
+2022-05-06 22:06:30,523: INFO: Position = nothing
+2022-05-06 22:06:36,381: INFO: Position = nothing
+2022-05-06 22:06:42,260: INFO: Position = nothing
+2022-05-06 22:06:47,050: INFO: Position = nothing
+2022-05-06 22:06:52,320: INFO: Position = nothing
+2022-05-06 22:06:57,247: INFO: Position = nothing
+2022-05-06 22:07:02,414: INFO: Position = nothing
+2022-05-06 22:07:07,519: INFO: Position = nothing
+2022-05-06 22:07:12,525: INFO: Position = nothing
+2022-05-06 22:07:17,496: INFO: Position = nothing
+2022-05-06 22:07:22,701: INFO: Position = nothing
+2022-05-06 22:07:28,526: INFO: Position = nothing
+2022-05-06 22:07:33,799: INFO: Position = nothing
+2022-05-06 22:07:38,863: INFO: Position = nothing
+2022-05-06 22:07:44,716: INFO: Position = nothing
+2022-05-06 22:07:49,457: INFO: Position = nothing
+2022-05-06 22:07:54,235: INFO: Position = nothing
+2022-05-06 22:07:58,867: INFO: Position = nothing
+2022-05-06 22:08:03,708: INFO: Position = nothing
+2022-05-06 22:08:08,479: INFO: Position = nothing
+2022-05-06 22:08:13,118: INFO: Position = nothing
+2022-05-06 22:08:18,762: INFO: Position = nothing
+2022-05-06 22:08:24,655: INFO: Position = nothing
+2022-05-06 22:08:30,264: INFO: Position = nothing
+2022-05-06 22:08:35,633: INFO: Position = nothing
+2022-05-06 22:08:40,756: INFO: Position = nothing
+2022-05-06 22:08:45,790: INFO: Position = nothing
+2022-05-06 22:08:52,519: INFO: Position = nothing
+2022-05-06 22:08:57,407: INFO: Position = nothing
+2022-05-06 22:09:02,506: INFO: Position = nothing
+2022-05-06 22:09:07,473: INFO: Position = nothing
+2022-05-06 22:09:12,407: INFO: Position = nothing
+2022-05-06 22:09:18,301: INFO: Position = nothing
+2022-05-06 22:09:23,243: INFO: Position = nothing
+2022-05-06 22:09:28,044: INFO: Position = nothing
+2022-05-06 22:09:32,990: INFO: Position = nothing
+2022-05-06 22:09:37,936: INFO: Position = nothing
+2022-05-06 22:09:44,189: INFO: Position = nothing
+2022-05-06 22:09:49,897: INFO: Position = nothing
+2022-05-06 22:09:54,949: INFO: Position = nothing
+2022-05-06 22:09:59,709: INFO: Position = nothing
+2022-05-06 22:10:06,098: INFO: Position = nothing
+2022-05-06 22:10:10,793: INFO: Position = nothing
+2022-05-06 22:10:16,541: INFO: Position = nothing
+2022-05-06 22:10:22,076: INFO: Position = nothing
+2022-05-06 22:10:26,977: INFO: Position = nothing
+2022-05-06 22:10:31,948: INFO: Position = nothing
+2022-05-06 22:10:36,866: INFO: Position = nothing
+2022-05-06 22:10:41,556: INFO: Position = nothing
+2022-05-06 22:10:46,432: INFO: Position = nothing
+2022-05-06 22:10:51,172: INFO: Position = nothing
+2022-05-06 22:10:56,226: INFO: Position = nothing
+2022-05-06 22:11:01,090: INFO: Position = nothing
+2022-05-06 22:11:05,985: INFO: Position = nothing
+2022-05-06 22:11:11,855: INFO: Position = nothing
+2022-05-06 22:11:17,957: INFO: Position = nothing
+2022-05-06 22:11:22,840: INFO: Position = nothing
+2022-05-06 22:11:28,092: INFO: Position = nothing
+2022-05-06 22:11:33,846: INFO: Position = nothing
+2022-05-06 22:11:39,239: INFO: Position = nothing
+2022-05-06 22:11:45,198: INFO: Position = nothing
+2022-05-06 22:11:50,061: INFO: Position = nothing
+2022-05-06 22:11:55,196: INFO: Position = nothing
+2022-05-06 22:11:59,989: INFO: Position = nothing
+2022-05-06 22:12:04,919: INFO: Position = nothing
+2022-05-06 22:12:09,733: INFO: Position = nothing
+2022-05-06 22:12:15,559: INFO: Position = nothing
+2022-05-06 22:12:22,970: INFO: Position = nothing
+2022-05-06 22:12:28,733: INFO: Position = nothing
+2022-05-06 22:12:33,720: INFO: Position = nothing
+2022-05-06 22:12:38,981: INFO: Position = nothing
+2022-05-06 22:12:44,035: INFO: Position = nothing
+2022-05-06 22:12:48,913: INFO: Position = nothing
+2022-05-06 22:12:54,635: INFO: Position = nothing
+2022-05-06 22:13:00,328: INFO: Position = nothing
+2022-05-06 22:13:05,239: INFO: Position = nothing
+2022-05-06 22:13:11,917: INFO: Position = nothing
+2022-05-06 22:13:17,088: INFO: Position = nothing
+2022-05-06 22:13:21,807: INFO: Position = nothing
+2022-05-06 22:13:27,641: INFO: Position = nothing
+2022-05-06 22:13:33,865: INFO: Position = nothing
+2022-05-06 22:13:38,754: INFO: Position = nothing
+2022-05-06 22:13:43,754: INFO: Position = nothing
+2022-05-06 22:13:48,684: INFO: Position = nothing
+2022-05-06 22:13:53,604: INFO: Position = nothing
+2022-05-06 22:13:58,465: INFO: Position = nothing
+2022-05-06 22:14:03,408: INFO: Position = nothing
+2022-05-06 22:14:09,352: INFO: Position = nothing
+2022-05-06 22:14:14,965: INFO: Position = nothing
+2022-05-06 22:14:19,924: INFO: Position = nothing
+2022-05-06 22:14:24,568: INFO: Position = nothing
+2022-05-06 22:14:29,455: INFO: Position = nothing
+2022-05-06 22:14:35,167: INFO: Position = nothing
+2022-05-06 22:14:39,932: INFO: Position = nothing
+2022-05-06 22:14:45,594: INFO: Position = nothing
+2022-05-06 22:14:50,270: INFO: Position = nothing
+2022-05-06 22:14:55,105: INFO: Position = nothing
+2022-05-06 22:14:59,784: INFO: Position = nothing
+2022-05-06 22:15:05,399: INFO: Position = nothing
+2022-05-06 22:15:06,807: INFO: Position = nothing
+2022-05-06 22:15:07,464: INFO: Position = nothing
+2022-05-06 22:15:08,793: INFO: Position = nothing
+2022-05-06 22:15:09,672: INFO: Position = nothing
+2022-05-06 22:15:10,322: INFO: Position = nothing
+2022-05-06 22:15:10,973: INFO: Position = nothing
+2022-05-06 22:15:11,625: INFO: Position = nothing
+2022-05-06 22:15:12,506: INFO: Position = nothing
+2022-05-06 22:15:13,159: INFO: Position = nothing
+2022-05-06 22:15:13,818: INFO: Position = nothing
+2022-05-06 22:15:15,148: INFO: Position = nothing
+2022-05-06 22:15:15,804: INFO: Position = nothing
+2022-05-06 22:15:16,461: INFO: Position = nothing
+2022-05-06 22:15:17,198: INFO: Position = nothing
+2022-05-06 22:15:17,947: INFO: Position = nothing
+2022-05-06 22:15:18,682: INFO: Position = nothing
+2022-05-06 22:15:19,419: INFO: Position = nothing
+2022-05-06 22:15:20,159: INFO: Position = nothing
+2022-05-06 22:15:20,902: INFO: Position = nothing
+2022-05-06 22:15:21,649: INFO: Position = nothing
+2022-05-06 22:15:22,629: INFO: Position = nothing
+2022-05-06 22:15:23,619: INFO: Position = nothing
+2022-05-06 22:15:24,596: INFO: Position = nothing
+2022-05-06 22:15:25,594: INFO: Position = nothing
+2022-05-06 22:15:26,579: INFO: Position = nothing
+2022-05-06 22:15:31,367: INFO: Position = nothing
+2022-05-06 22:15:36,175: INFO: Position = nothing
+2022-05-06 22:15:41,297: INFO: Position = nothing
+2022-05-06 22:15:46,301: INFO: Position = nothing
+2022-05-06 22:15:52,182: INFO: Position = nothing
+2022-05-06 22:15:57,233: INFO: Position = nothing
+2022-05-06 22:16:02,934: INFO: Position = nothing
+2022-05-06 22:16:08,769: INFO: Position = nothing
+2022-05-06 22:16:13,803: INFO: Position = nothing
+2022-05-06 22:16:18,531: INFO: Position = nothing
+2022-05-06 22:16:23,498: INFO: Position = nothing
+2022-05-06 22:16:28,463: INFO: Position = nothing
+2022-05-06 22:16:33,498: INFO: Position = nothing
+2022-05-06 22:16:40,817: INFO: Position = nothing
+2022-05-06 22:16:45,977: INFO: Position = nothing
