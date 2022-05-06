@@ -49,7 +49,7 @@ except Exception as e: print("I'm NOT on the server man")
 logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(message)s', filename='events_breakout.log', filemode='a')
 
 
-# add time out not to miss opportuniutes f les crypto lokhrin
+## add time out not to miss opportuniutes f les crypto lokhrin
 # support wla resistence khass ykon mtraversyin l prix
 
 
