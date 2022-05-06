@@ -221,7 +221,7 @@ while(True):
                     order_tp = client.futures_create_order(symbol=symbol, side = "SELL", type='LIMIT', quantity=qty,
                                                            price=round(TP, 3), timeInForce='GTC')
                     order_sl = client.futures_create_order(symbol=symbol, side = "SELL", type='STOP_MARKET', quantity=qty,
-                                                           stopPrice=round(SL, 3))
+                                                           stopPrice=round(SL, 3), timeInForce='GTE_GTC',closePosition=True)
             except Exception as e:
                 print(f'Problem in firing the order, exception hya : {e}')
                 logging.info(f'Problem in firing the order, exception hya : {e}')
@@ -477,7 +477,7 @@ while(True):
                     order_tp = client.futures_create_order(symbol=symbol, side = "BUY", type='LIMIT', quantity=qty,
                                                            price=round(TP, 3), timeInForce='GTC')
                     order_sl = client.futures_create_order(symbol=symbol, side = "BUY", type='STOP_MARKET', quantity=qty,
-                                                           stopPrice=round(SL, 3))
+                                                           stopPrice=round(SL, 3), timeInForce='GTE_GTC',closePosition=True)
             except Exception as e:
                 print(f'Problem in firing the order, exception hya : {e}')
                 logging.info(f'Problem in firing the order, exception hya : {e}')
