@@ -150,7 +150,9 @@ while(True):
 
 
                 # Verify break out code
-                breakout = True if (abs(HAdf.Close[-1]-HAdf.Close[-1])/2)+min([HAdf.Close[-1],HAdf.Open[-1]]) > support_level else False
+                breakout = True if (abs(HAdf.Close[-1]-HAdf.Open[-1])/2)+min([HAdf.Close[-1],HAdf.Open[-1]]) > support_level else False
+                if(HAdf.Close[-1] < HAdf.Open[-1]) :
+                    breakout = False
                 if(breakout):
                     print("Breakout detected, entry position : !" + position)
                     logging.info("Breakout detected, entry position : !" + position)
@@ -406,7 +408,9 @@ while(True):
                     break
 
                 # Verify break out
-                breakout = True if (abs(HAdf.Close[-1] - HAdf.Close[-1]) / 2) + min([HAdf.Close[-1], HAdf.Open[-1]]) < resistence_level else False
+                breakout = True if (abs(HAdf.Close[-1]-HAdf.Open[-1])/2)+min([HAdf.Close[-1],HAdf.Open[-1]]) < resistence_level else False
+                if (HAdf.Close[-1] > HAdf.Open[-1]):
+                    breakout = False
                 if(breakout):
                     print("Breakout detected, entry position!" + position)
                     logging.info("Breakout detected, entry position!" + position)
