@@ -76,9 +76,9 @@ while(True):
     tf,bf = supp_resis(HAdf,)
 
     # Detect RSI first signal (went on OB or OS)
-    if(RSI[-1]<30):
+    if(RSI[-1]<31):
         position = "long"
-    elif(RSI[-1]>70):
+    elif(RSI[-1]>69):
         position = "short"
     else : position = "nothing"
     print("Position = "+ position)
@@ -90,7 +90,7 @@ while(True):
     if position == "long":
 
         # 1 --- Wait for the RSI cross
-        while(RSI[-1]<30):
+        while(RSI[-1]<31):
             if datetime.now().second > 40:
                 print("waiting for the RSI cross")
                 logging.info("waiting for the RSI cross")
@@ -142,7 +142,7 @@ while(True):
                     logging.info("Break out time out")
                     break
 
-                if(RSI[-1]<30):
+                if(RSI[-1]<31):
                     event = "RSI_anti_cross"
                     print("RSI anti crossed")
                     logging.info("RSI anti crossed")
@@ -217,8 +217,8 @@ while(True):
                     RSI = round(pta.rsi(HAdf.Close, 14), 2)
                     tf, bf = supp_resis(HAdf, )
                     SL_support = bf[-1]
-                    if(SL<=SL_support):
-                        SL = SL_support - incertitude
+                    # if(SL<=SL_support):
+                    SL = SL_support - incertitude
 
                     order_tp = client.futures_create_order(symbol=symbol, side = "SELL", type='LIMIT', quantity=qty,
                                                            price=round(TP, 3), timeInForce='GTC')
@@ -350,7 +350,7 @@ while(True):
     if position == "short":
 
         # 1 --- Wait for the RSI cross
-        while(RSI[-1]>70):
+        while(RSI[-1]>69):
             if datetime.now().second > 40:
                 print("waiting for the RSI cross")
                 logging.info("waiting for the RSI cross")
@@ -401,7 +401,7 @@ while(True):
                     logging.info("Break out time out")
                     break
 
-                if(RSI[-1]>70):
+                if(RSI[-1]>69):
                     event = "RSI_anti_cross"
                     print("RSI anti crossed")
                     logging.info("RSI anti crossed")
@@ -475,8 +475,8 @@ while(True):
                     RSI = round(pta.rsi(HAdf.Close, 14), 2)
                     tf, bf = supp_resis(HAdf, )
                     SL_support = tf[-1]
-                    if (SL >= SL_support):
-                        SL = SL_support + incertitude
+                    # if (SL >= SL_support):
+                    SL = SL_support + incertitude
 
                     order_tp = client.futures_create_order(symbol=symbol, side = "BUY", type='LIMIT', quantity=qty,
                                                            price=round(TP, 3), timeInForce='GTC')

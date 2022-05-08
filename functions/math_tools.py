@@ -295,8 +295,8 @@ def supp_resis(df,length = 14,mult = 2,maLen = 14):
     return(tf,bf)
 
 
-# --- 8 ATR Support resistence
-def detect_RSI_cross(RSI,window=40,bottom_line_rsi=30 ,top_line_rsi = 70):
+# --- detect RSI cross
+def detect_RSI_cross(RSI,window=60,bottom_line_rsi=30 ,top_line_rsi = 70):
     if 30 < RSI[-1] < 70:
         top_line = pd.Series([top_line_rsi] * len(RSI))
         bottom_line = pd.Series([bottom_line_rsi] * len(RSI))
@@ -317,6 +317,41 @@ def detect_RSI_cross(RSI,window=40,bottom_line_rsi=30 ,top_line_rsi = 70):
         position = "nothing"
         cross_time = None
     return(position,cross_time)
+
+# --- detect breakout cross
+def detect_breakout(position,Hadf,level):
+    if position=="long":
+        if (abs(HAdf.Close[-1]-HAdf.Open[-1])/2)+min([HAdf.Close[-1],HAdf.Open[-1]]) >= level:
+            if (abs(HAdf.Close[-2]-HAdf.Open[-2])/2)+min([HAdf.Close[-2],HAdf.Open[-2]]) >= level:
+                print("Break out happened (too late to enter)")
+                logging.info("Break out happened (too late to enter)")
+                breakout = False
+            else:
+                breakout = True
+                print("Break out position detected, entry!")
+                logging.info("Break out position detected, entry!")
+        else:
+            breakout = False
+            print("Break out coming (too early to enter)")
+            logging.info("Break out coming (too early to enter)")
+    else:
+        if (abs(HAdf.Close[-1]-HAdf.Open[-1])/2)+min([HAdf.Close[-1],HAdf.Open[-1]]) <= level:
+            if (abs(HAdf.Close[-2]-HAdf.Open[-2])/2)+min([HAdf.Close[-2],HAdf.Open[-2]]) <= level:
+                print("Break out happened (too late to enter)")
+                logging.info("Break out happened (too late to enter)")
+                breakout = False
+            else:
+                breakout = True
+                print("Break out position detected, entry!")
+                logging.info("Break out position detected, entry!")
+        else:
+            breakout = False
+            print("Break out coming (too early to enter)")
+            logging.info("Break out coming (too early to enter)")
+        return(breakout)
+
+
+
 # fig = go.Figure(
 #    data=[
     #        go.Candlestick(
