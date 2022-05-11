@@ -49,7 +49,7 @@ def get_dd_maxtp(df,price_entry,price_exit,time_entry, time_exit,win,position):
             maximum_price = serie[serie.index >= time_entry].max()
             maxtp = (maximum_price - price_entry) / price_entry
             DD = (price_entry - price_exit)/price_entry
-    else:
+    else:#
         if win:
             serie = df.High[df.High.index <= time_exit]
             maximum_price = serie[serie.index >= time_entry].max()
