@@ -309,14 +309,44 @@ def detect_RSI_cross(RSI,window=60,bottom_line_rsi=30 ,top_line_rsi = 70):
         idx_cross_rsi_bottom = RSI.index[idx_cross_rsi_bottom + 1][-1]
         idx_cross_rsi_top = RSI.index[idx_cross_rsi_top + 1][-1]
         cross_time = idx_cross_rsi_top if (idx_cross_rsi_top > idx_cross_rsi_bottom) else idx_cross_rsi_bottom
-        position = "short" if (idx_cross_rsi_top > idx_cross_rsi_bottom) else "long"
-        print(position + " position detected --- cross_time = "+str(cross_time))
+        if(cross_time < (RSI.iloc[[-1]].index -timedelta(minutes = window))):
+            print("RSI cross: TIMEOUT")
+            logging.info("RSI cross: TIMEOUT")
+            position = "nothing"
+            cross_time = None
+        else:
+            position = "short" if (idx_cross_rsi_top > idx_cross_rsi_bottom) else "long"
+            print(position + " position detected --- cross_time = "+str(cross_time))
     else:
         print("RSI is still on OB or OS")
         logging.info("RSI is still on OB or OS")
         position = "nothing"
         cross_time = None
     return(position,cross_time)
+
+
+# --- identify level breakout
+def identify_breakout_level(position,tf,bf,price, moment):
+    tf = tf[tf.index<=moment]
+    bf = bf[bf.index<=moment]
+    price = price[price.index<=moment]
+    if position == "long":
+        i = len(bf) - 1
+        while (price[-1] > bf[i]):
+            i = i - 1
+        level = bf[i]
+        print("support level = " + str(round(level, 4)))
+        logging.info("support level = " + str(round(level, 4)))
+        return(level)
+    else:
+        i = len(tf) - 1
+        while (price[-1] < tf[i]):
+            i = i - 1
+        level = tf[i]
+        print("resistence level = " + str(round(level, 4)))
+        logging.info("resistence level = " + str(round(level, 4)))
+        return (level)
+
 
 # --- detect breakout cross
 def detect_breakout(position,Hadf,level):
@@ -348,8 +378,7 @@ def detect_breakout(position,Hadf,level):
             breakout = False
             print("Break out coming (too early to enter)")
             logging.info("Break out coming (too early to enter)")
-        return(breakout)
-
+    return(breakout)
 
 
 # fig = go.Figure(
@@ -376,5 +405,7 @@ def detect_breakout(position,Hadf,level):
 # ]
 #)
 #fig.show()
+
+
 
 print("'math_tools.py' has been Sucessfully executed ")

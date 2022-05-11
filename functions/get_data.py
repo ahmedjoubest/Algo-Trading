@@ -31,7 +31,7 @@ def get_time_avgprice_order(order,symbol):
     last_5_orders = pd.DataFrame(last_5_orders)
     last_5_orders = last_5_orders.loc[last_5_orders['orderId']==order['orderId']]
     price = float(last_5_orders.avgPrice.iloc[0])
-    time = str(datetime.fromtimestamp(last_5_orders.time.iloc[0]/1000))[0:19]
+    time = str(datetime.fromtimestamp(last_5_orders.updateTime.iloc[0]/1000))[0:19]
     return(price,time)
 
 print("'get_data.py' has been Sucessfully executed ")
