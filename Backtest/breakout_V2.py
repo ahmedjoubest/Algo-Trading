@@ -69,7 +69,7 @@ while(True):
         df = getdata_min_ago(symbol, interval=interval, lookback=str(10 * 60)) # global HAdf,RSI_stoch_k,RSI_stoch_d,RSI
         HAdf = HA_transformation(df)
         RSI = round(pta.rsi(HAdf.Close, 14), 2)
-        tf, bf = supp_resis(HAdf, maLen = 30)
+        tf, bf = supp_resis(HAdf,length = 50, maLen = 30)
     except Exception as e:
         print(f'Problem in reading data, exception hya : {e}')
         logging.info(f'Problem in reading data, exception hya : {e}')
@@ -174,6 +174,9 @@ while(True):
     # 9 --- save data to google sheet
     balance = pd.DataFrame(client.futures_account_balance())
     balance_usdt_t_final = float(balance.loc[balance['asset'] == 'USDT', 'balance'].iloc[0])
+    print("sleeping (data saving to GS)")
+    logging.info('sleeping (data saving to GS)')
+    time.sleep(8)
     getdata_and_save_to_sheet(symbol, position, balance_usdt_t_final, balance_usdt_t0, order, order_tp, order_sl,
                               breakout_level, HAdf)
 

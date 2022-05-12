@@ -253,7 +253,7 @@ def supp_resis(df,length = 14,mult = 2,maLen = 14):
 
     ATR = pta.atr(df.High,df.Low, df.Close, length)
     dev = mult*ATR
-    basis = pta.sma(df.Close,14)
+    basis = pta.sma(df.Close,length)
     upper = basis + dev
     lower = basis - dev
     bbr = (df.Close - lower)/(upper - lower)

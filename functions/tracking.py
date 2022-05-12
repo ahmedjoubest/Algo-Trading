@@ -36,6 +36,8 @@ def add_1rowDF_to_GS(df,sheet_name="tracking"):
     # it will need sys.sleep with big amount of rows & columns!
 
 def get_dd_maxtp(df,price_entry,price_exit,time_entry, time_exit,win,position):
+    time_entry = time_entry[0:16] + ':00'
+    time_exit = time_exit[0:16] + ':59'
     time_exit = datetime.strptime(time_exit, '%Y-%m-%d %H:%M:%S')
     time_entry = datetime.strptime(time_entry, '%Y-%m-%d %H:%M:%S')
     if position == "long":
