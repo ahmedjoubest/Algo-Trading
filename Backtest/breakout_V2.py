@@ -163,7 +163,7 @@ while(True):
             logging.info(
                 f'Problem in futures_position_information (inside the second while loop), exception hya : {e}')
 
-    # 8 --- Cancel all open orders
+    # 8 --- Cancel all open orders #
     try:
         client.futures_cancel_all_open_orders(symbol=symbol)
     except Exception as e:
