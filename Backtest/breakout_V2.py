@@ -53,7 +53,7 @@ interval = "1m"
 symbol = "WAVESUSDT"
 window_rsi_minute = 60
 levier = 1
-incertitude = 0.062
+# incertitude = 0.062
 
 while(True):
 
@@ -73,6 +73,9 @@ while(True):
     except Exception as e:
         print(f'Problem in reading data, exception hya : {e}')
         logging.info(f'Problem in reading data, exception hya : {e}')
+    incertitude = HAdf.Close[-1] *0.5/100
+    print("incertitude = " + str(incertitude))
+    logging.info("incertitude = " + str(incertitude))
 
     # 1 --- Detect last RSI cross
     position, RSI_cross_time = detect_RSI_cross(RSI, window=60, bottom_line_rsi=30, top_line_rsi=70)
