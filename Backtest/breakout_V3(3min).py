@@ -76,7 +76,7 @@ while(True):
 
     # --- avoid intra candles effect
     if (datetime.now() - HAdf.index[-1]).seconds / 60 < 2.84:
-        continue #
+        continue ##
 
     incertitude = HAdf.Close[-1] *0.5/100
     print("incertitude = " + str(incertitude))
