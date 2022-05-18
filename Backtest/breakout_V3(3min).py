@@ -29,8 +29,9 @@ import gspread
 import math
 
 # --- API
-api_key = 'vCvbNDYnP04sL3ZMGdGxY4QuEPEdotvw9JqBoM7cL9sSUol5m86EZwhy3JOI0kon'
-api_secret = '9GZ3AlmbVHg0NawM1MYVIzNSjw7eh53f60TtETu7M5jcce1fRtnKzhVlMJbfT14y'
+api_key = 'LCz8idnHrt5TaFw3cj4qquRz7RZqMlmPT0oOkXzU4N0Ak9VQk69ZpScSaS9lBrOb'
+api_secret = 'mUwGtS6ewRoz4bcg2RWudpSls7OhQTR937Nlxiyps0p1OatgJhcjzzRWTIL5ga01'
+
 client = Client(api_key,api_secret)
 
 # --- Sourcing functions
@@ -49,22 +50,17 @@ except Exception as e: print("I'm NOT on the server man")
 # logging system
 # More on login system : https://algotrading101.com/learn/live-algo-trading-on-the-cloud-aws/
 # https://docs.python.org/fr/3/howto/logging.html
-logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(message)s', filename='events_breakout.log', filemode='a')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(message)s', filename='events_breakout_ahmed.log', filemode='a')
 
-timeout_entry_seconds = 180
-tp = 0.57
-interval = "1m"
+timeout_entry_seconds = 180*3
+tp = 0.86
+interval = "3m"
 symbol = "WAVESUSDT"
 window_rsi_minute = 60
 levier = 1
 # incertitude = 0.062
 
 while(True):
-
-    # --- avoid intra candles effect
-    if(datetime.now().second < 50):
-        continue
-
     print("----------------")
     logging.info('----------------')
 
@@ -77,9 +73,16 @@ while(True):
     except Exception as e:
         print(f'Problem in reading data, exception hya : {e}')
         logging.info(f'Problem in reading data, exception hya : {e}')
+
+    # --- avoid intra candles effect
+    if (datetime.now() - HAdf.index[-1]).seconds / 60 < 2.84:
+        continue
+
     incertitude = HAdf.Close[-1] *0.5/100
     print("incertitude = " + str(incertitude))
     logging.info("incertitude = " + str(incertitude))
+
+
 
     # 1 --- Detect last RSI cross
     position, RSI_cross_time = detect_RSI_cross(RSI, window=60, bottom_line_rsi=30, top_line_rsi=70)
@@ -132,6 +135,8 @@ while(True):
             if (dif >= timeout_entry_seconds):
                 print("Entry position : Time out! time = " + str(datetime.now()))
                 logging.info("Entry position : Time out! time = " + str(datetime.now()))
+                breakout_entry = True
+
                 break
 
 
@@ -189,6 +194,6 @@ while(True):
     logging.info('sleeping (data saving to GS)')
     time.sleep(8)
     getdata_and_save_to_sheet(symbol, position, balance_usdt_t_final, balance_usdt_t0, order, order_tp, order_sl,
-                              breakout_level, HAdf)
+                              breakout_level, HAdf, sheet_name="tracking_3min")
 
 

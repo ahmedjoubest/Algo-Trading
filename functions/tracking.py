@@ -65,7 +65,7 @@ def get_dd_maxtp(df,price_entry,price_exit,time_entry, time_exit,win,position):
     return (DD, maxtp)
 
 
-def getdata_and_save_to_sheet(symbol, position, balance_usdt_t_final, balance_usdt_t0, order, order_tp, order_sl, breakout_level,df):
+def getdata_and_save_to_sheet(symbol, position, balance_usdt_t_final, balance_usdt_t0, order, order_tp, order_sl, breakout_level,df,sheet_name="tracking"):
     if (balance_usdt_t_final > balance_usdt_t0):
         win = True
         price_entry, time_entry = get_time_avgprice_order(order, symbol)
@@ -89,7 +89,7 @@ def getdata_and_save_to_sheet(symbol, position, balance_usdt_t_final, balance_us
               'Support_level': [str(breakout_level)], 'DD': [str(DD)], 'TP_max': [str(maxtp)]
               }
         df = pd.DataFrame(df)
-        add_1rowDF_to_GS(df, sheet_name="tracking")
+        add_1rowDF_to_GS(df, sheet_name=sheet_name)
 
     elif (balance_usdt_t_final < balance_usdt_t0):
         win = False
@@ -114,7 +114,7 @@ def getdata_and_save_to_sheet(symbol, position, balance_usdt_t_final, balance_us
               'breakout_level': [str(breakout_level)], 'DD': [str(DD)], 'TP_max': [str(maxtp)]
               }
         df = pd.DataFrame(df)
-        add_1rowDF_to_GS(df, sheet_name="tracking")
+        add_1rowDF_to_GS(df, sheet_name = sheet_name)
     else:
         print('(its a timeout case )')
         logging.info('(its a timeout case)')
@@ -129,7 +129,7 @@ def getdata_and_save_to_sheet(symbol, position, balance_usdt_t_final, balance_us
               'breakout_level': [str(breakout_level)], 'DD': [str('')], 'TP_max': [str('')]
               }
         df = pd.DataFrame(df)
-        add_1rowDF_to_GS(df, sheet_name="tracking")
+        add_1rowDF_to_GS(df, sheet_name=sheet_name)
 
 
 print("'tracking.py' has been Sucessfully executed ")

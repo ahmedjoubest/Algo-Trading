@@ -317,6 +317,7 @@ def detect_RSI_cross(RSI,window=60,bottom_line_rsi=30 ,top_line_rsi = 70):
         else:
             position = "short" if (idx_cross_rsi_top > idx_cross_rsi_bottom) else "long"
             print(position + " position detected --- cross_time = "+str(cross_time))
+            logging.info(position + " position detected --- cross_time = "+str(cross_time))
     else:
         print("RSI is still on OB or OS")
         logging.info("RSI is still on OB or OS")
@@ -332,20 +333,22 @@ def identify_breakout_level(position,tf,bf,price, moment):
     price = price[price.index<=moment]
     if position == "long":
         i = len(bf) - 1
-        while (price[-1] > bf[i]):
+        while (price[-1] >= bf[i]):
             i = i - 1
         level = bf[i]
+        time_level = bf.index[i]
         print("support level = " + str(round(level, 4)))
         logging.info("support level = " + str(round(level, 4)))
-        return(level)
+        return(level,time_level)
     else:
         i = len(tf) - 1
-        while (price[-1] < tf[i]):
+        while (price[-1] <= tf[i]):
             i = i - 1
         level = tf[i]
+        time_level = tf.index[i]
         print("resistence level = " + str(round(level, 4)))
         logging.info("resistence level = " + str(round(level, 4)))
-        return (level)
+        return (level,time_level)
 
 
 # --- detect breakout cross
