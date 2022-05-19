@@ -4,8 +4,8 @@
 
 
 # Author: Ahmed / Yasine
-# 03/05/2022
-# Bot breakout
+# 19/05/2022
+# Bot breakout optimized
 
 # --- Import
 import pandas as pd
@@ -29,8 +29,8 @@ import gspread
 import math
 
 # --- API
-api_key = 'vCvbNDYnP04sL3ZMGdGxY4QuEPEdotvw9JqBoM7cL9sSUol5m86EZwhy3JOI0kon'
-api_secret = '9GZ3AlmbVHg0NawM1MYVIzNSjw7eh53f60TtETu7M5jcce1fRtnKzhVlMJbfT14y'
+api_key = 'r4hvEtOxtKnQMjdqbQmzyPKFR4Vy56ZtxOIaGeNS98ke1g7jDTnVrT8waVaKsFuJ'
+api_secret = 'e6ilOOE9wAhzXYI7LA5nDYbPtk85TaZpaJRiu0iMdeClT8nlIPqJu1vTKcukJkB0'
 client = Client(api_key,api_secret)
 
 # --- Sourcing functions
@@ -49,7 +49,7 @@ except Exception as e: print("I'm NOT on the server man")
 # logging system
 # More on login system : https://algotrading101.com/learn/live-algo-trading-on-the-cloud-aws/
 # https://docs.python.org/fr/3/howto/logging.html
-logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(message)s', filename='events_breakout.log', filemode='a')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(message)s', filename='events_breakout_optimized.log', filemode='a')
 
 timeout_entry_seconds = 180
 tp = 0.57
@@ -74,7 +74,7 @@ while(True):
         HAdf = HA_transformation(df)
         RSI = round(pta.rsi(HAdf.Close, 14), 2)
         tf, bf = supp_resis(HAdf,length = 50, maLen = 30)
-        cmf = pta.cmf(HAdf.High, HAdf.Close)
+        cmf = round(pta.cmf(HAdf.High, HAdf.Low, HAdf.Close, df.Volume,length=7),2)
     except Exception as e:
         print(f'Problem in reading data, exception hya : {e}')
         logging.info(f'Problem in reading data, exception hya : {e}')
@@ -98,6 +98,19 @@ while(True):
     breakout = detect_breakout(position,HAdf,level=breakout_level)
     if(not breakout):
         continue
+
+    # --- optimisation : levier / volume+
+    if(position == 'long'):
+        if(cmf[-1]<=0 or cmf[-2]<=0):
+            levier = 6
+        else:
+            levier = 1
+    else:
+        if (cmf[-1] >= 0 or cmf[-2] >= 0):
+            levier = 6
+        else:
+            levier = 1
+
 
     # 4 --- Enter trade
     try:
@@ -190,6 +203,6 @@ while(True):
     logging.info('sleeping (data saving to GS)')
     time.sleep(8)
     getdata_and_save_to_sheet(symbol, position, balance_usdt_t_final, balance_usdt_t0, order, order_tp, order_sl,
-                              breakout_level, HAdf)
+                              breakout_level, HAdf, levier = levier, sheet_name="tracking_1min_optivolume")
 
 

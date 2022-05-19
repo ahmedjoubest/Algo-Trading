@@ -383,7 +383,6 @@ def detect_breakout(position,Hadf,level):
             logging.info("Break out coming (too early to enter)")
     return(breakout)
 
-
 # fig = go.Figure(
 #    data=[
     #        go.Candlestick(

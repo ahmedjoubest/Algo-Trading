@@ -11,7 +11,7 @@ def getdata_min_ago(symbol, interval, lookback):
     frame.index = pd.to_datetime(frame.index, unit='ms')
     frame = frame.astype(float) # transform string to floats :
     # get only open/close prices
-    frame = frame[['Open','Close','High','Low']]
+    frame = frame[['Open','Close','High','Low','Volume']]
     return frame
 
 def getdata_date(symbol, interval, date1, date2):

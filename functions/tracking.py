@@ -65,7 +65,7 @@ def get_dd_maxtp(df,price_entry,price_exit,time_entry, time_exit,win,position):
     return (DD, maxtp)
 
 
-def getdata_and_save_to_sheet(symbol, position, balance_usdt_t_final, balance_usdt_t0, order, order_tp, order_sl, breakout_level,df,sheet_name="tracking"):
+def getdata_and_save_to_sheet(symbol, position, balance_usdt_t_final, balance_usdt_t0, order, order_tp, order_sl, breakout_level,df, levier, sheet_name="tracking"):
     if (balance_usdt_t_final > balance_usdt_t0):
         win = True
         price_entry, time_entry = get_time_avgprice_order(order, symbol)

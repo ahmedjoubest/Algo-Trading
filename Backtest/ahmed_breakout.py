@@ -535,20 +535,3 @@ while(True):
                 logging.info('(its a timeout case)')
 
 
-
-
-
-
-
-
-
-import logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(message)s', filename='events_breakout.log', filemode='a')
-
-i = 0
-while(i<=0):
-    i = i + 1
-    try:
-        logging.info('i = ' + i)
-    except Exception as e:
-        print(f'erreur hya {e}')
