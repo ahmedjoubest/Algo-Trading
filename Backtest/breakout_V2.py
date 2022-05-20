@@ -132,6 +132,9 @@ while(True):
             if (dif >= timeout_entry_seconds):
                 print("Entry position : Time out! time = " + str(datetime.now()))
                 logging.info("Entry position : Time out! time = " + str(datetime.now()))
+                # debug for this case : one the bot is deployed, the first position is a timeout one
+                order_tp = ""
+                order_sl = ""
                 break
 
 
