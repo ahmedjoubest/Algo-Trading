@@ -74,7 +74,6 @@ while(True):
         HAdf = HA_transformation(df)
         RSI = round(pta.rsi(HAdf.Close, 14), 2)
         tf, bf = supp_resis(HAdf,length = 50, maLen = 30)
-        cmf = pta.cmf(HAdf.High, HAdf.Close)
     except Exception as e:
         print(f'Problem in reading data, exception hya : {e}')
         logging.info(f'Problem in reading data, exception hya : {e}')
@@ -190,6 +189,6 @@ while(True):
     logging.info('sleeping (data saving to GS)')
     time.sleep(8)
     getdata_and_save_to_sheet(symbol, position, balance_usdt_t_final, balance_usdt_t0, order, order_tp, order_sl,
-                              breakout_level, HAdf)
+                              breakout_level, HAdf, levier = levier)
 
 
