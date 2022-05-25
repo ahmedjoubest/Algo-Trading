@@ -56,7 +56,7 @@ timeout_entry_seconds = 180*3
 tp = 0.86
 interval = "3m"
 symbol = "WAVESUSDT"
-window_rsi_minute = 60
+window_rsi_minute = 90
 levier = 1
 # incertitude = 0.062
 
