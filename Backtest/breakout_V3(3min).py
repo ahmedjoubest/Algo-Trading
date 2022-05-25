@@ -74,7 +74,7 @@ while(True):
         print(f'Problem in reading data, exception hya : {e}')
         logging.info(f'Problem in reading data, exception hya : {e}')
 
-    # --- avoid intra candles effect
+    # --- Avoid intra candles effect
     if (datetime.now() - HAdf.index[-1]).seconds / 60 < 2.84:
         continue ##
 
