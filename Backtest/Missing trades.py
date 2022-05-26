@@ -23,7 +23,8 @@ import time
 from datetime import datetime
 from datetime import timedelta
 import logging
-
+from oauth2client.service_account import ServiceAccountCredentials
+import gspread
 # import datetime
 import math
 symbol = "WAVESUSDT"
