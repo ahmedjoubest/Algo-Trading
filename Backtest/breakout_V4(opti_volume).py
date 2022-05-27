@@ -75,6 +75,7 @@ while(True):
         RSI = round(pta.rsi(HAdf.Close, 14), 2)
         tf, bf = supp_resis(HAdf,length = 50, maLen = 30)
         cmf = round(pta.cmf(HAdf.High, HAdf.Low, HAdf.Close, df.Volume,length=7),2)
+        VWAP=round(pta.vwap(HAdf.High, HAdf.Low, HAdf.Close, df.Volume,Source='hlc3'),3)
     except Exception as e:
         print(f'Problem in reading data, exception hya : {e}')
         logging.info(f'Problem in reading data, exception hya : {e}')

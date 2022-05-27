@@ -51,20 +51,7 @@ try:
     exec(open("/home/ec2-user/Algo-Trading/functions/tracking.py").read())
 except Exception as e: print("I'm NOT on the server man")
 
-# 0 --- Get data and transform it to HA
-try:
-    df = getdata_min_ago(symbol, interval=interval, lookback=str(10 * 60))  # global HAdf,RSI_stoch_k,RSI_stoch_d,RSI
-    HAdf = HA_transformation(df)
-    RSI = round(pta.rsi(HAdf.Close, 14), 2)
-    tf, bf = supp_resis(HAdf, length=50, maLen=30)
-except Exception as e:
-    print(f'Problem in reading data, exception hya : {e}')
-    logging.info(f'Problem in reading data, exception hya : {e}')
-incertitude = HAdf.Close[-1] * 0.5 / 100
-print("incertitude = " + str(incertitude))
-logging.info("incertitude = " + str(incertitude))
-
-logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(message)s', filename='missing_trades.log', filemode='a')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(message)s', filename='missing_trades_dzps.log')
 
 # incertitude = 0.062
 
@@ -121,7 +108,6 @@ while(True):
         order = client.futures_create_order(symbol=symbol, side= 'BUY' if position == "long" else "SELL", type='LIMIT', quantity=qty,
                                             timeInForce='GTC', price=calculated_price_entry)
 
-
         # 5 --- Verify if the entry order limit is filled:
         a = pd.DataFrame(client.futures_position_information())
         a = a.loc[pd.to_numeric(a.entryPrice) > 0,]
@@ -146,9 +132,16 @@ while(True):
                 order_tp = ""
                 order_sl = ""
                 break
+        if (Missing==False and len(a.index)== 1):
+            print("Fake position closed = " + str(datetime.now()))
+            logging.info("Fake position closed = " + str(datetime.now()))
+            # --- Cancel all positions #
+            order_m4t = client.futures_create_order(symbol=symbol, side='SELL' if position == "long" else "BUY",
+                                                    type='MARKET',quantity=qty)
     except Exception as e:
         print(f'Problem in firing the fake order, exception hya : {e}')
         logging.info(f'Problem in firing the fake order, exception hya : {e}')
+
     if(Missing):
         try:
             df = getdata_min_ago(symbol, interval=interval,

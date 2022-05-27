@@ -22,12 +22,11 @@ import time
 from datetime import datetime
 from datetime import timedelta
 import logging
-from oauth2client.service_account import ServiceAccountCredentials
-import gspread
+
 # import datetime
 import math
 
-df = pd.read_csv("Trades Analysis - Sheet7.csv")
+df = pd.read_csv("Trades Analysis - sheet4.csv")
 
 f= open("pine_script.txt","w+")
 f.write("//@version=5 \r\n")
