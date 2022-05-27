@@ -101,16 +101,16 @@ while(True):
         continue
 
     # --- optimisation : levier / volume+
-    if(position == 'long'):
-        if(cmf[-1]<=0 or cmf[-2]<=0):
-            levier = 6
-        else:
-            levier = 1
-    else:
-        if (cmf[-1] >= 0 or cmf[-2] >= 0):
-            levier = 6
-        else:
-            levier = 1
+    #if(position == 'long'):
+        #    if(cmf[-1]<=0 or cmf[-2]<=0):
+        #         levier = 6
+        #     else:
+    #          levier = 1
+    #else:
+        #  if (cmf[-1] >= 0 or cmf[-2] >= 0):
+        #       levier = 6
+        #   else:
+    #        levier = 1
 
 
     # 4 --- Enter trade
