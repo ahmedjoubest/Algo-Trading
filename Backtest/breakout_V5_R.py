@@ -207,6 +207,6 @@ while(True):
     logging.info('sleeping (data saving to GS)')
     time.sleep(8)
     getdata_and_save_to_sheet(symbol, position, balance_usdt_t_final, balance_usdt_t0, order, order_tp, order_sl,
-                              breakout_level, HAdf, levier = levier, sheet_name="tracking_1min_optivolume")
+                              breakout_level, HAdf, levier = levier, sheet_name="str(trades_Mi")
 
 
