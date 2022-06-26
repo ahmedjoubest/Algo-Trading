@@ -52,7 +52,7 @@ except Exception as e: print("I'm NOT on the server man")
 logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(message)s', filename='events_breakout_optimized.log', filemode='a')
 
 timeout_entry_seconds = 180
-R = 1.5
+R = 1
 interval = "1m"
 symbol = "WAVESUSDT"
 window_rsi_minute = 60
@@ -159,10 +159,10 @@ while(True):
             logging.info("Order filled! Time = " + str(datetime.now()))
 
             if position == 'long':
-                TP = calculated_price_entry + R *(calculated_price_entry-bf[-1])
+                TP = calculated_price_entry + R *abs(calculated_price_entry-bf[-1])
                 SL = bf[-1] - incertitude
             else:
-                TP = calculated_price_entry - R *(calculated_price_entry-tf[-1])
+                TP = calculated_price_entry - R *abs(calculated_price_entry-tf[-1])
                 SL = tf[-1] + incertitude
 
             order_tp = client.futures_create_order(symbol=symbol, side='SELL' if position == "long" else "BUY", type='LIMIT', quantity=qty,
