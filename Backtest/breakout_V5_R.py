@@ -52,11 +52,11 @@ except Exception as e: print("I'm NOT on the server man")
 logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s: %(message)s', filename='events_breakout_optimized.log', filemode='a')
 
 timeout_entry_seconds = 180
-R = 1
+R = 1.1
 interval = "1m"
 symbol = "WAVESUSDT"
 window_rsi_minute = 60
-levier = 1.1
+levier = 1
 # incertitude = 0.062
 
 while(True):
