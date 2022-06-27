@@ -56,7 +56,7 @@ R = 1
 interval = "1m"
 symbol = "WAVESUSDT"
 window_rsi_minute = 60
-levier = 1
+levier = 1.1
 # incertitude = 0.062
 
 while(True):
