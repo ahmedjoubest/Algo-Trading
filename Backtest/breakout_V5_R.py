@@ -147,7 +147,7 @@ while(True):
             logging.info("Order filled! Time = " + str(datetime.now()))
 
             if position == 'long':
-                TP = max(calculated_price_entry + tp / 100 * calculated_price_entry, calculated_price_entry + R *abs(calculated_price_entry-c))
+                TP = max(calculated_price_entry + tp / 100 * calculated_price_entry, calculated_price_entry + R *abs(calculated_price_entry-bf[-1]))
                 SL = bf[-1] - incertitude
             else:
                 TP = min(calculated_price_entry - tp / 100 * calculated_price_entry, calculated_price_entry - R *abs(calculated_price_entry-tf[-1]))
